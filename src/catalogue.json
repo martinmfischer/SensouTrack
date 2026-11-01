@@ -1,0 +1,30 @@
+{
+  "snapshot_date": "2026-10-23",
+  "source": "https://jwarcards.netlify.app/",
+  "official_cross_check": "https://gctstudios.com/pages/rules-resources",
+  "scope": "All English UI entries classified Theme in JwarCards. Catalogue presence is not an independent verification of release date or tournament legality. Model entries include alternate profiles/forms.",
+  "observed_model_entries": 632,
+  "observed_card_entries": 712,
+  "factions": [
+    {"id":"cult-of-yurei","name":"Cult of Yurei","jwarcards":"Cult of Yurei","themes":["Death and Decay","Infestation!","Nightmares of Jigoku","Things that go bump in the Night","We Three Meet Again","Wretched Existence"]},
+    {"id":"horse-lords-of-ataka","name":"Horse Lords of Ataka","jwarcards":"Horselord Clan","themes":["Cavalry Charge","Hit & Run"]},
+    {"id":"ito-clan","name":"Ito Clan","jwarcards":"Ito Clan","themes":["Cold Blood","Lords of Izu","Serpent's Coil","The Blessed"]},
+    {"id":"jung-pirates","name":"Jung Pirates","jwarcards":"Jung Clan","themes":["Benthic Servitude","Black Sails","Conclave of Captains","Docks of Ryu","Landing Party","Queen of the Waves","The 64th Fleet","The Deep"]},
+    {"id":"kinshi-temple","name":"Kinshi Temple","jwarcards":"Kinshi Temple","themes":["Everything and Nothing","Zenith of the Void"]},
+    {"id":"minimoto-clan","name":"Minimoto Clan","jwarcards":"Minimoto Clan","themes":["Army of the Minimoto","Garrison of the Damned","The Finest Steel"]},
+    {"id":"prefecture-of-ryu","name":"Prefecture of Ryu","jwarcards":"Prefecture of Ryu","themes":["Blood of the Dragon","Claws of the Dragon","Passing the Night","Prefecture Patrol"]},
+    {"id":"savage-wave","name":"Savage Wave","jwarcards":"Savage Wave","themes":["Alphas","Bakemono Hunting Pack","Escort","Mushroom Crazed Lunatics","The Ring of Fire","Thousand Eyes","Wrath of the Red Sun"]},
+    {"id":"shadow-wind-clan","name":"Shadow Wind Clan","jwarcards":"KKZ","themes":["Assassination Mission","House Bleeding Moon","House Long Shadow","House North Star","Scouting Mission","Skirmish Mission"]},
+    {"id":"shiho-clan","name":"Shiho Clan","jwarcards":"Shiho Clan","themes":["Black Eagle's Coalition","Guerilla Warfare","New Eagle Army","Open Rebellion","The Shiho Return"]},
+    {"id":"silvermoon-trade-syndicate","name":"Silvermoon Trade Syndicate","jwarcards":"Silvermoon Syndicate","themes":["Iron Fist","Jade Rose Gumi","Path of a Thousand Names","Traveling Show","Yokozuna's Revenge"]},
+    {"id":"temple-of-ro-kan","name":"Temple of Ro-Kan","jwarcards":"Temple of Ro-Kan","themes":["Bastions of the Mountain","Followers of Inari","Initiation","Masters of the Art","Minkan Denshó","Righteous Warriors"]},
+    {"id":"the-awoken","name":"The Awoken","jwarcards":"Awoken","themes":["Joyless Smiles and Dark Eyes","The Family"]},
+    {"id":"the-descension","name":"The Descension","jwarcards":"Descension","themes":["Blue Gale Scouting Party","Hunter Gatherers","Shepherds of the White Mesa","Way of the Ancient Warrior","Wind Watchers"]},
+    {"id":"the-imperial-court","name":"The Imperial Court","jwarcards":"Imperial Court","themes":["The Eternal Legion"]}
+  ],
+  "ronin": {
+    "is_regular_selectable_faction": false,
+    "note": "Cross-faction models/themes. Availability and legality depend on the selected faction and theme restrictions. Keep Ronin themes separate from faction ratings.",
+    "themes": ["Brotherhood","Ordered for Battle","Strategic Deployment","The Hozumi Family","The Imperial March","The Kiyozumi Family"]
+  }
+}

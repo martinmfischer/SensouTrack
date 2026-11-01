@@ -1,0 +1,17 @@
+node_modules/
+dist/
+dist-cloud/
+dist-meta/
+data/
+.local-secrets/
+.env*
+!.env.example
+*.log
+test-results/
+survey-dashboard/dist/
+survey/
+qa/
+survey-dashboard/qa/
+survey-dashboard/private/
+hosting-status.json
+SECURITY-CHECKPOINT.md

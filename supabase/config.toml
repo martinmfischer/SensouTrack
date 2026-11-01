@@ -1,0 +1,3 @@
+[functions.survey-refresh]
+verify_jwt = false
+# The function checks a dedicated SURVEY_SYNC_TOKEN before any network request.

@@ -1,0 +1,1125 @@
+{
+  "title": "Choices, counterplay and the experience of play",
+  "subtitle": "A close reading of the open answers: how list construction, counterplay and the experience of a game connect.",
+  "overview": "A recurring concern is the narrowing of meaningful choices. Before a game, a few efficient profiles or themes can crowd out alternatives. During a game, extra actions, inaccessible targets and binary counters can leave a player with few useful responses. The same corpus also contains clear praise for Bushido’s tactical depth, varied factions and recent corrections. The practical agenda is to preserve that variety while making more of it usable on the table.",
+  "takeaways": [
+    {
+      "title": "A faction's ceiling can hide its roster",
+      "body": "Several accounts separate a faction's strongest build from the health of its other models. They describe mandatory support pieces, one dominant theme and attractive models that are difficult to justify competitively.",
+      "refs": [
+        "A-009C67B8AEA7",
+        "A-41C6EBA9ABDC",
+        "A-6F1443D9A3F2",
+        "A-7932EDD6C647",
+        "A-A66EF83475BB",
+        "A-C4C4433FEEB7",
+        "A-D9C4149742C7",
+        "A-FBB4A7E02413"
+      ]
+    },
+    {
+      "title": "Action supply becomes a form of control",
+      "body": "Pass tokens, additional activations and cheap bodies recur as ways to decide when the opponent must commit. Criticism is sharpest where waiting combines with shooting, camouflage or a burst of late actions.",
+      "refs": [
+        "A-078F00ABAC75",
+        "A-093A166EA109",
+        "A-498DE632B378",
+        "A-74B7620669DB",
+        "A-772032771E8B",
+        "A-819D7E10DBAD",
+        "A-8E8DA45B3C5B",
+        "A-D8034F48E846",
+        "A-DC2242893571",
+        "A-E6F04B1E1638"
+      ]
+    },
+    {
+      "title": "Counter-tools shape the matchup",
+      "body": "The explanations repeatedly turn on whether a list can answer camouflage, armour, fear or control immunity. Several players describe paying for a signature mechanic that the opposing toolkit can switch off.",
+      "refs": [
+        "A-4BAB0AB4DA30",
+        "A-4FF011B528CB",
+        "A-5F6988F9EDF5",
+        "A-74BE69244CA4",
+        "A-80A4FB23689E",
+        "A-8E8DA45B3C5B",
+        "A-AF768FD4D9F8",
+        "A-AFE81719BC2A",
+        "A-BB26689396D9",
+        "A-DF480FEA4773"
+      ]
+    },
+    {
+      "title": "The criticism includes a case for preservation",
+      "body": "{{positiveOverall}} answers to the meta-problems question explicitly describe the overall game positively. Their requested changes often target particular cards, models or list patterns while retaining the wider system.",
+      "refs": [
+        "A-16200E880B63",
+        "A-1F2AA24E5790",
+        "A-3922DE8D9E64",
+        "A-538EF57F61A9",
+        "A-6D1FCA1E14B1",
+        "A-7932EDD6C647",
+        "A-915A5EF550EB",
+        "A-9694891B35CE",
+        "A-BB1096DAAC31",
+        "A-D751B050FF5A",
+        "A-DB1BF6071717",
+        "A-DF24BF96D2C7"
+      ]
+    }
+  ],
+  "topicNotes": {
+    "choices": {
+      "reading": "Roster breadth and usable choice are different experiences in these accounts. A large faction can offer many profiles while competition repeatedly funnels players into the same small package. The strongest versions of this argument identify both the dominant choice and the alternatives it displaces.",
+      "details": [
+        "Awoken, Jung, Minimoto and Shiho examples describe individual profiles or a theme carrying much of the faction's strength.",
+        "Temple provides a different case: wide access can itself become an advantage, and one answer questions whether that breadth blurs faction identity.",
+        "A useful follow-up is to track alternative builds and why they are rejected: cost, missing support, scenario coverage or a competing theme's benefits."
+      ],
+      "refs": [
+        "A-009C67B8AEA7",
+        "A-3460CAF0845A",
+        "A-41C6EBA9ABDC",
+        "A-6E22CF5614F0",
+        "A-6F1443D9A3F2",
+        "A-7932EDD6C647",
+        "A-A66EF83475BB",
+        "A-D9C4149742C7",
+        "A-FBB4A7E02413"
+      ]
+    },
+    "theme-value": {
+      "reading": "Respondents use at least three criteria when explaining a theme rating: the permitted model pool, the value of its bonuses and how well those two parts fit. Several explicitly struggle to separate a strong theme from strong models that would be useful anyway.",
+      "details": [
+        "Finest Steel repeatedly illustrates restrictions that retain desirable models while adding useful benefits.",
+        "Weak-theme examples stress narrow recruitment, situational rewards, late bonuses and awkward support chains.",
+        "The corpus also supports preserving targeted bonuses that make otherwise fragile or difficult models viable; Ring of Fire is a recurring example."
+      ],
+      "refs": [
+        "A-08CD6A91CC0F",
+        "A-1BDE50A24895",
+        "A-24D885D64FF6",
+        "A-36CD8108ABB7",
+        "A-3D553877300E",
+        "A-8B763DBEE3D3",
+        "A-8EA701A519FB",
+        "A-9B85AB7DE807",
+        "A-B97247DA8594",
+        "A-C5B0303B67AA",
+        "A-DCDEE3E17200"
+      ]
+    },
+    "matchups": {
+      "reading": "Many faction explanations describe the availability of answers to a mechanic. Examples include camouflage versus Sixth Sense, fear or poison versus immunities, and charge-dependent lists versus tools that prevent the charge. These accounts provide concrete hypotheses for matchup testing.",
+      "details": [
+        "Ninja accounts frame camouflage as both an expensive strength and a liability when widely bypassed.",
+        "Horselord accounts connect charge access to the ability to threaten durable opponents.",
+        "List pairing can soften a difficult matchup, yet several answers describe it pushing them towards a compulsory counter-pick or a Ronin package."
+      ],
+      "refs": [
+        "A-4BAB0AB4DA30",
+        "A-4FF011B528CB",
+        "A-5F6988F9EDF5",
+        "A-68BE8A7D016B",
+        "A-74BE69244CA4",
+        "A-7F8972752E80",
+        "A-80A4FB23689E",
+        "A-8E8DA45B3C5B",
+        "A-AF768FD4D9F8",
+        "A-BB26689396D9",
+        "A-DF480FEA4773",
+        "A-F3B62823D73B"
+      ]
+    },
+    "agency": {
+      "reading": "The vocabulary ranges from broad NPE complaints to precise descriptions of being unable to move, target, pass or take a useful action. Prison is the clearest recurring named example. Other answers connect negative play to waiting, avoidance, traps or automatic effects.",
+      "details": [
+        "Several accounts identify the frustration as losing the ability to pursue a plan even while models remain on the table.",
+        "A powerful effect can also be difficult to anticipate: the Bastions discussion includes an instant-speed gotcha example.",
+        "The strongest follow-up question is specific: what useful response remains available, at what cost, and at which point in the turn?"
+      ],
+      "refs": [
+        "A-0AED704C91B7",
+        "A-0BB528E11A92",
+        "A-182862207115",
+        "A-3C9C89CE49DD",
+        "A-3D553877300E",
+        "A-4EE049187057",
+        "A-772032771E8B",
+        "A-819D7E10DBAD",
+        "A-BEF637BD1235",
+        "A-C4C4433FEEB7",
+        "A-DC2242893571",
+        "A-E71A32E5D839"
+      ]
+    },
+    "tempo": {
+      "reading": "Activation supply appears in both strength descriptions and complaints. Low-model-count factions describe vulnerability to being outwaited or losing one piece; other accounts explain how passes, summons or extra activations allow a list to choose the decisive engagement.",
+      "details": [
+        "The same resource can be valued defensively by one player and experienced as denial by the opponent.",
+        "Several detailed accounts combine late activation advantage with ranged or high-mobility threats.",
+        "Pricing a model solely by its individual combat output can miss the opportunity cost described by players choosing between one expensive piece and several cheaper activations."
+      ],
+      "refs": [
+        "A-078F00ABAC75",
+        "A-093A166EA109",
+        "A-24D885D64FF6",
+        "A-59F188A60F67",
+        "A-74B7620669DB",
+        "A-772032771E8B",
+        "A-78EA9E4F548A",
+        "A-7F8972752E80",
+        "A-8E8DA45B3C5B",
+        "A-C02CD9A59694",
+        "A-D8034F48E846",
+        "A-E76E5AD21D7E",
+        "A-F044EEA082F1"
+      ]
+    },
+    "balance": {
+      "reading": "Power complaints range from brief declarations to comparisons of Rice cost, model tools and the strongest build available to a faction. The detailed answers are most useful when they specify what the extra power buys: resilience, flexibility, reliability or action supply.",
+      "details": [
+        "Several respondents name Shiho, Horselords and Imperial Court as needing support, alongside strong Temple or Ryu packages.",
+        "Others explicitly describe a broadly healthy meta with a small set of outliers.",
+        "The practical split is between broad faction changes and targeted model, card or theme adjustments. The linked examples explain why players favour each route."
+      ],
+      "refs": [
+        "A-124959AA8F80",
+        "A-16200E880B63",
+        "A-3922DE8D9E64",
+        "A-60A1E771C85B",
+        "A-77DBC5737887",
+        "A-90596B620405",
+        "A-915A5EF550EB",
+        "A-9520587773CB",
+        "A-9694891B35CE",
+        "A-D751B050FF5A",
+        "A-DB1BF6071717",
+        "A-DF24BF96D2C7",
+        "A-F911757971A8"
+      ]
+    },
+    "damage": {
+      "reading": "Shooting and early damage feature in accounts of decisive first exchanges, size-related vulnerability and low error tolerance. Oni and other large or low-count models are recurring examples. Some players describe the discouragement of falling behind before their own plan develops.",
+      "details": [
+        "The proposed issue is often the combination of reach, safety and damage.",
+        "Other accounts describe ranged threats as a necessary way to handle resilient or hard-to-catch models.",
+        "Useful observations would include when the first decisive loss occurs, the target's remaining activations and whether the disadvantaged side retains scoring options."
+      ],
+      "refs": [
+        "A-10F91A037523",
+        "A-196B360747EA",
+        "A-1E1485281072",
+        "A-1FCA057C12F0",
+        "A-59F188A60F67",
+        "A-6E6F8D81BF33",
+        "A-7B69E8DE0A0F",
+        "A-9694891B35CE",
+        "A-C40556B2B39D",
+        "A-E76E5AD21D7E",
+        "A-EE3EF468BF02",
+        "A-F11A19129B17"
+      ]
+    },
+    "resilience": {
+      "reading": "Durability is both an attraction and a matchup problem. Minimoto-style armour, recursion, large wound pools and Last Stand are described as allowing a list to hold its plan together. Opponents discuss insufficient penetration, weak damage tools or trouble shifting a zone-holder.",
+      "details": [
+        "Minimoto accounts also identify counters: speed, control, displacement and opponents who can decline the preferred melee exchange.",
+        "Fragile lists describe one failed roll or lost model becoming disproportionately costly.",
+        "The key design question is whether a list has several practical routes to contest a resilient opponent: damage, displacement, timing or scoring."
+      ],
+      "refs": [
+        "A-0C7F6B355CB2",
+        "A-26D4CB31D873",
+        "A-59F188A60F67",
+        "A-5F57E493184D",
+        "A-6E559D159FD0",
+        "A-9003A28CF76D",
+        "A-9B85AB7DE807",
+        "A-AFE81719BC2A",
+        "A-C02CD9A59694",
+        "A-C566A233D2BC",
+        "A-EE08A9266F08",
+        "A-EE550D75E20E"
+      ]
+    },
+    "mobility": {
+      "reading": "Movement explains why a strong combat profile may still struggle to impose its preferred game. Faction accounts describe choosing engagements, bypassing slow fighters, reaching support pieces and using placement to preserve fragile models.",
+      "details": [
+        "Several Minimoto perspectives acknowledge that opponents can win by avoiding or delaying the favourable fight.",
+        "Descension accounts praise speed while explaining the difficulty of facing durable opponents who survive the first hit.",
+        "Spatial counterplay deserves attention alongside damage and activation totals: can the opponent reposition, disengage or reach the engine?"
+      ],
+      "refs": [
+        "A-0E45BD644949",
+        "A-26D4CB31D873",
+        "A-3460CAF0845A",
+        "A-384F1F56B267",
+        "A-59F188A60F67",
+        "A-6E559D159FD0",
+        "A-A019F3E61825",
+        "A-BB26689396D9",
+        "A-C8DEBA2B3EF8",
+        "A-CE36BB3D2D0C",
+        "A-D8034F48E846",
+        "A-E76E5AD21D7E",
+        "A-EE29815CB79E",
+        "A-EE3EF468BF02"
+      ]
+    },
+    "ki": {
+      "reading": "The Ki discussions are concrete accounts of engines and bottlenecks: plentiful free resources support summons, control or repeated tricks; shortages leave thematic combinations difficult to run. This is especially visible in comparisons of theme benefits and support chains.",
+      "details": [
+        "Hunting Pack and Hozumi examples stress the freedom created by recurring Ki.",
+        "Awoken and Imperial examples describe resources arriving in the wrong place, demanding support pieces or creating anti-synergy.",
+        "A useful resource audit follows the full sequence: generation, transfer, movement, activation cost and the action that finally spends the Ki."
+      ],
+      "refs": [
+        "A-16F78799BD3D",
+        "A-3D553877300E",
+        "A-4361DE867746",
+        "A-5712C4ADDED8",
+        "A-5F6988F9EDF5",
+        "A-6815DD421CCC",
+        "A-71ED0E76844D",
+        "A-772032771E8B",
+        "A-7C227CF76A44",
+        "A-8EA701A519FB",
+        "A-B47B92E3DFE2",
+        "A-BD22E33B4067",
+        "A-A7407293119C"
+      ]
+    },
+    "dice": {
+      "reading": "Reliability appears in two directions. Players criticise powerful dice substitution such as Preordain, while fragile or low-count lists describe the consequences of failing one important roll and having few reroll tools. Both concerns involve how much the outcome can be planned for.",
+      "details": [
+        "Preordain is discussed as both a direct effect and a list-building tax that shapes the remaining Rice budget.",
+        "Some answers connect automatic effects to a lack of reciprocal risk.",
+        "A useful comparison would examine cost, access and the decisions left after a failed or substituted roll."
+      ],
+      "refs": [
+        "A-182862207115",
+        "A-1E1485281072",
+        "A-24E70D8287E0",
+        "A-3F070EB215EE",
+        "A-4EE049187057",
+        "A-70A2528B54C7",
+        "A-77DBC5737887",
+        "A-819D7E10DBAD",
+        "A-9003A28CF76D",
+        "A-96367AB0F0EA",
+        "A-A0C79BC73A05",
+        "A-C49F02FD586E",
+        "A-D8034F48E846",
+        "A-F3653FB5276E",
+        "A-A7407293119C"
+      ]
+    },
+    "scenario": {
+      "reading": "Several answers explain why strength depends on the mission and on when a list starts functioning. Late bonuses, fragile portals, zone-holding and scoring cards all change the value of an otherwise appealing theme or profile.",
+      "details": [
+        "Kinshi and Yurei examples ask whether a turn-four reward arrives after the decisive part of the game.",
+        "Other answers question games ending early through time or attrition, and suggest reviewing how remaining points are resolved.",
+        "Scenario coverage should be part of any follow-up: the same build can perform differently in zones, VIM or games that require an early contest."
+      ],
+      "refs": [
+        "A-01FD4355E2E0",
+        "A-0C7F6B355CB2",
+        "A-18C5E09B47BE",
+        "A-3F070EB215EE",
+        "A-41C6EBA9ABDC",
+        "A-7342D4012E59",
+        "A-777ACAC30D26",
+        "A-8E8DA45B3C5B",
+        "A-AFE81719BC2A",
+        "A-BEF637BD1235",
+        "A-C49F02FD586E",
+        "A-C5B0303B67AA",
+        "A-DB1BF6071717",
+        "A-E6F04B1E1638",
+        "A-EE08A9266F08",
+        "A-F4CDF63B6BF3"
+      ]
+    },
+    "development": {
+      "reading": "The corpus contains both praise for recent corrections and frustration with release pace or overcorrection. Several players want old models and weaker roster branches revisited; others describe uncertainty about investing time in a list that may change abruptly.",
+      "details": [
+        "Awoken errata are praised in one account and criticised as removing attractive options in another.",
+        "Playtesting concerns appear as requests for broader coverage and earlier detection of extreme interactions.",
+        "A practical response would make the purpose and expected effect of changes easier to follow, then check whether more viable choices actually appear."
+      ],
+      "refs": [
+        "A-089BB1BB2E93",
+        "A-538EF57F61A9",
+        "A-5E028312D70A",
+        "A-62AB39AA327F",
+        "A-6D1FCA1E14B1",
+        "A-7932EDD6C647",
+        "A-7F48FE2B0EE1",
+        "A-8962669201CA",
+        "A-8F79A845999B",
+        "A-A66EF83475BB",
+        "A-A7E8275A07EB",
+        "A-B2A6CC4A4BAB",
+        "A-BB1096DAAC31",
+        "A-C62BBD7EDF2D",
+        "A-DA4907D4FB32",
+        "A-B0563BE8DB8B"
+      ]
+    },
+    "rules": {
+      "reading": "Rules-access complaints are less numerous than roster or matchup explanations, but unusually actionable. They identify scattered sources, lengthy cards, unintuitive interactions and exploitable gaps. Some connect these burdens directly to newcomer difficulty.",
+      "details": [
+        "Players name the rulebook, errata, tournament material, FAQ and Discord as places they have to consult.",
+        "Other comments target interaction complexity and card text accumulated over releases.",
+        "A consolidated current rules index and worked examples for recurring interactions would directly address the reported task of finding and applying a ruling."
+      ],
+      "refs": [
+        "A-089BB1BB2E93",
+        "A-182862207115",
+        "A-2710EB155312",
+        "A-7B69E8DE0A0F",
+        "A-BB1096DAAC31",
+        "A-F46BD9DAECFC",
+        "A-FB743348E523"
+      ]
+    },
+    "identity": {
+      "reading": "Some answers describe a gap between the faction or models they want to play and the package they feel rewarded for taking. Shared Ronin staples are one route to that gap; broad or overlapping faction rosters and the sidelining of attractive older models are others.",
+      "details": [
+        "The request is often for more viable in-faction expression, including weaker subthemes and distinctive profiles.",
+        "Temple's breadth is praised for flexibility and questioned for blurring boundaries.",
+        "Faction identity can therefore pull in two directions: preserve flexible list-building while giving different themes a clearer reason to exist."
+      ],
+      "refs": [
+        "A-01FD4355E2E0",
+        "A-0CEC4F6A9E0F",
+        "A-115C3D09C0E5",
+        "A-24E70D8287E0",
+        "A-2A3A5DBF0DB4",
+        "A-3460CAF0845A",
+        "A-67B182E94028",
+        "A-7932EDD6C647",
+        "A-7B69E8DE0A0F",
+        "A-A0C79BC73A05",
+        "A-A8043EFF7AA0",
+        "A-B2A6CC4A4BAB",
+        "A-CF623FF0B633",
+        "A-DC2242893571"
+      ]
+    },
+    "ronin": {
+      "reading": "Ronin are described as a source of flexibility, shared efficiency and possible homogenisation. The views differ by context: some players want stronger restrictions on common packages, while others feel their own faction lacks useful access.",
+      "details": [
+        "Hozumi and Preordain discussions connect the issue to resources and mandatory picks.",
+        "A Silvermoon explanation asks for access that would fit the theme's character.",
+        "This suggests auditing particular recruitment paths and incentives, while keeping the desire for cross-faction tools visible alongside the identity critique."
+      ],
+      "refs": [
+        "A-01FD4355E2E0",
+        "A-115C3D09C0E5",
+        "A-124959AA8F80",
+        "A-1F2AA24E5790",
+        "A-24E70D8287E0",
+        "A-6D1FCA1E14B1",
+        "A-71ED0E76844D",
+        "A-8790E6634F5B",
+        "A-8E8DA45B3C5B",
+        "A-9694891B35CE",
+        "A-A0C79BC73A05",
+        "A-B47B92E3DFE2",
+        "A-C6D57BF6BEA5",
+        "A-D4DFFF64D480",
+        "A-DBCBC07FE302",
+        "A-E2A209D9BD35",
+        "A-A7407293119C"
+      ]
+    },
+    "access": {
+      "reading": "These answers describe the work of learning, executing and keeping up with Bushido. Some players connect growing complexity, hard counters or frequent releases to reduced enjoyment or participation. Others frame a faction's strength as something unlocked by practice and precise play.",
+      "details": [
+        "Small play groups and limited exposure can narrow the matchups a player can learn.",
+        "Low error tolerance matters for fragile factions and for the experience of an early setback.",
+        "The follow-up should distinguish information problems, practice requirements and structural lack of counterplay, because each calls for a different response."
+      ],
+      "refs": [
+        "A-04716C33B573",
+        "A-182862207115",
+        "A-78EA9E4F548A",
+        "A-7B69E8DE0A0F",
+        "A-8E8DA45B3C5B",
+        "A-9003A28CF76D",
+        "A-A7E8275A07EB",
+        "A-A9BDF41688E1",
+        "A-BB1096DAAC31",
+        "A-BD22E33B4067",
+        "A-C40556B2B39D",
+        "A-C62BBD7EDF2D",
+        "A-CBE6A7E6A336",
+        "A-E40E93EA99DE",
+        "A-EE29815CB79E",
+        "A-B0563BE8DB8B"
+      ]
+    }
+  },
+  "chapters": [
+    {
+      "id": "narrowing-choices",
+      "title": "The roster can be broad while the viable choice is narrow",
+      "lead": "A central list-building concern is concentration: a few models or themes become the default answer to a faction's needs.",
+      "paragraphs": [
+        "The comments repeatedly separate the power of a faction's strongest list from the usefulness of the rest of its collection. A faction can appear competitive while players still describe weak internal balance. Awoken accounts name unusually attractive and unattractive profiles; Jung explanations focus on costs and support for less-used models; a Shiho answer describes dependence on one named model. These are concrete accounts of opportunity cost at list selection.",
+        "Theme explanations show how that concentration can be reinforced. A restriction may have little practical cost when it removes the models a player would already omit. Useful bonuses then strengthen an already preferred package. The reverse case also appears: a narrow theme gives situational benefits that fail to compensate for the tools it excludes. This makes a theme-only fix and a profile-only fix different interventions."
+      ],
+      "refs": [
+        "A-009C67B8AEA7",
+        "A-08CD6A91CC0F",
+        "A-1BDE50A24895",
+        "A-36CD8108ABB7",
+        "A-3D553877300E",
+        "A-41C6EBA9ABDC",
+        "A-6F1443D9A3F2",
+        "A-7932EDD6C647",
+        "A-8B763DBEE3D3",
+        "A-9B85AB7DE807",
+        "A-A66EF83475BB",
+        "A-B97247DA8594",
+        "A-D9C4149742C7",
+        "A-FBB4A7E02413"
+      ],
+      "quote": {
+        "ref": "A-7932EDD6C647",
+        "text": "It feels less like your playing against Minimoto than against Finest Steel or less like Facing Jung than the Deep."
+      },
+      "counterpoint": "There is also a clear defence of useful specialisation. Ring of Fire is described as making vulnerable models playable, and broad access is praised as a genuine attraction. Preserving those functions matters when adjusting a dominant theme.",
+      "counterRefs": [
+        "A-9B85AB7DE807",
+        "A-C5B0303B67AA",
+        "A-DCDEE3E17200",
+        "A-924F60479076"
+      ]
+    },
+    {
+      "id": "tempo-agency",
+      "title": "Timing advantage becomes frustrating when useful replies disappear",
+      "lead": "Action economy connects the construction of a list to the moment-by-moment experience of facing it.",
+      "paragraphs": [
+        "Several answers describe passes, extra activations or low-cost bodies allowing one side to wait until the other has committed. This appears in faction-strength explanations as well as complaints about negative play. The concern sharpens when late actions are combined with shooting, camouflage, high mobility or a concentrated attack: the opponent has already spent the actions that might have answered it.",
+        "Prison and restrictive control are a related, distinct route. Their critics describe having models on the board while being unable to take a useful action, leave a position or carry out a plan. A response about prison specifically proposes the ability to pass instead of losing remaining activations. The common design question is how much meaningful participation survives after the strong effect has worked."
+      ],
+      "refs": [
+        "A-078F00ABAC75",
+        "A-093A166EA109",
+        "A-0AED704C91B7",
+        "A-0BB528E11A92",
+        "A-498DE632B378",
+        "A-74B7620669DB",
+        "A-772032771E8B",
+        "A-819D7E10DBAD",
+        "A-8E8DA45B3C5B",
+        "A-BEF637BD1235",
+        "A-C4C4433FEEB7",
+        "A-D8034F48E846",
+        "A-DC2242893571",
+        "A-E6F04B1E1638",
+        "A-E76E5AD21D7E"
+      ],
+      "quote": {
+        "ref": "A-772032771E8B",
+        "text": "Prison has to go or change the rules that you can at least pass and don't lose all your activations with no valid action to make."
+      },
+      "counterpoint": "Extra actions are also part of what makes some lists function. Low-count Minimoto and Oni accounts explain the cost of being outactivated. A change needs to examine both the engine and the vulnerabilities of the list using it.",
+      "counterRefs": [
+        "A-26D4CB31D873",
+        "A-6E559D159FD0",
+        "A-78EA9E4F548A",
+        "A-C02CD9A59694",
+        "A-C8DEBA2B3EF8"
+      ]
+    },
+    {
+      "id": "counterplay",
+      "title": "Matchup pressure often begins with access to the right answer",
+      "lead": "The written explanations turn faction ratings into testable questions about particular mechanics and list pairs.",
+      "paragraphs": [
+        "Camouflage, Soulless, fear resistance and armour recur as points at which an opposing toolkit can sharply change the value of a list. Ninja accounts explain paying for camouflage and then facing opponents able to bypass it. Fear- or poison-based accounts describe a similar problem with immunity. Horselord explanations connect the ability to charge with the ability to threaten a durable target. These are different mechanisms, united by their dependence on the opponent's available tools.",
+        "The counter-perspective is important. Minimoto accounts describe strong melee and resilience alongside slow movement, limited activations and vulnerability to control or disengagement. An answer about matchup ratings also stresses that a faction label hides very different list pairings. Follow-up tests should therefore specify the lists, scenario and available answers on both sides."
+      ],
+      "refs": [
+        "A-26D4CB31D873",
+        "A-4BAB0AB4DA30",
+        "A-4FF011B528CB",
+        "A-59F188A60F67",
+        "A-5F6988F9EDF5",
+        "A-68BE8A7D016B",
+        "A-6E559D159FD0",
+        "A-74BE69244CA4",
+        "A-7F8972752E80",
+        "A-80A4FB23689E",
+        "A-8E8DA45B3C5B",
+        "A-AF768FD4D9F8",
+        "A-AFE81719BC2A",
+        "A-BB26689396D9",
+        "A-C8DEBA2B3EF8",
+        "A-DF480FEA4773",
+        "A-F3B62823D73B"
+      ],
+      "quote": {
+        "ref": "A-68BE8A7D016B",
+        "text": "I usually have certain list archetypes in mind that are easier/harder to deal with."
+      },
+      "counterpoint": "Several accounts describe skill, positioning and playable uphill matchups. Those examples are useful controls when testing the more absolute hard-counter claims.",
+      "counterRefs": [
+        "A-04716C33B573",
+        "A-22C2C52BD521",
+        "A-679486128B3F",
+        "A-777ACAC30D26",
+        "A-CBE6A7E6A336",
+        "A-D8034F48E846",
+        "A-EE29815CB79E"
+      ]
+    },
+    {
+      "id": "scoring-time",
+      "title": "A powerful model can still arrive too late for the mission",
+      "lead": "The scenario and the usable timing of a benefit are part of how respondents evaluate strength.",
+      "paragraphs": [
+        "The detailed Kinshi explanation connects portal deployment, counter generation, terrain interaction and the difficulty of catching up on points. A Yurei explanation similarly questions rewards that become useful on turn four when the writer sees turns two and three as decisive. Theme critiques also point to VIM restrictions and benefits designed around losing models. These accounts explain why an attractive rule can feel marginal in practice.",
+        "Other answers focus on completing the game. They describe time limits, early attrition and situations where a game is largely resolved before its remaining turns are played. Suggestions include shorter scenarios or a clearer resolution of remaining points after tabling. These proposals can be tested by recording when games become decisive, which objectives remain contestable and how often the scheduled duration is actually reached."
+      ],
+      "refs": [
+        "A-01FD4355E2E0",
+        "A-0C7F6B355CB2",
+        "A-18C5E09B47BE",
+        "A-3F070EB215EE",
+        "A-41C6EBA9ABDC",
+        "A-7342D4012E59",
+        "A-777ACAC30D26",
+        "A-8E8DA45B3C5B",
+        "A-AFE81719BC2A",
+        "A-BEF637BD1235",
+        "A-C49F02FD586E",
+        "A-C5B0303B67AA",
+        "A-DB1BF6071717",
+        "A-E6F04B1E1638",
+        "A-EE08A9266F08",
+        "A-F4CDF63B6BF3"
+      ],
+      "quote": {
+        "ref": "A-AFE81719BC2A",
+        "text": "I need the theme bonus to be active during those turns, not on turn 4."
+      },
+      "counterpoint": "Mission strength is also a positive niche: some defensive models are valued precisely because they can remain in a zone. Preserving useful scenario roles belongs alongside reviewing scoring shortcuts.",
+      "counterRefs": [
+        "A-41C6EBA9ABDC",
+        "A-6E559D159FD0",
+        "A-9B85AB7DE807",
+        "A-C5B0303B67AA",
+        "A-EE08A9266F08"
+      ]
+    },
+    {
+      "id": "change-and-trust",
+      "title": "Players ask for stronger alternatives and a steadier path of change",
+      "lead": "Release pace, corrections and the work of keeping up connect balance discussion to continued participation.",
+      "paragraphs": [
+        "Development feedback points in several directions. Players praise particular errata and ask for comparable attention to weak models or subthemes. Other accounts describe changes as abrupt, overly severe or difficult to absorb after investing in a list. The Awoken examples make this tension visible: one response praises the correction of an earlier problem, while another says attractive parts disappeared without an adequate replacement.",
+        "Rules-access and learning comments add a practical layer. Finding rulings across several documents and Discord, processing more special rules and learning extreme matchups all take time. A few answers connect those demands to reduced play or difficulty growing a local scene. A useful response combines targeted balance work with clear change notes, accessible current rules and explicit examples for recurring interactions."
+      ],
+      "refs": [
+        "A-089BB1BB2E93",
+        "A-182862207115",
+        "A-2710EB155312",
+        "A-538EF57F61A9",
+        "A-5E028312D70A",
+        "A-62AB39AA327F",
+        "A-6D1FCA1E14B1",
+        "A-7932EDD6C647",
+        "A-7B69E8DE0A0F",
+        "A-7F48FE2B0EE1",
+        "A-8962669201CA",
+        "A-8F79A845999B",
+        "A-A66EF83475BB",
+        "A-A7E8275A07EB",
+        "A-A9BDF41688E1",
+        "A-B2A6CC4A4BAB",
+        "A-BB1096DAAC31",
+        "A-C62BBD7EDF2D",
+        "A-DA4907D4FB32",
+        "A-B0563BE8DB8B"
+      ],
+      "quote": {
+        "ref": "A-2710EB155312",
+        "text": "Varied places to have to find rules & rulings"
+      },
+      "counterpoint": "Praise is specific too: engagement, recent fixes and the scope for varied factions are valued. The accounts support improving how change is targeted and communicated while retaining those strengths.",
+      "counterRefs": [
+        "A-538EF57F61A9",
+        "A-62AB39AA327F",
+        "A-6D1FCA1E14B1",
+        "A-7932EDD6C647",
+        "A-DF24BF96D2C7"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "a": "choices",
+      "b": "theme-value",
+      "title": "Theme incentives concentrate the roster",
+      "body": "The pool and the bonus are evaluated together. Read how the strongest package changes the appeal of its alternatives."
+    },
+    {
+      "a": "agency",
+      "b": "tempo",
+      "title": "Timing advantage changes participation",
+      "body": "These answers connect action supply or waiting to the opponent's ability to respond."
+    },
+    {
+      "a": "matchups",
+      "b": "choices",
+      "title": "A missing counter narrows list-building",
+      "body": "Tool gaps recur alongside compulsory models, counter-picks or restricted alternatives."
+    },
+    {
+      "a": "damage",
+      "b": "resilience",
+      "title": "Lethality is experienced through the target",
+      "body": "These accounts discuss damage together with fragility, armour, wound pools or recovery."
+    },
+    {
+      "a": "development",
+      "b": "choices",
+      "title": "Change is judged by the options it creates",
+      "body": "Release and errata discussions repeatedly return to which models or themes become worth fielding."
+    },
+    {
+      "a": "rules",
+      "b": "access",
+      "title": "Rules workload becomes a participation cost",
+      "body": "These answers connect understanding or finding rules to learning and keeping up with the game."
+    }
+  ],
+  "cases": [
+    {
+      "id": "yurei",
+      "name": "Cult of Yurei",
+      "reading": "The accounts juxtapose strong recursion, debuffs and resilient lists with complaints about the wider roster, fear's usefulness and the timing of rewards. One detailed explanation asks why expensive profiles pay for abilities that commonly meet resistance; another emphasises the advantages into low-Ki opponents. This is a useful case for separating an efficient package from support for other models.",
+      "refs": [
+        "A-18BDF4B1023A",
+        "A-30160C2BB686",
+        "A-95B73DBBA0DE",
+        "A-AFE81719BC2A",
+        "A-C566A233D2BC",
+        "A-CA7010AC95BD",
+        "A-E71A32E5D839",
+        "A-F5CF3332FD5E"
+      ]
+    },
+    {
+      "id": "ataka",
+      "name": "Horse Lords of Ataka",
+      "reading": "Charge access is the clearest explanatory thread. Darkness, Blizzard, camouflage or a target that survives the initial hit are described as disrupting the plan. Other responses ask for more model options or support for weaker factions. The priority question is what the list can do after a charge is prevented or fails to remove its target.",
+      "refs": [
+        "A-09C9C71AF347",
+        "A-124959AA8F80",
+        "A-5E028312D70A",
+        "A-7F8972752E80",
+        "A-8E8DA45B3C5B",
+        "A-BB26689396D9",
+        "A-C8DEBA2B3EF8",
+        "A-CE36BB3D2D0C"
+      ]
+    },
+    {
+      "id": "ito",
+      "name": "Ito Clan",
+      "reading": "The explanations describe speed, hitting power and poison alongside fragility and difficulty converting attacks into damage against resilient opponents. Theme comments ask whether limited bonuses repay recruitment restrictions and whether alternatives distinguish themselves from The Blessed. Matchup tests can examine the trade between pressure and the ability to survive the reply.",
+      "refs": [
+        "A-04716C33B573",
+        "A-5F57E493184D",
+        "A-8EE902BDE752",
+        "A-B97247DA8594",
+        "A-C6E44A38A01C",
+        "A-E7731A66DD06",
+        "A-EE3EF468BF02"
+      ]
+    },
+    {
+      "id": "jung",
+      "name": "Jung Pirates",
+      "reading": "Jung is repeatedly discussed through The Deep's dominance and less attractive Kaizoku, captain or theme options. Detailed accounts praise movement and diverse ideas while describing costs, fear exposure, weak support interactions and missing pieces. Several theme critiques identify narrow recruitment with little practical return. That suggests auditing specific internal alternatives alongside headline faction performance.",
+      "refs": [
+        "A-18BDF4B1023A",
+        "A-36CD8108ABB7",
+        "A-384F1F56B267",
+        "A-3D553877300E",
+        "A-67B182E94028",
+        "A-6E74494C434D",
+        "A-8EA701A519FB",
+        "A-A66EF83475BB",
+        "A-CD3F4F7BF3F3",
+        "A-DCDEE3E17200",
+        "A-F4AFCFC411FF",
+        "A-A7407293119C"
+      ]
+    },
+    {
+      "id": "kinshi",
+      "name": "Kinshi Temple",
+      "reading": "The detailed accounts focus on control and activation effects, Ki-related matchups, setup time and the ability to contest early. The contrast between Everything and Nothing and Zenith of the Void turns on counter generation, portal exposure and timing. One answer also worries about support for a limited faction over time. These are precise questions for scenario-based testing.",
+      "refs": [
+        "A-307D9D089E6B",
+        "A-777ACAC30D26",
+        "A-8E8DA45B3C5B",
+        "A-C49F02FD586E",
+        "A-DF039DC4993B",
+        "A-F4CDF63B6BF3"
+      ]
+    },
+    {
+      "id": "minimoto",
+      "name": "Minimoto Clan",
+      "reading": "Armour and strong fighters dominate opposing descriptions, while Minimoto perspectives identify low numbers, slow movement and difficulty with displacement or control. Finest Steel is repeatedly used to explain a theme that rewards already-preferred models. The two perspectives create a useful test pair: the opponent who cannot damage the samurai and the opponent who can avoid or redirect the fight.",
+      "refs": [
+        "A-26D4CB31D873",
+        "A-3D553877300E",
+        "A-59F188A60F67",
+        "A-5F57E493184D",
+        "A-6E559D159FD0",
+        "A-6F1443D9A3F2",
+        "A-8B763DBEE3D3",
+        "A-9154BD65EEC4",
+        "A-A62BB57421CA",
+        "A-C02CD9A59694",
+        "A-C8DEBA2B3EF8",
+        "A-D8034F48E846",
+        "A-E6F04B1E1638"
+      ]
+    },
+    {
+      "id": "ryu",
+      "name": "Prefecture of Ryu",
+      "reading": "Extra actions, passes and delayed commitment recur in explanations of Ryu pressure. Some answers connect that timing to shooting or an alpha strike. A detailed faction perspective also identifies opposed-Ki effects, prone and mobile opponents as difficulties, and treats some unfavourable matches as still playable. Testing should retain those counter-perspectives alongside the activation-engine complaints.",
+      "refs": [
+        "A-078F00ABAC75",
+        "A-124959AA8F80",
+        "A-60A1E771C85B",
+        "A-772032771E8B",
+        "A-819D7E10DBAD",
+        "A-AECC8C3B3545",
+        "A-BB874918ED98",
+        "A-BEF637BD1235",
+        "A-D8034F48E846",
+        "A-DC2242893571",
+        "A-E6F04B1E1638"
+      ]
+    },
+    {
+      "id": "savage-wave",
+      "name": "Savage Wave",
+      "reading": "The accounts cover several very different experiences: Bakemono numbers and summon engines, the support provided by Ring of Fire, and the exposure of large or low-count Oni to shooting and activation disadvantage. Combining those experiences into one faction label obscures the list-level contrast. Theme-specific examination would make the feedback easier to act on.",
+      "refs": [
+        "A-04716C33B573",
+        "A-10F91A037523",
+        "A-16F78799BD3D",
+        "A-196B360747EA",
+        "A-24D885D64FF6",
+        "A-4361DE867746",
+        "A-78EA9E4F548A",
+        "A-8E8DA45B3C5B",
+        "A-9B85AB7DE807",
+        "A-C5B0303B67AA",
+        "A-DCDEE3E17200",
+        "A-E81F01F789A2"
+      ]
+    },
+    {
+      "id": "shadow-wind",
+      "name": "Shadow Wind Clan / Ninja lists",
+      "reading": "Camouflage is described as a central advantage whose value changes sharply with opposing counter-tools. Accounts connect difficult games to Sixth Sense, placement effects, Blizzard or opponents who can outwait the list. Others see a high ceiling in skilled hands. The useful comparison is between those conditions, with House of the Bleeding Moon's action supply examined as a separate component.",
+      "refs": [
+        "A-498DE632B378",
+        "A-70A2528B54C7",
+        "A-74B7620669DB",
+        "A-7F8972752E80",
+        "A-80A4FB23689E",
+        "A-B47B92E3DFE2",
+        "A-CBE6A7E6A336",
+        "A-DF480FEA4773",
+        "A-EE29815CB79E",
+        "A-F3B62823D73B"
+      ]
+    },
+    {
+      "id": "shiho",
+      "name": "Shiho Clan",
+      "reading": "Several accounts identify few efficient options, dependence on Keita, insufficient answers to fear or opposed-Ki effects and difficulty against resilient models. One explanation connects crowding out to the challenge of also playing the scenario. Theme comments ask for more viable model support. The recurring request is for workable in-faction tools and alternatives.",
+      "refs": [
+        "A-09C9C71AF347",
+        "A-0C7F6B355CB2",
+        "A-124959AA8F80",
+        "A-4DE7BE349FE6",
+        "A-A8043EFF7AA0",
+        "A-AF768FD4D9F8",
+        "A-C8DEBA2B3EF8",
+        "A-D9C4149742C7"
+      ]
+    },
+    {
+      "id": "silvermoon",
+      "name": "Silvermoon Trade Syndicate",
+      "reading": "Accounts describe tactical control, events, special techniques and some strong fighters alongside limited damage or rerolls against resilient opposition. The Ronin discussion has a counter-direction here: one writer wants more access consistent with a theme's character. Another describes a key model's weaknesses defining the wider faction's difficult games. This case links toolkit gaps to faction expression.",
+      "refs": [
+        "A-22C2C52BD521",
+        "A-3F4D0E6B4DAC",
+        "A-96367AB0F0EA",
+        "A-B81281275AEE",
+        "A-CDF687EB092D",
+        "A-DC2242893571",
+        "A-E2A209D9BD35"
+      ]
+    },
+    {
+      "id": "rokan",
+      "name": "Temple of Ro-Kan",
+      "reading": "Breadth is simultaneously the attraction and the concern. Responses praise flexible recruitment and several distinct threats, while some argue that Villager or Bastions packages concentrate too much value or dilute a clearer faction identity. Other accounts explicitly treat strong Temple options as acceptable. Reviewing the particular engines and recruitment incentives would preserve both perspectives.",
+      "refs": [
+        "A-18BDF4B1023A",
+        "A-3460CAF0845A",
+        "A-3D553877300E",
+        "A-6E74494C434D",
+        "A-7987C3E0E811",
+        "A-7C227CF76A44",
+        "A-BB874918ED98",
+        "A-C6E44A38A01C",
+        "A-E6F04B1E1638",
+        "A-F8FFCA16821A"
+      ]
+    },
+    {
+      "id": "awoken",
+      "name": "The Awoken",
+      "reading": "The feedback separates internal balance, Ki supply and fear dependence from the wider assessment of recent changes. Some writers praise the correction of earlier fear-heavy play; others describe lost options, awkward Family support or anti-synergy. Comparing the exact profiles and sequences mentioned would help distinguish a welcome targeted correction from a remaining shortage of viable alternatives.",
+      "refs": [
+        "A-078F00ABAC75",
+        "A-41C6EBA9ABDC",
+        "A-42FB91104C95",
+        "A-538EF57F61A9",
+        "A-5712C4ADDED8",
+        "A-5F6988F9EDF5",
+        "A-62AB39AA327F",
+        "A-7932EDD6C647",
+        "A-B2A6CC4A4BAB",
+        "A-BD22E33B4067",
+        "A-C62BBD7EDF2D",
+        "A-D8034F48E846"
+      ]
+    },
+    {
+      "id": "descension",
+      "name": "The Descension",
+      "reading": "Several answers explicitly separate prison and Buzenbo from the rest of the faction. Other accounts value speed, support and the ability to choose engagements, while describing fragile models or difficulty finishing resilient targets. This distinction matters: an adjustment to a dominant package can have different consequences for the alternative themes players want to use.",
+      "refs": [
+        "A-0E9F4621CC4D",
+        "A-1EB7243517CB",
+        "A-772032771E8B",
+        "A-8EA701A519FB",
+        "A-BEF637BD1235",
+        "A-C4C4433FEEB7",
+        "A-CE36BB3D2D0C",
+        "A-EE3EF468BF02"
+      ]
+    },
+    {
+      "id": "imperial",
+      "name": "The Imperial Court",
+      "reading": "Imperial accounts describe durable bodies, shooting and numbers alongside slow movement, limited tools and missing support pieces. One theme explanation follows a detailed chain of focus, movement, Ki transfer and recruitment costs. Another describes the faction as incomplete. This supports a sequence-level audit of the intended engine and how it reaches the early scenario contest.",
+      "refs": [
+        "A-3D553877300E",
+        "A-777ACAC30D26",
+        "A-8E8DA45B3C5B",
+        "A-E40E93EA99DE",
+        "A-E76E5AD21D7E",
+        "A-F044EEA082F1"
+      ]
+    }
+  ],
+  "counterpoints": [
+    {
+      "title": "Targeted changes can coexist with a positive view of the game",
+      "body": "Several answers call the meta good or broadly balanced while identifying individual exceptions. The strongest positive accounts also value tactical richness, faction variety and the possibility of competing with many factions.",
+      "refs": [
+        "A-16200E880B63",
+        "A-1F2AA24E5790",
+        "A-3922DE8D9E64",
+        "A-538EF57F61A9",
+        "A-62AB39AA327F",
+        "A-6D1FCA1E14B1",
+        "A-7932EDD6C647",
+        "A-915A5EF550EB",
+        "A-9694891B35CE",
+        "A-BB1096DAAC31",
+        "A-D751B050FF5A",
+        "A-DB1BF6071717",
+        "A-DF24BF96D2C7"
+      ]
+    },
+    {
+      "title": "Some strong bonuses support an otherwise difficult roster",
+      "body": "Ring of Fire examples argue that the benefit is doing necessary work for vulnerable models. A theme adjustment should examine how those models function afterwards.",
+      "refs": [
+        "A-78EA9E4F548A",
+        "A-9B85AB7DE807",
+        "A-C5B0303B67AA",
+        "A-DCDEE3E17200"
+      ]
+    },
+    {
+      "title": "Ronin access is also requested",
+      "body": "The corpus contains calls for restrictions and calls for better access. Silvermoon provides a specific example of a player asking for recruitment that fits the theme's character.",
+      "refs": [
+        "A-8790E6634F5B",
+        "A-C6D57BF6BEA5",
+        "A-DBCBC07FE302",
+        "A-E2A209D9BD35",
+        "A-A7407293119C"
+      ]
+    },
+    {
+      "title": "Players disagree about the effects of corrections",
+      "body": "Awoken and broader errata comments include praise, acceptance and frustration with lost options. Reading those accounts together identifies what a successful correction would need to preserve.",
+      "refs": [
+        "A-538EF57F61A9",
+        "A-62AB39AA327F",
+        "A-6D1FCA1E14B1",
+        "A-7932EDD6C647",
+        "A-7F48FE2B0EE1",
+        "A-B2A6CC4A4BAB",
+        "A-BB1096DAAC31",
+        "A-C62BBD7EDF2D",
+        "A-DA4907D4FB32"
+      ]
+    },
+    {
+      "title": "Execution and list choice remain part of the explanation",
+      "body": "Several writers explicitly mention practice, positioning, differing list archetypes and the skill needed to realise a faction's strengths. These accounts give follow-up tests useful comparison conditions.",
+      "refs": [
+        "A-02D6A871CFD9",
+        "A-04716C33B573",
+        "A-22C2C52BD521",
+        "A-679486128B3F",
+        "A-68BE8A7D016B",
+        "A-777ACAC30D26",
+        "A-CBE6A7E6A336",
+        "A-D8034F48E846",
+        "A-EE29815CB79E"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "title": "Audit mandatory packages and rejected alternatives",
+      "question": "Which profiles or themes repeatedly displace others, and what would make the alternatives usable?",
+      "measure": "Record the model/theme kept, the alternative rejected, the reason and the scenario coverage lost. Separate profile cost from theme restrictions.",
+      "refs": [
+        "A-009C67B8AEA7",
+        "A-3D553877300E",
+        "A-41C6EBA9ABDC",
+        "A-6F1443D9A3F2",
+        "A-7932EDD6C647",
+        "A-8B763DBEE3D3",
+        "A-A66EF83475BB",
+        "A-D9C4149742C7",
+        "A-FBB4A7E02413"
+      ]
+    },
+    {
+      "title": "Stress-test response windows",
+      "question": "After a strong activation or control engine works, what useful replies remain?",
+      "measure": "Track pass supply, activations remaining, actions made unusable and when the decisive engagement occurs. Test late shooting and prison cases explicitly.",
+      "refs": [
+        "A-078F00ABAC75",
+        "A-0AED704C91B7",
+        "A-772032771E8B",
+        "A-819D7E10DBAD",
+        "A-8E8DA45B3C5B",
+        "A-BEF637BD1235",
+        "A-D8034F48E846",
+        "A-DC2242893571",
+        "A-E6F04B1E1638"
+      ]
+    },
+    {
+      "title": "Test counterplay with specified list pairs",
+      "question": "Is a difficult matchup softened by practical tools within the faction?",
+      "measure": "Vary list pairing, counter-model cost, scenario and terrain. Include camouflage/Sixth Sense, immunities, charge denial and armour examples.",
+      "refs": [
+        "A-4BAB0AB4DA30",
+        "A-4FF011B528CB",
+        "A-68BE8A7D016B",
+        "A-74BE69244CA4",
+        "A-7F8972752E80",
+        "A-80A4FB23689E",
+        "A-8E8DA45B3C5B",
+        "A-AF768FD4D9F8",
+        "A-BB26689396D9",
+        "A-DF480FEA4773"
+      ]
+    },
+    {
+      "title": "Follow the resource sequence and mission clock",
+      "question": "Do support chains and theme bonuses become useful before the key scenario contest?",
+      "measure": "Write out Ki generation, transfers, movement and activation costs by turn. Check late bonuses, portal survival, VIM restrictions and time to first score.",
+      "refs": [
+        "A-3D553877300E",
+        "A-5712C4ADDED8",
+        "A-5F6988F9EDF5",
+        "A-777ACAC30D26",
+        "A-8EA701A519FB",
+        "A-AFE81719BC2A",
+        "A-BD22E33B4067",
+        "A-C5B0303B67AA",
+        "A-E6F04B1E1638",
+        "A-F044EEA082F1",
+        "A-A7407293119C"
+      ]
+    },
+    {
+      "title": "Review early damage and recovery options",
+      "question": "Which early losses remove meaningful ways to continue the game?",
+      "measure": "Record first decisive damage, target size/resilience, activations lost and remaining scoring routes. Compare fragile and resilient lists.",
+      "refs": [
+        "A-10F91A037523",
+        "A-196B360747EA",
+        "A-1E1485281072",
+        "A-1FCA057C12F0",
+        "A-59F188A60F67",
+        "A-70A2528B54C7",
+        "A-9003A28CF76D",
+        "A-C40556B2B39D",
+        "A-EE3EF468BF02",
+        "A-F11A19129B17"
+      ]
+    },
+    {
+      "title": "Make changes and rulings easier to follow",
+      "question": "Can a returning or new player find the current rule and understand the purpose of a change?",
+      "measure": "Use a current rules index, short change rationales and worked examples. Collect the cases where players need multiple sources or cannot see how an interaction resolves.",
+      "refs": [
+        "A-089BB1BB2E93",
+        "A-182862207115",
+        "A-2710EB155312",
+        "A-7B69E8DE0A0F",
+        "A-7F48FE2B0EE1",
+        "A-8F79A845999B",
+        "A-A7E8275A07EB",
+        "A-BB1096DAAC31",
+        "A-C62BBD7EDF2D",
+        "A-DA4907D4FB32",
+        "A-F46BD9DAECFC",
+        "A-FB743348E523"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {PGlite} from '@electric-sql/pglite';
+import {localDate} from '../src/domain.js';
+test('cloud Postgres schema enforces validation, RLS ownership and public-note privacy',async()=>{
+  const db=new PGlite();
+  const a='11111111-1111-4111-8111-111111111111',b='22222222-2222-4222-8222-222222222222';
+  try {
+    await db.exec(`create role anon; create role authenticated; create schema auth;
+      create table auth.users(id uuid primary key,email_confirmed_at timestamptz default now());
+      create table auth.sessions(id uuid primary key,user_id uuid,created_at timestamptz default now());
+      create table auth.mfa_factors(user_id uuid,status text);
+      create function auth.uid() returns uuid language sql stable as $$ select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid $$;
+      create function auth.jwt() returns jsonb language sql stable as $$ select coalesce(nullif(current_setting('request.jwt.claims',true),''),'{}')::jsonb $$;
+      grant usage on schema auth to anon,authenticated; grant execute on function auth.uid() to anon,authenticated;
+      insert into auth.users(id) values ('${a}'),('${b}');
+      insert into auth.sessions(id,user_id) values('${a}','${a}'),('${b}','${b}');
+      insert into auth.mfa_factors values('${a}','verified'),('${b}','verified');`);
+    await db.exec(await readFile(new URL('../supabase/schema.sql',import.meta.url),'utf8'));
+    // The additive live migration must leave tables, records and owner policies intact.
+    await db.exec(await readFile(new URL('../supabase/migrations/20261026_email_auth.sql',import.meta.url),'utf8'));
+    await db.exec(`set role authenticated;set request.jwt.claim.sub='${a}'`);
+    const game={ownFaction:'ito-clan',ownTheme:'Cold Blood',opponentFaction:'minimoto-clan',opponentTheme:'The Finest Steel',ownVp:2,opponentVp:1,date:localDate(),scenario:'Ryodo',rice:100,format:'Casual',notes:'Private cloud note'};
+    const insert=g=>db.query('insert into public.games(payload) values($1::jsonb) returning id',[JSON.stringify(g)]);
+    await db.exec(`set request.jwt.claims='{"aal":"aal1","session_id":"${b}"}'`);
+    await assert.rejects(()=>insert(game),/row-level security/i);
+    await db.exec(`set request.jwt.claims='{"aal":"aal1","session_id":"${a}"}'`);
+    assert.equal((await db.query('select public.account_security_status() allowed')).rows[0].allowed,true);
+    const created=await insert(game);
+    assert.ok(created.rows[0].id);
+    for(const patch of [{ownVp:3},{ownVp:1.5},{ownTheme:'The Finest Steel'},{scenario:null},{format:null},{date:'2026-02-30'},{notes:null},{rice:'100'},{extra:'private'}]) await assert.rejects(()=>insert({...game,...patch}));
+    await assert.rejects(()=>insert(game),/unique constraint/i);
+    await assert.rejects(()=>db.query('insert into public.games(user_id,payload) values($1,$2)',[b,JSON.stringify({...game,notes:'spoof'})]));
+    assert.equal((await db.query('select * from public.games')).rows.length,1);
+    await db.exec(`set request.jwt.claim.sub='${b}';set request.jwt.claims='{"aal":"aal1","session_id":"${b}"}'`);
+    assert.equal((await db.query('select * from public.games')).rows.length,0);
+    assert.equal((await db.query('delete from public.games returning id')).rows.length,0);
+    await db.exec('set role anon');
+    const publicRows=(await db.query('select * from public.public_games')).rows;
+    assert.equal(publicRows.length,1);
+    assert.deepEqual(Object.keys(publicRows[0]).sort(),['id','payload']);
+    assert.ok(!JSON.stringify(publicRows).includes('Private cloud note'));
+    assert.ok(!JSON.stringify(publicRows).includes(a));
+    await assert.rejects(()=>db.query('select * from public.games'),/permission denied/i);
+    await assert.rejects(()=>db.query('select public.account_security_status()'),/permission denied/i);
+    await db.exec(`set role authenticated;set request.jwt.claim.sub='${a}';set request.jwt.claims='{"aal":"aal1","session_id":"${a}"}'`);
+    await db.exec('reset role');
+    await db.exec(`delete from auth.sessions where id='${a}';set role authenticated;`);
+    assert.equal((await db.query('select * from public.games')).rows.length,0);
+    await assert.rejects(()=>insert({...game,notes:'revoked session'}),/row-level security/i);
+    await db.exec(`reset role;insert into auth.sessions(id,user_id,created_at) values('${a}','${a}',now()-interval '13 hours');set role authenticated;`);
+    assert.equal((await db.query('select * from public.games')).rows.length,0);
+    await db.exec(`reset role;update auth.sessions set created_at=now() where id='${a}';update auth.mfa_factors set status='unverified' where user_id='${a}';set role authenticated;`);
+    assert.equal((await db.query('select * from public.games')).rows.length,1);
+    // Existing enrolled factors do not impose an app-level second-factor requirement.
+    await db.exec(`reset role;update auth.mfa_factors set status='verified' where user_id='${a}';update auth.users set email_confirmed_at=null where id='${a}';set role authenticated;`);
+    assert.equal((await db.query('select * from public.games')).rows.length,0);
+    await assert.rejects(()=>insert({...game,notes:'unconfirmed email'}),/row-level security/i);
+    await db.exec(`reset role;update auth.users set email_confirmed_at=now() where id='${a}';set role authenticated;`);
+    assert.equal((await db.query('delete from public.games returning id')).rows.length,1);
+  } finally {await db.close();}
+});

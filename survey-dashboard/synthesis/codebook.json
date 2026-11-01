@@ -1,0 +1,167 @@
+{
+  "version": "1.0.0",
+  "title": "Mechanisms, choices and the experience of play",
+  "unit": "One reviewed answer document to one open question",
+  "questions": {
+    "Meta": "Biggest meta problems",
+    "Themes": "Why themes feel strong or weak",
+    "Faction & Matchups": "Own faction & matchups"
+  },
+  "topics": [
+    {
+      "id": "choices",
+      "label": "Internal balance & list choice",
+      "family": "Building a list",
+      "definition": "Model or theme variety, mandatory picks, redundant alternatives, missing options and the gap between a faction's best build and its wider roster.",
+      "include": "Explicit choice constraints, auto-includes, outdated or missing profiles, narrow competitive builds and praised roster breadth.",
+      "exclude": "Model availability mentioned only as a general reason for a theme rating belongs to theme-value. A strong profile alone belongs to balance."
+    },
+    {
+      "id": "theme-value",
+      "label": "Theme benefits & restrictions",
+      "family": "Building a list",
+      "definition": "The exchange between recruitment restrictions, theme bonuses, synergies and the underlying model pool.",
+      "include": "Reasons a theme rewards, limits, duplicates or fails to support its permitted models; strong and weak themes both count.",
+      "exclude": "A faction-level complaint without reference to theme construction. A theme name alone qualifies only when its power or utility is explicitly assessed."
+    },
+    {
+      "id": "matchups",
+      "label": "Matchups, immunities & counters",
+      "family": "Playing the opponent",
+      "definition": "Opposing toolkits, narrow counters, blanket immunities and the ability to answer an opponent's core plan.",
+      "include": "Specific favourable or difficult matchups, missing counter-tools, Soulless, anti-camouflage, fear resistance, binary effects and list-pair dependence.",
+      "exclude": "Generic dissatisfaction without an opponent, counter or immunity. Describing a weak faction alone belongs to balance."
+    },
+    {
+      "id": "agency",
+      "label": "Interaction, control & negative play",
+      "family": "Playing the opponent",
+      "definition": "Ability to act, fight, target, move or contest the opponent’s plan, plus explicit negative-play-experience complaints.",
+      "include": "Explicit NPE or non-interaction, prison references, restrictive control, inaccessible targets, gotchas and effects described as bypassing counterplay.",
+      "exclude": "An unfavourable matchup alone. Shooting or high damage alone belongs to damage."
+    },
+    {
+      "id": "tempo",
+      "label": "Activations, passes & model count",
+      "family": "Playing the opponent",
+      "definition": "How action supply, waiting, extra activations, summoning and the number of models shape timing advantage.",
+      "include": "Outwaiting, pass tokens, activation stealing, low-count vulnerability and numerical swarms.",
+      "exclude": "Mobility without an action-economy explanation. Ki supply alone belongs to ki."
+    },
+    {
+      "id": "balance",
+      "label": "Power & points efficiency",
+      "family": "Building a list",
+      "definition": "Direct judgements of faction, model or theme power and comparative value for Rice.",
+      "include": "Over- or underpowered profiles, external faction gaps, undercosting, overcosting and explicit overall balance assessments.",
+      "exclude": "Ordinary description of a faction's strengths and weaknesses without a power/value judgement. No strength is inferred from silence."
+    },
+    {
+      "id": "damage",
+      "label": "Damage, shooting & early swings",
+      "family": "Playing the opponent",
+      "definition": "Lethality, ranged pressure, alpha strikes and the consequences of early damage.",
+      "include": "Ranged threats, size-related shooting damage, early removal, attack output and weak hitting power.",
+      "exclude": "A model's name alone, even if it is a well-known shooter. Defensive characteristics belong to resilience."
+    },
+    {
+      "id": "resilience",
+      "label": "Armour, wounds & staying power",
+      "family": "Playing the opponent",
+      "definition": "Ability to survive damage, hold a position and recover from attrition.",
+      "include": "Armour, wounds, regeneration, recursion, Durable or Last Stand, fragile profiles and overwhelming durability.",
+      "exclude": "Mental or state immunity discussed purely as a counter belongs to matchups. Slow movement alone belongs to mobility."
+    },
+    {
+      "id": "mobility",
+      "label": "Movement & positioning",
+      "family": "Playing the opponent",
+      "definition": "Speed, placement, engagement choice, positioning demands and spatial reach.",
+      "include": "Outmanoeuvring, slow factions, charge dependence, terrain control, line of sight and catching or escaping opposing models.",
+      "exclude": "Waiting for a later activation without a spatial component. Scoring constraints alone belong to scenario."
+    },
+    {
+      "id": "ki",
+      "label": "Ki supply & resource engines",
+      "family": "Building a list",
+      "definition": "Ki generation, transfer, shortage and the synergies or support chains they enable.",
+      "include": "Free Ki, summoning fuel, focus/transfer bottlenecks, Ki-starved themes and recurring resource provision.",
+      "exclude": "A Ki stat mentioned only for fear resistance or an opposed test, without a supply/use constraint."
+    },
+    {
+      "id": "dice",
+      "label": "Dice control & reliability",
+      "family": "Playing the opponent",
+      "definition": "Rerolls, Preordain, critical effects, automatic versus opposed resolution and the impact of failed rolls.",
+      "include": "Predictability, dice substitution, unmitigated variance, reroll access and explicit critical-attack comments.",
+      "exclude": "The number of dice used solely as a comparison of raw profile value. That belongs to balance."
+    },
+    {
+      "id": "scenario",
+      "label": "Scoring & game timing",
+      "family": "Completing the game",
+      "definition": "Scenario access, scoring effects, objectives, game duration and the timing of useful bonuses.",
+      "include": "Free scenario actions, scoring cards, VIM, zone-holding, portal timing, late bonuses and games ending before completion.",
+      "exclude": "A late activation without reference to scenario or the timing of the game. A named event card alone is insufficient."
+    },
+    {
+      "id": "development",
+      "label": "Releases, errata & playtesting",
+      "family": "Maintaining the game",
+      "definition": "Change over time: power creep, release pace, balance updates, playtesting and support for older models.",
+      "include": "Positive and negative errata accounts, perceived overcorrection, missing future support, frequent releases and testing concerns.",
+      "exclude": "A currently weak model without a development or support claim."
+    },
+    {
+      "id": "rules",
+      "label": "Rules access & complexity",
+      "family": "Maintaining the game",
+      "definition": "Finding, understanding and applying rules and interactions.",
+      "include": "Scattered documents, card bloat, unintuitive wording, loopholes and exploit complaints.",
+      "exclude": "A well-understood mechanic described as too strong; that is coded by its mechanism."
+    },
+    {
+      "id": "identity",
+      "label": "Faction identity & model appeal",
+      "family": "Building a list",
+      "definition": "The connection between faction character, aesthetic or thematic appeal and what is rewarding to field.",
+      "include": "Faction identity diluted by common models, lore/model appeal, desired play style and lost thematic options.",
+      "exclude": "Every statement that a game is enjoyable. Ronin access without an identity claim belongs to ronin."
+    },
+    {
+      "id": "ronin",
+      "label": "Ronin access & shared staples",
+      "family": "Building a list",
+      "definition": "The place of cross-faction models and cards within faction rosters.",
+      "include": "Ronin recruitment, Hozumi enabling Ronin, shared staple cards, desired access and concerns about homogenisation.",
+      "exclude": "Assumed Ronin status of an otherwise unexplained named model."
+    },
+    {
+      "id": "access",
+      "label": "Learning, workload & retention",
+      "family": "Maintaining the game",
+      "definition": "Practice, execution difficulty, new-player experience, keeping up with releases and continued participation.",
+      "include": "Learning curves, low error tolerance, discouragement, local play availability and reduced interest or play.",
+      "exclude": "A bare refusal to rate unfamiliar factions; this is recorded as an experience limit rather than a thematic finding."
+    }
+  ],
+  "methods": [
+    "Every document was read in full and assigned individually against this codebook. Assignments are many-to-many; repeated wording within one answer counts once per topic.",
+    "Counts refer to answer documents. One submission can contribute an answer to each of three questions. Public texts have independent document IDs and no linked player profile.",
+    "Question counts use their own written-answer denominator. The prompts ask about problems, strong/weak themes and faction matchups; this shapes what people discuss.",
+    "Brief answers and statements declining assessment remain visible with a separate disposition. All reviewed documents remain in the counting denominator.",
+    "Explicitly positive overall assessments are tagged separately. Mentions of a mechanic can describe a strength, a problem or a trade-off; read the linked wording for the position taken.",
+    "This first pass was prepared by Codex with AI assistance, using the reviewed public corpus. One coding pass was completed; independent second-coder agreement has not been assessed.",
+    "Editorial interpretations and proposed follow-ups are authored separately from the counts. Rebuilding validates source hashes and recalculates membership, question counts and overlaps. New or changed answers enter the review queue.",
+    "Results describe these written accounts. The analysis uses no player-profile joins, significance tests or inferred faction win rates."
+  ],
+  "references": [
+    {
+      "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+      "authors": "Kassis, T., Agarwal, V., He, Y., Patel, D., & Brueckner, A. M.",
+      "year": 2026,
+      "url": "https://doi.org/10.48550/arXiv.2609.00065",
+      "use": "Evidence-appraisal workflow used during preparation."
+    }
+  ]
+}

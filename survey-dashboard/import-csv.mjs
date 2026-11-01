@@ -1,0 +1,10 @@
+import {readFile,mkdir,writeFile,rename} from 'node:fs/promises';
+import {parseCsv,normalizeRows} from './analysis.mjs';
+import {FORM_ID} from './tally.mjs';
+const file=process.argv[2];
+if(!file||!process.argv.includes('--main-run')||/pretest/i.test(file))throw new Error('Usage: node survey-dashboard/import-csv.mjs <main-survey.csv> --main-run');
+const result=normalizeRows(parseCsv(await readFile(file,'utf8')));
+const dir=new URL('./private/',import.meta.url);await mkdir(dir,{recursive:true,mode:0o700});
+await writeFile(new URL('responses.json.tmp',dir),JSON.stringify({...result,formId:FORM_ID,source:'csv',syncedAt:new Date().toISOString()}),{mode:0o600});
+await rename(new URL('responses.json.tmp',dir),new URL('responses.json',dir));
+console.log(`${result.records.length} main survey responses imported locally; ${result.duplicates} duplicate submission IDs skipped.`);

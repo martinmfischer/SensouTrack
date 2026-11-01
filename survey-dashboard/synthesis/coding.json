@@ -1,0 +1,3031 @@
+{
+  "schema": 1,
+  "edition": "2026-11-01",
+  "codebookVersion": "1.0.0",
+  "reviewedAt": "2026-11-01T19:32:17.388Z",
+  "cutoff": "2026-11-01T19:25:54.003Z",
+  "sourceSubmissions": 164,
+  "sourceTextSubmissions": 102,
+  "sourceQuestions": {
+    "Meta": 89,
+    "Themes": 59,
+    "Faction & Matchups": 66
+  },
+  "entries": [
+    {
+      "id": "009c67b8-aea7-4be1-96e6-8d612cf0a12f",
+      "sourceHash": "944369c02b1dcf43263f9f885d4038f738bf8ba7a869e93cfe3ad721f1937360",
+      "topics": [
+        "balance",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-009C67B8AEA7",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "01fd4355-e2e0-43b9-b26c-0836c73c9be0",
+      "sourceHash": "9307d32a79aa5d03ff7bdde7aa34d410c11f36f23a9ebeb41cdab26d2bcf02b8",
+      "topics": [
+        "balance",
+        "theme-value",
+        "ronin",
+        "scenario",
+        "identity"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-01FD4355E2E0",
+      "type": "Themes"
+    },
+    {
+      "id": "02d6a871-cfd9-43ea-9ac6-ef37c85b512e",
+      "sourceHash": "d8aaed32d999c936340cc170829d5c999041e810c7726a930457757490747588",
+      "topics": [
+        "choices",
+        "theme-value",
+        "scenario",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": true,
+      "ref": "A-02D6A871CFD9",
+      "type": "Themes"
+    },
+    {
+      "id": "04716c33-b573-44d4-931a-3012281a16e9",
+      "sourceHash": "b93e61d39f2b0b4bd5681e8b2973621d6d8c926c2e1f91622a95109033ee2952",
+      "topics": [
+        "tempo",
+        "access"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-04716C33B573",
+      "type": "Themes"
+    },
+    {
+      "id": "078f00ab-ac75-48be-94e9-6558eed81fd1",
+      "sourceHash": "40e7bddd9b01a13804aa68849a51145c4eda366b75cd1525103d30c45d73baed",
+      "topics": [
+        "agency",
+        "tempo"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-078F00ABAC75",
+      "type": "Meta"
+    },
+    {
+      "id": "089bb1bb-2e93-4fe2-8074-7ed808600802",
+      "sourceHash": "53501f065bf9159891cd3777bb675c4cda322b23fbe2e993b474525bf730e317",
+      "topics": [
+        "development",
+        "choices",
+        "rules"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-089BB1BB2E93",
+      "type": "Meta"
+    },
+    {
+      "id": "08cd6a91-cc0f-4050-860e-43330ae6e820",
+      "sourceHash": "d75e87bd5208181c48131eba3793e923a4a137c314364f28a234deef6fa1cc26",
+      "topics": [
+        "theme-value",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-08CD6A91CC0F",
+      "type": "Themes"
+    },
+    {
+      "id": "093a166e-a109-42fe-b424-bd124ea28644",
+      "sourceHash": "be75b4d5269c4b4e9373943636e85ed6a9e89c00fd93646ee293b2c33e71e272",
+      "topics": [
+        "agency",
+        "tempo",
+        "resilience"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-093A166EA109",
+      "type": "Meta"
+    },
+    {
+      "id": "09c9c71a-f347-419a-8106-0724099ac494",
+      "sourceHash": "8096c29f3ea4d1e08da8e2316979cad167f9856076b7cff6a023464d08581d2b",
+      "topics": [
+        "choices",
+        "theme-value"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-09C9C71AF347",
+      "type": "Themes"
+    },
+    {
+      "id": "0a8a3644-dfe5-4446-8669-fc155ddf0fe4",
+      "sourceHash": "d5ff9acc59e0edaccd18657e80ccd2a41cf0724757809fae58ad4e961f7db5cf",
+      "topics": [
+        "balance",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-0A8A3644DFE5",
+      "type": "Meta"
+    },
+    {
+      "id": "0aed704c-91b7-44a1-af22-6c56b0c29db5",
+      "sourceHash": "40cf5bde6a3387e0fd88222db22e2061130d4ee3dcbd929ff14adacd1b1df0fc",
+      "topics": [
+        "agency"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-0AED704C91B7",
+      "type": "Meta"
+    },
+    {
+      "id": "0bb528e1-1a92-43cd-8135-15bc3f669b61",
+      "sourceHash": "a148d8772881f48e64489ceecaf6fc7d4e894291cf88eaf65a06a4fa3127a63c",
+      "topics": [
+        "agency"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-0BB528E11A92",
+      "type": "Themes"
+    },
+    {
+      "id": "0c7f6b35-5cb2-4b51-b2fe-66d38135f260",
+      "sourceHash": "4ab0167be8b5b4c38080527d87973cffb02ec5f26eb84f089612001107e330fe",
+      "topics": [
+        "theme-value",
+        "mobility",
+        "resilience",
+        "scenario"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-0C7F6B355CB2",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "0cec4f6a-9e0f-4022-ab1d-c96595c7ffa9",
+      "sourceHash": "b25a407c10e0dad6b99fd0495bbba476b6c9b46df281dc3bc2f7c0d192f8353d",
+      "topics": [
+        "agency",
+        "identity"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-0CEC4F6A9E0F",
+      "type": "Meta"
+    },
+    {
+      "id": "0e45bd64-4949-4c61-a7e5-de9f46f20374",
+      "sourceHash": "c9e79940e7691636d566843750e93adc836db1302b09104f9ba86d37873f5ef0",
+      "topics": [
+        "agency",
+        "mobility"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-0E45BD644949",
+      "type": "Meta"
+    },
+    {
+      "id": "0e9f4621-cc4d-4b8a-8a29-c411a8b766d0",
+      "sourceHash": "885570f13fc825a429a380fcb3f4c753cf2b968c518c55d833a49206fad5cdd1",
+      "topics": [
+        "balance",
+        "choices",
+        "theme-value"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-0E9F4621CC4D",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "1078d213-2840-4c92-922e-b6434fd8765d",
+      "sourceHash": "ba02b2304af058bb85bb8c01cd07b069023d7d2f034d6629f53ef8a7d0981c04",
+      "topics": [
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "note": "Names Soulless as a problem without elaboration; coded with the immunity/counter cluster.",
+      "ref": "A-1078D2132840",
+      "type": "Meta"
+    },
+    {
+      "id": "10f91a03-7523-4804-ad69-05156a9fe790",
+      "sourceHash": "95f93dae2f3858e32bdf79da5b544a3e1979f1aba28148c14d7bb802bd1874f9",
+      "topics": [
+        "damage",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-10F91A037523",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "115c3d09-c0e5-4960-814d-df58479249c6",
+      "sourceHash": "a1ca15987b9f2ebe5bcbc4600fd7bea434437be3bfb69367ccec6c02114e0ea2",
+      "topics": [
+        "ronin",
+        "identity",
+        "agency",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-115C3D09C0E5",
+      "type": "Meta"
+    },
+    {
+      "id": "124959aa-8f80-49b4-8ee4-e199d9e4ddff",
+      "sourceHash": "583ee1e14c4b858862ffeecf0c4e566de8a978527ed4120481b41981e3338695",
+      "topics": [
+        "balance",
+        "choices",
+        "ronin",
+        "agency",
+        "tempo"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-124959AA8F80",
+      "type": "Meta"
+    },
+    {
+      "id": "16200e88-0b63-4edd-a617-7d5580d0620a",
+      "sourceHash": "14fb14b6ebffb2ac8234063c2fd8d6c62c729fe5d3f738bdd7af58d3aeaef3b1",
+      "topics": [
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": true,
+      "limitedExperience": false,
+      "ref": "A-16200E880B63",
+      "type": "Meta"
+    },
+    {
+      "id": "16f78799-bd3d-48c9-a703-2e29f90edf8d",
+      "sourceHash": "7b53b9744db73ef036f9a64a2188e222462fd04f853492cce80cd407d4e35b0f",
+      "topics": [
+        "theme-value",
+        "ki",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-16F78799BD3D",
+      "type": "Themes"
+    },
+    {
+      "id": "18286220-7115-4866-9e96-a76f78562c62",
+      "sourceHash": "c1de7201023e64a7fe48c51ac832090e58e101c876f8f4a15bfd0ce20bf3a46c",
+      "topics": [
+        "matchups",
+        "agency",
+        "dice",
+        "rules",
+        "access"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-182862207115",
+      "type": "Meta"
+    },
+    {
+      "id": "18bdf4b1-023a-4d83-b37a-7ef7624b5a99",
+      "sourceHash": "bc9c4c6a7dc8adbafd143946646b8259d934dbfdfc8f08beb3fa5d3a9ed90baf",
+      "topics": [
+        "theme-value",
+        "ronin",
+        "choices",
+        "agency",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-18BDF4B1023A",
+      "type": "Themes"
+    },
+    {
+      "id": "18c5e09b-47be-4ead-9548-92a9adc86640",
+      "sourceHash": "558f730c44babc068d76ce3336e4196e2c5a096233eec46b5f47eb710dfbb3dc",
+      "topics": [
+        "scenario"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-18C5E09B47BE",
+      "type": "Meta"
+    },
+    {
+      "id": "196b3607-47ea-4859-86c4-91da38b75684",
+      "sourceHash": "0152d30d63b8deec1c477da613756be43290e060ee34daaa97d0c2ef3c37d364",
+      "topics": [
+        "damage"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-196B360747EA",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "1bde50a2-4895-44de-bd50-191b28179e2e",
+      "sourceHash": "df36f958999509086d952dc46428cd8c6505733b127490cbc462c1eab4d2182b",
+      "topics": [
+        "theme-value",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-1BDE50A24895",
+      "type": "Themes"
+    },
+    {
+      "id": "1c6bef1d-03c6-4cbe-b1be-dcd459dd2dcc",
+      "sourceHash": "3182eae473afba8bf8e9fd044bf372733eba6ea888c8eb6069847abe483373a9",
+      "topics": [
+        "theme-value",
+        "ronin"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "note": "Robin is read as Ronin in this model-recruitment context.",
+      "ref": "A-1C6BEF1D03C6",
+      "type": "Themes"
+    },
+    {
+      "id": "1e148528-1072-4af6-9743-fe128e9c5a57",
+      "sourceHash": "1e2eba6773c280a47a80ea494979c7ff5ebe3d710ed9017f6cb6cc6b22ed73b6",
+      "topics": [
+        "damage",
+        "dice"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-1E1485281072",
+      "type": "Meta"
+    },
+    {
+      "id": "1eb72435-17cb-4eff-8d7b-a176a06aae41",
+      "sourceHash": "ffca586b78237fb5ee2750c5db863a70aa0b4e9503edf34e1441123c32f75157",
+      "topics": [
+        "balance",
+        "theme-value",
+        "agency",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-1EB7243517CB",
+      "type": "Themes"
+    },
+    {
+      "id": "1f2aa24e-5790-4747-821c-8337b15b0153",
+      "sourceHash": "61c31fda33657b369d234d2a48cbf4b4d766de9b1277001b54694e90bb707214",
+      "topics": [
+        "balance",
+        "theme-value",
+        "choices",
+        "ronin"
+      ],
+      "disposition": "substantive",
+      "overallPositive": true,
+      "limitedExperience": false,
+      "ref": "A-1F2AA24E5790",
+      "type": "Meta"
+    },
+    {
+      "id": "1fca057c-12f0-4fda-8087-56d800967ff5",
+      "sourceHash": "26dda9fedd3e10b2fdac1fa96b4b6ee049f11bd9862265d29817975c691a080a",
+      "topics": [
+        "damage"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-1FCA057C12F0",
+      "type": "Meta"
+    },
+    {
+      "id": "20ae5064-2a7b-4031-befa-74fc2469ff85",
+      "sourceHash": "692acbd89dbecb4f345a82da83a26e265e17b1a4dd842b0238838ca5a6251f84",
+      "topics": [
+        "theme-value",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-20AE50642A7B",
+      "type": "Themes"
+    },
+    {
+      "id": "22c2c52b-d521-4af6-a7ae-b8b982f3389d",
+      "sourceHash": "d01d205d2108507e7f0b95d3765f555800d6e840910524ad10c14de823a1bfce",
+      "topics": [
+        "choices",
+        "tempo",
+        "matchups",
+        "mobility"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-22C2C52BD521",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "24d885d6-4ff6-4fe4-b9e0-a32785b88944",
+      "sourceHash": "42dc26194e7755b6fbe76a4ea9d0cc975a74e2be426cf59321417f5c203ce88e",
+      "topics": [
+        "theme-value",
+        "choices",
+        "tempo"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-24D885D64FF6",
+      "type": "Themes"
+    },
+    {
+      "id": "24e70d82-87e0-4667-9b25-bda300a32f35",
+      "sourceHash": "460f2d091b9f4e3adc5ab33250918f6e5c7c3e4cb8cc62d811f20bc4350c2ad6",
+      "topics": [
+        "ronin",
+        "identity",
+        "choices",
+        "dice"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-24E70D8287E0",
+      "type": "Meta"
+    },
+    {
+      "id": "26d4cb31-d873-4872-af56-b16fc5cc47da",
+      "sourceHash": "f915f5caa0a816116f097e02e96022e5bbb83e69fab7f391e9728625f1e725f9",
+      "topics": [
+        "resilience",
+        "tempo",
+        "mobility",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-26D4CB31D873",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "2710eb15-5312-476c-b38f-ec258aa1fb57",
+      "sourceHash": "b8a3f2af7709ebf431c76cd7a9006d29f993b963f6ca9e4ca0c7ca6b0ab85286",
+      "topics": [
+        "rules"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-2710EB155312",
+      "type": "Meta"
+    },
+    {
+      "id": "2a3a5dbf-0db4-4768-a126-a12d64d035c8",
+      "sourceHash": "73e507c27159bbc541bfdd7bb7fe95ac3d957d15c6471bbd29a35668f21d40bc",
+      "topics": [
+        "balance",
+        "choices",
+        "identity"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-2A3A5DBF0DB4",
+      "type": "Meta"
+    },
+    {
+      "id": "30160c2b-b686-4e47-914d-f549c83438dd",
+      "sourceHash": "c5420a3d4218abd303ef564e98a6467754e6c17fd938e74343f462851d7d00b1",
+      "topics": [
+        "matchups",
+        "agency",
+        "ronin",
+        "scenario"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-30160C2BB686",
+      "type": "Meta"
+    },
+    {
+      "id": "307d9d08-9e6b-4f4f-9b20-6879a3d999eb",
+      "sourceHash": "05ad0e3f4353333fe2fe35c5d7a5c1522b12d2de75803cce3d375fb45eee1fdb",
+      "topics": [
+        "theme-value",
+        "tempo"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-307D9D089E6B",
+      "type": "Themes"
+    },
+    {
+      "id": "3460caf0-845a-4cb7-ba1f-77664c19927e",
+      "sourceHash": "8ea4a3e9e6b42b75f526fcd96f3d12189653c83fd135a4055bafec04276b493a",
+      "topics": [
+        "choices",
+        "identity",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-3460CAF0845A",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "3482a14d-1ce1-452b-a3ee-5661f9ecc085",
+      "sourceHash": "978270748b390473aaa7342be9814c64eb038c0e1555483b7d69f4ed5314d725",
+      "topics": [
+        "agency"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-3482A14D1CE1",
+      "type": "Meta"
+    },
+    {
+      "id": "36cd8108-abb7-4c36-a78f-c6e9986281b0",
+      "sourceHash": "f48a55e57e252c6d60292d7796b09fce50d6b7e42fe0b42cbf67b710cd8746a2",
+      "topics": [
+        "theme-value",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-36CD8108ABB7",
+      "type": "Themes"
+    },
+    {
+      "id": "36f87379-59a1-4a5e-83aa-198e860bce7a",
+      "sourceHash": "0ad486fb7df8b959042e133e095f612c23232e6cc7e0782b7ae2fcd2c607ecb3",
+      "topics": [
+        "balance",
+        "theme-value",
+        "ronin",
+        "agency"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-36F8737959A1",
+      "type": "Meta"
+    },
+    {
+      "id": "37014a64-9b9c-409f-b498-5e399ee57941",
+      "sourceHash": "e8dfc061c95617412c4853c1a6666ec6766d722bdcea24a356d59cba6a55e0a5",
+      "topics": [
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-37014A649B9C",
+      "type": "Meta"
+    },
+    {
+      "id": "37a3a3c6-cf2e-4977-9c24-438bad47f5d7",
+      "sourceHash": "b4f98fff69dc72f0dec32d0a015b34039bc0d224fafa599140588804f528b9d8",
+      "topics": [],
+      "disposition": "brief",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "note": "General design criticism; no concrete mechanism given.",
+      "ref": "A-37A3A3C6CF2E",
+      "type": "Themes"
+    },
+    {
+      "id": "384f1f56-b267-44d0-bf49-965892f6ad5c",
+      "sourceHash": "dcdd3d2886106042810140a3fa213f9ea065617ed38dbf6771195e8b7c99438b",
+      "topics": [
+        "damage",
+        "resilience",
+        "mobility",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-384F1F56B267",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "3922de8d-9e64-4468-96a3-77bf71b4ac83",
+      "sourceHash": "e4f3c765f4574c5fabfb44eb4eb3c96183c25d3327762c511aa4e74984ea972b",
+      "topics": [
+        "balance",
+        "theme-value",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": true,
+      "limitedExperience": false,
+      "ref": "A-3922DE8D9E64",
+      "type": "Meta"
+    },
+    {
+      "id": "3b5dfa8c-1d1a-4e2f-a655-264d0300cbd0",
+      "sourceHash": "562a9ec173339e486e06d5b84bd97be3be7c2eb6fe977ddd0c53dfbdcb63a973",
+      "topics": [
+        "balance",
+        "theme-value",
+        "agency"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-3B5DFA8C1D1A",
+      "type": "Meta"
+    },
+    {
+      "id": "3c9c89ce-49dd-4f89-b969-e5bfeaaab45c",
+      "sourceHash": "03f1ad08e251b346ee105b681ee1f190c9f3a127f6f30d784b6fa499247dd46f",
+      "topics": [
+        "agency",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-3C9C89CE49DD",
+      "type": "Meta"
+    },
+    {
+      "id": "3d553877-300e-49ac-9ee3-a0bd7a38400a",
+      "sourceHash": "83c5f73d68e13195bedb1dea6eaab4950f60b34b245bd2e6db16d8be86cef3a5",
+      "topics": [
+        "theme-value",
+        "choices",
+        "mobility",
+        "ki",
+        "development",
+        "agency"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-3D553877300E",
+      "type": "Themes"
+    },
+    {
+      "id": "3f070eb2-15ee-49be-98d6-7be33bdb52a0",
+      "sourceHash": "6e3d5a9cd46b4dcc44d2567d4f9742f523427cbeffd3fc8a43d2eb43dd587d79",
+      "topics": [
+        "scenario",
+        "agency",
+        "dice"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-3F070EB215EE",
+      "type": "Meta"
+    },
+    {
+      "id": "3f15a767-6f76-468d-b0cc-d3ca49efae0c",
+      "sourceHash": "2a2767c22c6a23313b9bd8d38e4c7695a46ce73a725c69b2b7909e7e0230daa9",
+      "topics": [
+        "theme-value",
+        "choices",
+        "agency",
+        "matchups",
+        "tempo",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-3F15A7676F76",
+      "type": "Themes"
+    },
+    {
+      "id": "3f4d0e6b-4dac-4dfb-b691-889353d27cfd",
+      "sourceHash": "a75668717ecb152210f6d1ceefe58800cdb8dc30edd4dabf916a02b2ee0429f3",
+      "topics": [
+        "matchups",
+        "agency",
+        "choices",
+        "mobility",
+        "scenario",
+        "theme-value"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-3F4D0E6B4DAC",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "41c6eba9-abdc-4ec0-bccc-7737b47a6869",
+      "sourceHash": "9c4f55ae2580128844af348ad79ca9df4d5c2e17a6ea199dd9ca67de3c6d7ed6",
+      "topics": [
+        "choices",
+        "scenario"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-41C6EBA9ABDC",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "42fb9110-4c95-4b4c-8792-758f5f8764ed",
+      "sourceHash": "591c25f2298118f366b11b8dc9e4da481460ad1009a4024678f416bab711b537",
+      "topics": [
+        "choices",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-42FB91104C95",
+      "type": "Meta"
+    },
+    {
+      "id": "4361de86-7746-4c6e-a8b0-d83b159de562",
+      "sourceHash": "35da4bd4a8c9f8be8d72f98ade11056f8d37e39582a1f27405dcc36141aba840",
+      "topics": [
+        "theme-value",
+        "ki",
+        "mobility",
+        "agency"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-4361DE867746",
+      "type": "Themes"
+    },
+    {
+      "id": "482537f3-ba70-4312-b908-01f159705137",
+      "sourceHash": "e87bde529ac7cc12c5aa8b49f5efdfb455bb5be154dc35b8a8dfcb7db16cc01d",
+      "topics": [],
+      "disposition": "abstention",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "note": "States that questions were skipped.",
+      "ref": "A-482537F3BA70",
+      "type": "Meta"
+    },
+    {
+      "id": "498de632-b378-4302-9af7-7cf9ae04781b",
+      "sourceHash": "2b3c14c920639c275c972a44ed152f080f2744d138c3d833f308cd617578d0a8",
+      "topics": [
+        "tempo",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-498DE632B378",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "4bab0ab4-da30-4352-846b-2ea63f90ed09",
+      "sourceHash": "edb30984e58c993f71db12f5fd4b4eea50b2cb6b2dfbc90b55696371992a93ee",
+      "topics": [
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-4BAB0AB4DA30",
+      "type": "Meta"
+    },
+    {
+      "id": "4bbdb775-0053-4560-b0d4-b586e6133d52",
+      "sourceHash": "d9840530cc1921c447dc81604ff8e62b7600f737720acb3015aac766265a6ba6",
+      "topics": [
+        "theme-value"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-4BBDB7750053",
+      "type": "Themes"
+    },
+    {
+      "id": "4c12bf45-7719-4695-b0e7-1526e61f3d1a",
+      "sourceHash": "3d58412e94522ee127958d6d70bb7d6f1696f1a7e190fbb29b43a0b2104c2b16",
+      "topics": [],
+      "disposition": "abstention",
+      "overallPositive": false,
+      "limitedExperience": true,
+      "note": "Declares insufficient familiarity with themes.",
+      "ref": "A-4C12BF457719",
+      "type": "Themes"
+    },
+    {
+      "id": "4de7be34-9fe6-49b2-9738-4a1b00cdf1d8",
+      "sourceHash": "8bd543b74feb97b3bbcc25c0af2896d35bf59b192a1b3d207c72232e4377df19",
+      "topics": [
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-4DE7BE349FE6",
+      "type": "Meta"
+    },
+    {
+      "id": "4ee04918-7057-48b0-b969-0c35b33d6fd0",
+      "sourceHash": "f0407ac139c75f02ce44500114ef102f30fe8a1cfe1bb594df744981d1155800",
+      "topics": [
+        "matchups",
+        "agency",
+        "dice",
+        "mobility"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-4EE049187057",
+      "type": "Meta"
+    },
+    {
+      "id": "4ff011b5-28cb-450d-8f3a-723df57e74b1",
+      "sourceHash": "ba1e60c5713278334de98185851f04a5d63b66cecbcff90fe49f0303845d9de0",
+      "topics": [
+        "matchups",
+        "choices",
+        "resilience"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-4FF011B528CB",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "538ef57f-61a9-413a-815b-b3818535aa05",
+      "sourceHash": "f1a5b0054a7627ff34ecf571ef037870824e488b907943054e36935ef3b9eebe",
+      "topics": [
+        "development",
+        "choices",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": true,
+      "limitedExperience": false,
+      "ref": "A-538EF57F61A9",
+      "type": "Meta"
+    },
+    {
+      "id": "5712c4ad-ded8-4669-941b-01a86bc67180",
+      "sourceHash": "ba27ebdc101ed65a600b372b2ebf5c2ef063915e0cb54005184c8b86edbf3136",
+      "topics": [
+        "theme-value",
+        "choices",
+        "ki"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-5712C4ADDED8",
+      "type": "Themes"
+    },
+    {
+      "id": "59f188a6-0f67-4517-82fd-17a5adcc306a",
+      "sourceHash": "1adf459f97aa38c107748b14db4589cdb3ca5e2c9be9c6011a37c26b9731fd34",
+      "topics": [
+        "damage",
+        "resilience",
+        "mobility",
+        "tempo",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-59F188A60F67",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "5e028312-d70a-43ae-bf3c-4d7893872078",
+      "sourceHash": "4dfb57e457c6eb5889488e8754b6e43a33e4ce34719aa8b09f93f04434c0b030",
+      "topics": [
+        "development",
+        "balance",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-5E028312D70A",
+      "type": "Meta"
+    },
+    {
+      "id": "5f57e493-184d-44a7-aae1-7a5ed4b373a4",
+      "sourceHash": "637bce6139276362c4bd459df2e8f297e720d2a3575fe1d529ac9b7b4031a8ff",
+      "topics": [
+        "balance",
+        "damage",
+        "resilience",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-5F57E493184D",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "5f6988f9-edf5-4476-8bb4-a7413d53abfe",
+      "sourceHash": "990f2cc26ba86f54048067ffbc1da9a587ac22f70867482b0de78cf3493bd56d",
+      "topics": [
+        "matchups",
+        "theme-value",
+        "ki"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-5F6988F9EDF5",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "60a1e771-c85b-4bf5-8d1e-8c652ec34947",
+      "sourceHash": "0bc3c521cd6012b42778beea3e957fd8a48c611417bd97a06ab09b81ebc8c4cd",
+      "topics": [
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-60A1E771C85B",
+      "type": "Meta"
+    },
+    {
+      "id": "60dc7561-f9c7-4e3f-a7c1-aa36f8461cb1",
+      "sourceHash": "0501a7b63e1b552ace59090a67c733f93b9c16fcdcf26e1aefdac375f0fc19e0",
+      "topics": [
+        "theme-value"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-60DC7561F9C7",
+      "type": "Meta"
+    },
+    {
+      "id": "62ab39aa-327f-4439-92d2-b150175f0236",
+      "sourceHash": "93d2add7165f2cac94d898d04e234e3ee6e073c88125d32154934cc3178c327a",
+      "topics": [
+        "development"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-62AB39AA327F",
+      "type": "Meta"
+    },
+    {
+      "id": "67948612-8b3f-4e49-8f8e-40a86bc5d2fc",
+      "sourceHash": "4938c21b3cc4b5d82545c16d52f15d3f19ae816ac0d042fcfa5125b4309268b3",
+      "topics": [
+        "dice",
+        "choices",
+        "theme-value",
+        "mobility"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-679486128B3F",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "67b182e9-4028-4f3f-ab40-fa674d8f4da0",
+      "sourceHash": "7fae3c0fe40978bce3882dc553cfa80c90f8c1297b13b31ca72e9123c7230f30",
+      "topics": [
+        "balance",
+        "choices",
+        "theme-value",
+        "matchups",
+        "identity"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-67B182E94028",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "6815dd42-1ccc-4cbc-b146-9b5c135d34ee",
+      "sourceHash": "777f265bf9a0d0e583125212a493cf537c50c053b57bf20b6bbcad1302fd5f54",
+      "topics": [
+        "theme-value",
+        "ki",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-6815DD421CCC",
+      "type": "Themes"
+    },
+    {
+      "id": "68be8a7d-016b-4536-8cd1-1e76fd8e28b7",
+      "sourceHash": "a4006c84115281185a807ac9e93f1698b430d5aa18d9e510f3b4761763d81752",
+      "topics": [
+        "matchups",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-68BE8A7D016B",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "6d1fca1e-14b1-44df-b97f-242aad67f9d3",
+      "sourceHash": "569187b5238355a073e6f366646cd435afaa40541c5c5b5ac471886b5cb03824",
+      "topics": [
+        "ronin",
+        "balance",
+        "choices",
+        "development"
+      ],
+      "disposition": "substantive",
+      "overallPositive": true,
+      "limitedExperience": false,
+      "ref": "A-6D1FCA1E14B1",
+      "type": "Meta"
+    },
+    {
+      "id": "6e22cf56-14f0-4bd3-ba5d-58155127ef81",
+      "sourceHash": "a4f6602190e8503d199fabaf48cb7706dc6ed07c44808004ced3105a4660e9d4",
+      "topics": [
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-6E22CF5614F0",
+      "type": "Meta"
+    },
+    {
+      "id": "6e559d15-9fd0-4501-9ccd-d2d69fd2deb1",
+      "sourceHash": "e438ecd821dd7b0a26608e565744b219e164a56fd50c47de6bcb5016b8682615",
+      "topics": [
+        "resilience",
+        "tempo",
+        "mobility",
+        "damage",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-6E559D159FD0",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "6e6f8d81-bf33-4814-8971-47eca2cd2683",
+      "sourceHash": "467870571ef75f28d9ef3aeb77954a8c6394f24d54083ffb843f029a48579441",
+      "topics": [
+        "matchups",
+        "damage",
+        "resilience"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-6E6F8D81BF33",
+      "type": "Meta"
+    },
+    {
+      "id": "6e74494c-434d-4173-a893-0d97a547d652",
+      "sourceHash": "5add87322595e7ea9578cac8524c3370e19b31a61a5681941edb58aef289c285",
+      "topics": [
+        "balance",
+        "choices",
+        "theme-value",
+        "agency"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-6E74494C434D",
+      "type": "Meta"
+    },
+    {
+      "id": "6f1443d9-a3f2-4421-bf9b-1f5d20f4bce6",
+      "sourceHash": "57f827e649cc839b4a5e0d2475673bd80c73adab192a6c235cf65f9283332236",
+      "topics": [
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-6F1443D9A3F2",
+      "type": "Meta"
+    },
+    {
+      "id": "70a2528b-54c7-4289-a54b-f32dde93daa6",
+      "sourceHash": "323d705f57939a8c27caa6a71dfd3a47d054f4e3530b128f36bf1981a078afda",
+      "topics": [
+        "dice",
+        "tempo",
+        "matchups",
+        "resilience",
+        "mobility"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-70A2528B54C7",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "71ed0e76-844d-40a5-86bd-77bf5229bc2b",
+      "sourceHash": "9a4822689b2077d717be02ce19dc3de6c2ea51092d94e2925440d28408ac0f82",
+      "topics": [
+        "theme-value",
+        "ki",
+        "ronin",
+        "agency"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-71ED0E76844D",
+      "type": "Themes"
+    },
+    {
+      "id": "7213135b-434e-41cd-aba3-9a130869d215",
+      "sourceHash": "e185274dede38479f6bf4f07d4b89cfa21b8dcf0abd3eec6b4937558d1888406",
+      "topics": [
+        "theme-value"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-7213135B434E",
+      "type": "Themes"
+    },
+    {
+      "id": "7215330a-293c-4957-81ea-e25c3151a7c7",
+      "sourceHash": "e0f489aa69e23646d52647f7ee082e5f72ab6dbb511f2411e5c9b8c879e421e6",
+      "topics": [
+        "mobility",
+        "agency",
+        "choices",
+        "theme-value"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-7215330A293C",
+      "type": "Themes"
+    },
+    {
+      "id": "7342d401-2e59-4484-8751-e37f952bd982",
+      "sourceHash": "6e601466814d451888ff04a656c487f798122a15e73c3757ba774d903cd19d5f",
+      "topics": [
+        "choices",
+        "dice",
+        "scenario"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-7342D4012E59",
+      "type": "Meta"
+    },
+    {
+      "id": "74b76206-69db-49a2-97bc-891229f334e9",
+      "sourceHash": "db7bc179c0e26c79a014c0bdbe8df065575752d06379571e3e0d26eff3edcf8b",
+      "topics": [
+        "tempo",
+        "agency",
+        "theme-value"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-74B7620669DB",
+      "type": "Themes"
+    },
+    {
+      "id": "74be6924-4ca4-4d2f-b096-9a35c461e02a",
+      "sourceHash": "83ef67398c03a6cc49b5ed4e2848a1f7e088b059d556a1bcb2ea0423089ee73a",
+      "topics": [
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-74BE69244CA4",
+      "type": "Meta"
+    },
+    {
+      "id": "77203277-1e8b-4ed9-b32e-52ae65bc553c",
+      "sourceHash": "46ab26a0da6a8a1ef2eac810af5498f4b20bf6c0b5e6b1a426d8e6203ab66ca6",
+      "topics": [
+        "tempo",
+        "damage",
+        "ki",
+        "agency",
+        "theme-value"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-772032771E8B",
+      "type": "Themes"
+    },
+    {
+      "id": "777acac3-0d26-4afa-94ba-96629d7e2fe5",
+      "sourceHash": "9af6763a0c73110d4c08838078c16b2ac0b32e87a1bb6c7609ca8ddb6c9b1be4",
+      "topics": [
+        "matchups",
+        "tempo",
+        "theme-value",
+        "ki",
+        "mobility",
+        "scenario",
+        "choices",
+        "development",
+        "damage"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-777ACAC30D26",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "77dbc573-7887-499a-bb17-b24e87841b92",
+      "sourceHash": "769b7ec960411337d8203a2086a4466f6dcf3c4166bdca2a5b1f05c8be20b142",
+      "topics": [
+        "balance",
+        "choices",
+        "dice"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-77DBC5737887",
+      "type": "Meta"
+    },
+    {
+      "id": "787c7842-5e11-4be1-8278-7276a669a76e",
+      "sourceHash": "b976a8d21876334f537f6aa4eab4c92bf492d76378521af9462299fdaf954f57",
+      "topics": [
+        "matchups",
+        "agency"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-787C78425E11",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "78ea9e4f-548a-4337-8ddd-6ab41d19a086",
+      "sourceHash": "7584e2c1a6f4f2184ca5b39864f443c5e05a507c866bd917af1263821e9b3b8b",
+      "topics": [
+        "tempo",
+        "agency",
+        "damage",
+        "resilience",
+        "access"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-78EA9E4F548A",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "7932edd6-c647-477b-9da9-5ce3c218a50d",
+      "sourceHash": "839f048c4a10403a12e13f55523150817c167af0602a4127cb99a23f47eb80ed",
+      "topics": [
+        "development",
+        "choices",
+        "theme-value",
+        "identity"
+      ],
+      "disposition": "substantive",
+      "overallPositive": true,
+      "limitedExperience": false,
+      "ref": "A-7932EDD6C647",
+      "type": "Meta"
+    },
+    {
+      "id": "7987c3e0-e811-4995-9ad0-0f7ef7ae9d87",
+      "sourceHash": "570eeb62301a6385dee2c26bbbfe02528a1609e6f21e0a7b8ecf6a77cadef20c",
+      "topics": [
+        "choices",
+        "theme-value"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-7987C3E0E811",
+      "type": "Themes"
+    },
+    {
+      "id": "7b69e8de-0a0f-40a8-848e-0a6d78f64f61",
+      "sourceHash": "5b797ff0305d0ce34ee4f0fc06f560963056d5804b26840f6c7558b42a994879",
+      "topics": [
+        "balance",
+        "choices",
+        "damage",
+        "rules",
+        "access",
+        "identity"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-7B69E8DE0A0F",
+      "type": "Meta"
+    },
+    {
+      "id": "7c227cf7-6a44-464a-9a3a-d9e2592edcd0",
+      "sourceHash": "73c66e6380dd07f53a5bb9951db7167a3c23ac3089ef6cf3ec7054ebce41a3ee",
+      "topics": [
+        "theme-value",
+        "choices",
+        "ki",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-7C227CF76A44",
+      "type": "Themes"
+    },
+    {
+      "id": "7f48fe2b-0ee1-4ab3-8988-42b31e9b23fd",
+      "sourceHash": "f5e25d092f12a62ff9cae0d1c850f07b3dcb5fd455f8a91372f8ec3ac00b3ec4",
+      "topics": [
+        "development",
+        "identity",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-7F48FE2B0EE1",
+      "type": "Meta"
+    },
+    {
+      "id": "7f897275-2e80-4d18-96e5-64ef067263eb",
+      "sourceHash": "77d716c78a433daba61b41a803f839e1a7fbafd009ac340b22e43df39b42202f",
+      "topics": [
+        "matchups",
+        "mobility",
+        "tempo",
+        "agency",
+        "damage"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-7F8972752E80",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "80a4fb23-689e-43ca-b30b-e384c5424a7f",
+      "sourceHash": "37e89896ef6e1b538921605442f8e91c6e41bcbfa8b324d3477718639c8bfa42",
+      "topics": [
+        "matchups",
+        "agency",
+        "mobility"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-80A4FB23689E",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "817679de-2fcc-4ddb-aac0-1e0251238f85",
+      "sourceHash": "e66b3c58a6473c01aad9952bba4061d6e314ae5b80503c51a5a7954c3e04f380",
+      "topics": [
+        "development",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-817679DE2FCC",
+      "type": "Meta"
+    },
+    {
+      "id": "819d7e10-dbad-4923-9468-2e6b6277cc35",
+      "sourceHash": "078e4ec6c649bf4804b0331223a787d78c4114fc78ef4ca2d4e99a760bca7da2",
+      "topics": [
+        "matchups",
+        "resilience",
+        "agency",
+        "tempo",
+        "dice",
+        "scenario",
+        "identity"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-819D7E10DBAD",
+      "type": "Meta"
+    },
+    {
+      "id": "81c82ee1-9dc2-4309-ba73-123ab51c09dc",
+      "sourceHash": "a62b1d2636f49d8df97447e3d3ea8022f2470d70ff60b658f59a6454a62aa4db",
+      "topics": [
+        "tempo",
+        "ronin"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-81C82EE19DC2",
+      "type": "Meta"
+    },
+    {
+      "id": "8337655f-1dd5-461a-97d5-18bd614acace",
+      "sourceHash": "a98d5b0ac671a8db4f560842ca07e158cd36f61c70f30cab854f0759a3cbf248",
+      "topics": [],
+      "disposition": "abstention",
+      "overallPositive": false,
+      "limitedExperience": true,
+      "note": "Declines to assess themes because new to the game.",
+      "ref": "A-8337655F1DD5",
+      "type": "Themes"
+    },
+    {
+      "id": "8790e663-4f5b-40c3-9fb4-e76ff5a9530a",
+      "sourceHash": "e3faf976289c1101f60bfd37a21b2fbaea207c7bd46e1bf94b2062c21bcfef47",
+      "topics": [
+        "ronin"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-8790E6634F5B",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "89626692-01ca-4860-aa19-d68dfcf380ec",
+      "sourceHash": "5ad194072c3044a5789521b90bc973bc49544e2105e40eec0df58fab150cb2a7",
+      "topics": [
+        "matchups",
+        "development",
+        "balance",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-8962669201CA",
+      "type": "Meta"
+    },
+    {
+      "id": "8a0dda9d-7c16-40e2-abdf-a5f02fcfc19b",
+      "sourceHash": "326ddaacd27f556a7f00b87995d25057c7b1ffc380923c6698fee597701b6243",
+      "topics": [],
+      "disposition": "abstention",
+      "overallPositive": false,
+      "limitedExperience": true,
+      "note": "Declines a detailed theme ranking; no mechanism explained.",
+      "ref": "A-8A0DDA9D7C16",
+      "type": "Themes"
+    },
+    {
+      "id": "8aab7062-ca52-42fa-bd73-4089925301e4",
+      "sourceHash": "5da5bb7e9c9867574e31c10c99a5d7ab305763e4a0c119a5383a65cfb698f014",
+      "topics": [
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-8AAB7062CA52",
+      "type": "Meta"
+    },
+    {
+      "id": "8b763dbe-e3d3-4487-86e6-e101c1df0a3f",
+      "sourceHash": "7a0427f508db2e86710c6910c47f876b8858871dae57c0e01515790a7ab52370",
+      "topics": [
+        "theme-value",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-8B763DBEE3D3",
+      "type": "Themes"
+    },
+    {
+      "id": "8e8da45b-3c5b-41cf-84a7-939d03f3627b",
+      "sourceHash": "228efbb4074b6f2641c1d279a3ec0d51756fa4271442278c7baa166755fd1e4a",
+      "topics": [
+        "matchups",
+        "agency",
+        "resilience",
+        "damage",
+        "tempo",
+        "scenario",
+        "dice",
+        "choices",
+        "ronin",
+        "development",
+        "access"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-8E8DA45B3C5B",
+      "type": "Meta"
+    },
+    {
+      "id": "8ea29d58-aa1a-4eaa-b7e3-554b40806da3",
+      "sourceHash": "59a5f893936ea5af8ff0f3c229a52857210b3f4956d8de9fd07f120b9e2e00ba",
+      "topics": [
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-8EA29D58AA1A",
+      "type": "Meta"
+    },
+    {
+      "id": "8ea701a5-19fb-46a9-b75f-c56ade159841",
+      "sourceHash": "03b5418455e9aa5a07c07e7c3f7ff71e17767e50f94afacf87f12e01e9ca4610",
+      "topics": [
+        "theme-value",
+        "ki",
+        "choices",
+        "agency",
+        "tempo",
+        "scenario"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-8EA701A519FB",
+      "type": "Themes"
+    },
+    {
+      "id": "8ee902bd-e752-469f-a409-26fc472e1c31",
+      "sourceHash": "f5a52c72f71f2c5a856666fd61b4892e1173be326a62fdae6bf645cbc09003bc",
+      "topics": [
+        "resilience",
+        "damage",
+        "matchups",
+        "choices",
+        "development"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-8EE902BDE752",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "8f79a845-999b-49d0-b33e-f50a16b4d8b1",
+      "sourceHash": "a639bcfc5bfe7915736c53904659c71792735cd2f4fc8a8d796b5ef28c421aa6",
+      "topics": [
+        "development"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-8F79A845999B",
+      "type": "Meta"
+    },
+    {
+      "id": "9003a28c-f76d-485c-acad-7d95e418cb29",
+      "sourceHash": "458e19614879d55cd052856d41ec21b55be9a43204d1f1c928186f414fcb7dc7",
+      "topics": [
+        "dice",
+        "resilience",
+        "access"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-9003A28CF76D",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "90596b62-0405-4662-8c6c-a87548dcccb7",
+      "sourceHash": "0355911842df87658918d2ed72276cb3b6a97f238a9c4a21bb2a908591ea6626",
+      "topics": [
+        "choices",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-90596B620405",
+      "type": "Meta"
+    },
+    {
+      "id": "9154bd65-eec4-4c28-882a-9192e7069dae",
+      "sourceHash": "1f9b3c2e1210a44514a5a759394956050a79c5917d595545a3568ca6d65de6f6",
+      "topics": [
+        "resilience"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-9154BD65EEC4",
+      "type": "Themes"
+    },
+    {
+      "id": "915a5ef5-50eb-498e-b219-7c0497277d92",
+      "sourceHash": "9fc8523fb9376932c262c84ea4fbede7e9b7cc4eacb3e893df62d01eeb4ebed4",
+      "topics": [
+        "balance",
+        "damage",
+        "development"
+      ],
+      "disposition": "substantive",
+      "overallPositive": true,
+      "limitedExperience": false,
+      "ref": "A-915A5EF550EB",
+      "type": "Meta"
+    },
+    {
+      "id": "924f6047-9076-4217-888f-5b9014f964d4",
+      "sourceHash": "f34517497677291b8374afc0db8105f73dbef30a889cf95fb627ca347a244217",
+      "topics": [
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-924F60479076",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "95205877-73cb-4d99-ba23-fc481f4625bf",
+      "sourceHash": "adf75a0207db413b1938add588137d6ae785c5f93bc7c33cc4f15d090f7b09f8",
+      "topics": [
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-9520587773CB",
+      "type": "Meta"
+    },
+    {
+      "id": "95b73dbb-a0de-402e-8407-5dcf44505ed9",
+      "sourceHash": "29edf27d94517ef7feb140205fbdf097d4f09d0e7c0b07d9b5eede9c48d4693a",
+      "topics": [
+        "choices",
+        "resilience",
+        "matchups",
+        "agency"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-95B73DBBA0DE",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "96367ab0-f0ea-4126-8538-daf23a570bef",
+      "sourceHash": "ee4be1dde01a8da81a7f47595e1769bf94d22035ec04ab46390685d3d968a3ec",
+      "topics": [
+        "balance",
+        "dice",
+        "mobility"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-96367AB0F0EA",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "9694891b-35ce-494a-b211-266b316cdf4d",
+      "sourceHash": "f1830136bde065149845eed87a4cb3ee65cea0fd73a5f6045415d55afc427718",
+      "topics": [
+        "balance",
+        "damage",
+        "ronin",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": true,
+      "limitedExperience": false,
+      "ref": "A-9694891B35CE",
+      "type": "Meta"
+    },
+    {
+      "id": "9b85ab7d-e807-46ed-aa1e-b521084373d2",
+      "sourceHash": "dbae2d8ae25270af6df99f7a2f32ed3a0bca45fe90a885c0a9a1fc39b5661897",
+      "topics": [
+        "theme-value",
+        "choices",
+        "resilience"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-9B85AB7DE807",
+      "type": "Themes"
+    },
+    {
+      "id": "a019f3e6-1825-453f-a04a-e94ca988d7ab",
+      "sourceHash": "244c65cab49ab1767b440f9c6a6924f93e153b541d63ddfc01b06f95d9fa4858",
+      "topics": [
+        "mobility"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-A019F3E61825",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "a0c79bc7-3a05-4c26-b256-54f8062f975e",
+      "sourceHash": "c0dc572457eb971b8ca02fbf0e3eea2c70e76a7afc4addfc6e536b0af5ca0094",
+      "topics": [
+        "dice",
+        "choices",
+        "ronin",
+        "identity"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-A0C79BC73A05",
+      "type": "Meta"
+    },
+    {
+      "id": "a177a5d0-890d-4c47-88f1-11c65161717b",
+      "sourceHash": "0ec65251e975f548f5d0ee5fe5d06dbfd765b84c07576f80b6f3aac04c2d1b89",
+      "topics": [
+        "choices",
+        "agency",
+        "matchups",
+        "damage"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-A177A5D0890D",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "a1d79838-b69c-46a6-90fd-db8dcbd848fc",
+      "sourceHash": "dc2794b0305c81a33a5d40f948588ccca3e933697e05ed1f5c3275c03fbefd5d",
+      "topics": [
+        "balance",
+        "damage",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-A1D79838B69C",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "a276bd06-9235-452e-a1ff-5d29f03a87e9",
+      "sourceHash": "da77a956da51e95635246a247d98c1a17db5433a4624f48c2b404b8ae5424fce",
+      "topics": [
+        "theme-value",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-A276BD069235",
+      "type": "Themes"
+    },
+    {
+      "id": "a5498fbc-10c7-4806-940c-96f1e15d0953",
+      "sourceHash": "b545a84f88d7814a1116870e1fc3085ed24b5d2318baa0fdb93a69538514f21e",
+      "topics": [
+        "dice",
+        "theme-value",
+        "choices",
+        "resilience",
+        "balance",
+        "agency"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-A5498FBC10C7",
+      "type": "Themes"
+    },
+    {
+      "id": "a62bb574-21ca-4bd0-b817-38a337f83f4e",
+      "sourceHash": "a43cb12c83725ddf30c67ef89ba505d0f297e24adb1e86dea362686c1a371405",
+      "topics": [
+        "theme-value",
+        "choices",
+        "agency",
+        "scenario"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-A62BB57421CA",
+      "type": "Themes"
+    },
+    {
+      "id": "a66ef834-75bb-4f74-b56d-a3e78639ad55",
+      "sourceHash": "51355e2e95e91f0385bc496ee11588be2add92c174c8a3df94ac373e0e980023",
+      "topics": [
+        "choices",
+        "development",
+        "theme-value",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-A66EF83475BB",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "a72f7042-38ea-451b-9af8-ebb9625675c3",
+      "sourceHash": "6a7891a668070cea5d2dfa85a1d3383361f6adba6f08fb8e47166ae550714e0c",
+      "topics": [
+        "theme-value",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-A72F704238EA",
+      "type": "Themes"
+    },
+    {
+      "id": "a7407293-119c-4bac-8e94-1a3d60ed11b4",
+      "sourceHash": "fb14f6148916d101a6acfe844ed19e3ad8b07336e625fb64d234b934098b6c3b",
+      "topics": [
+        "ki",
+        "dice",
+        "choices",
+        "balance",
+        "ronin",
+        "development"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-A7407293119C",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "a7e8275a-07eb-45ea-8701-2cf624a33c52",
+      "sourceHash": "bbc1fca5936ec9a5022dc28e2fa3dd2e5ded27fdf079e9bf613f35eea5371b46",
+      "topics": [
+        "development",
+        "access"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-A7E8275A07EB",
+      "type": "Meta"
+    },
+    {
+      "id": "a8043eff-7aa0-40ea-85c0-7fc613dae4a4",
+      "sourceHash": "4260f0e562a990ef2f971f31ebc81f88f01650784a972b3ef312f2e577180678",
+      "topics": [
+        "balance",
+        "identity",
+        "access"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": true,
+      "ref": "A-A8043EFF7AA0",
+      "type": "Meta"
+    },
+    {
+      "id": "a9bdf416-88e1-4c9a-ab9f-6df1da7cb3b7",
+      "sourceHash": "35e05dca26d6a5a36785d8820e16b1a37ed84e9c133a1805a7ff71201a8779f8",
+      "topics": [
+        "access"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-A9BDF41688E1",
+      "type": "Meta"
+    },
+    {
+      "id": "aecc8c3b-3545-4bd2-94df-acaaf68b6aa5",
+      "sourceHash": "5c430ff655a14cfa0657d7b1d38d35ed77699f3d8754e87181b3c8c69725cf4c",
+      "topics": [
+        "balance",
+        "tempo"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-AECC8C3B3545",
+      "type": "Meta"
+    },
+    {
+      "id": "af768fd4-d9f8-449d-8263-ce859c3e00ef",
+      "sourceHash": "a1e488e736a6b837f721f2f55db5d2b354942181a926ff191522b3b83111909b",
+      "topics": [
+        "matchups",
+        "resilience",
+        "scenario",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-AF768FD4D9F8",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "afe81719-bc2a-42ee-95c4-7d4c27c082c4",
+      "sourceHash": "da1685a62ca28ed3d032168649080188b62f0673d66a101aa938b0ae3f4048f9",
+      "topics": [
+        "matchups",
+        "balance",
+        "choices",
+        "theme-value",
+        "scenario",
+        "development",
+        "resilience"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-AFE81719BC2A",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "b0563be8-db8b-408c-a295-231cc7e5ca6b",
+      "sourceHash": "1b234c50b286482ad9f6ff9a64910b068fb1ce2ae8d6cb9bdf7f33cbfa3d0610",
+      "topics": [
+        "choices",
+        "development",
+        "agency",
+        "access",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-B0563BE8DB8B",
+      "type": "Meta"
+    },
+    {
+      "id": "b18c690a-bf67-4d2d-9b50-f335511a36a5",
+      "sourceHash": "526d7c074fe8aa3e222bb9d61941629e29c95fd8aa844702ddcd0e3bdaa2669e",
+      "topics": [
+        "matchups",
+        "choices",
+        "theme-value"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-B18C690ABF67",
+      "type": "Themes"
+    },
+    {
+      "id": "b2a6cc4a-4bab-42e4-a56e-61e2405e4f00",
+      "sourceHash": "8ecd4039a63e0ba3f82f34b5448748e681f3c4916658637b6bc4fbe1e8d285ce",
+      "topics": [
+        "development",
+        "choices",
+        "identity"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-B2A6CC4A4BAB",
+      "type": "Meta"
+    },
+    {
+      "id": "b3233c38-4185-4439-aa5c-33f2e1d257a0",
+      "sourceHash": "98cbdf021157100362950480f44671791b8177e674d9a26b4d8bf06a3b33f356",
+      "topics": [],
+      "disposition": "brief",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "note": "Faction name and ellipsis; no reason stated.",
+      "ref": "A-B3233C384185",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "b47b92e3-dfe2-4d9d-8dd0-6dd91e6b5f56",
+      "sourceHash": "de8f4271c626cc6899b181e06325107b125d1277eaa7726428e03b44b6930933",
+      "topics": [
+        "agency",
+        "tempo",
+        "ronin",
+        "ki",
+        "choices",
+        "theme-value",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-B47B92E3DFE2",
+      "type": "Meta"
+    },
+    {
+      "id": "b5aebc19-de4d-411e-b982-317ae3d7ea32",
+      "sourceHash": "18cbdc6e8115313e8def664591830ebe38febbad3c9af8d08aaa1faebc43bfa6",
+      "topics": [
+        "theme-value",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-B5AEBC19DE4D",
+      "type": "Themes"
+    },
+    {
+      "id": "b8128127-5aee-4592-acb6-ba9107d57450",
+      "sourceHash": "390d6d4dcf1506245b168ecf0af94c604cec3619992b377f0c7c350998e15df9",
+      "topics": [
+        "matchups",
+        "mobility"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-B81281275AEE",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "b97247da-8594-460c-ad2a-91ebae6c1bb1",
+      "sourceHash": "07331219b6e1487f0ca9abb808cd0b911428d5daef312e95260d06a264b70f0c",
+      "topics": [
+        "theme-value",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-B97247DA8594",
+      "type": "Themes"
+    },
+    {
+      "id": "bacb6e0a-1b03-4c27-946a-9109523156d2",
+      "sourceHash": "4a8b1534dff90bf4515fa5243cddb01d58a153231d6f1350977ff387d87fefe4",
+      "topics": [
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-BACB6E0A1B03",
+      "type": "Meta"
+    },
+    {
+      "id": "bb1096da-ac31-4d6f-9be3-168544091328",
+      "sourceHash": "78dd6ac29b1fba7e9935abbe57e680307229661ab3c11996658bf4298128e3b1",
+      "topics": [
+        "development",
+        "rules",
+        "access",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": true,
+      "limitedExperience": false,
+      "ref": "A-BB1096DAAC31",
+      "type": "Meta"
+    },
+    {
+      "id": "bb266893-96d9-4b82-ba51-886988a2c02c",
+      "sourceHash": "4be9a0f907b980f65b618f1346a8b9ff6a0d7973e39a57e6077ee853c5ffbcf1",
+      "topics": [
+        "matchups",
+        "resilience",
+        "mobility"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-BB26689396D9",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "bb874918-ed98-402a-8e1b-b84c54b2a583",
+      "sourceHash": "91f1ace4bb40697ff55b43277dbf6ed8b6a0b9ada885a8d3e347c5b52a326f0f",
+      "topics": [
+        "balance",
+        "choices",
+        "tempo"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-BB874918ED98",
+      "type": "Meta"
+    },
+    {
+      "id": "bd22e33b-4067-440d-97bb-67d124f47e35",
+      "sourceHash": "7049b04062957172228a7fd619a0f5627d08aa1f71fa52b5630f7324b097c637",
+      "topics": [
+        "theme-value",
+        "ki",
+        "agency",
+        "tempo",
+        "matchups",
+        "balance",
+        "access"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": true,
+      "ref": "A-BD22E33B4067",
+      "type": "Themes"
+    },
+    {
+      "id": "bdab9220-c51a-4db9-a61b-be99a02089ad",
+      "sourceHash": "5995efee76b028d454a08faee37936a2190a778443e00658237bf86779616f75",
+      "topics": [
+        "theme-value",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-BDAB9220C51A",
+      "type": "Themes"
+    },
+    {
+      "id": "bef637bd-1235-4d93-a372-3852adf21391",
+      "sourceHash": "2d0ea3b4522ac7c3e5ce5516ec5f207cc43701a38e6d01b35066e3afc2beaea8",
+      "topics": [
+        "matchups",
+        "agency",
+        "tempo",
+        "damage",
+        "scenario",
+        "choices",
+        "resilience"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-BEF637BD1235",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "c02cd9a5-9694-400c-b82b-012a5a54afb3",
+      "sourceHash": "3ae07a37475d29de7426976f90b92ba1abb535f588fd68b88e678061daedde5a",
+      "topics": [
+        "resilience",
+        "tempo",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-C02CD9A59694",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "c40556b2-b39d-475b-8a0e-991e6a34de8e",
+      "sourceHash": "04f33c24061c4ecd7c7d78377167015bcae302ad625ff797145310ec68fdfe0e",
+      "topics": [
+        "damage",
+        "access"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-C40556B2B39D",
+      "type": "Meta"
+    },
+    {
+      "id": "c49f02fd-586e-42a0-99c2-6acf6c11e57c",
+      "sourceHash": "ff08f40615cb0f051e9b28da6969748607398920e2e2596e2bce6d8c373f3a9a",
+      "topics": [
+        "dice",
+        "matchups",
+        "scenario"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-C49F02FD586E",
+      "type": "Meta"
+    },
+    {
+      "id": "c4c4433f-eeb7-4076-8ad0-27626dd50513",
+      "sourceHash": "af8beb34ac4cc682fd201db4f04f35711818d4e01216ed9804085255b200469c",
+      "topics": [
+        "agency",
+        "balance",
+        "choices",
+        "mobility"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-C4C4433FEEB7",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "c566a233-d2bc-4099-a033-14079d90ffea",
+      "sourceHash": "03ac062433ccd32af50a77b082759829f313ec98c50491d115e9b886ba583001",
+      "topics": [
+        "resilience",
+        "matchups",
+        "theme-value"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-C566A233D2BC",
+      "type": "Themes"
+    },
+    {
+      "id": "c5b0303b-67aa-4f8d-97f0-1281bc8fec56",
+      "sourceHash": "b16bfc19ea40ec399cf696e9fc9c9e16fa1aa4f38c4571635f37e8ce0f6cfbb5",
+      "topics": [
+        "theme-value",
+        "choices",
+        "tempo",
+        "scenario",
+        "resilience"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-C5B0303B67AA",
+      "type": "Themes"
+    },
+    {
+      "id": "c62bbd7e-df2d-4aeb-8d62-b0998e76a94f",
+      "sourceHash": "afa4542eb6b18e7bdee8f44bf6ebc0176a97f07c79c6e87843e7cc112fa1b85c",
+      "topics": [
+        "development",
+        "agency",
+        "choices",
+        "access",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-C62BBD7EDF2D",
+      "type": "Meta"
+    },
+    {
+      "id": "c6d57bf6-bea5-4be9-b651-1ac5975b2ca1",
+      "sourceHash": "a2bcfaa330c15b613e120e9ae7eb6932358f7ec0d0576762230b4baec84d4d9b",
+      "topics": [
+        "theme-value",
+        "choices",
+        "ronin",
+        "tempo",
+        "mobility"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-C6D57BF6BEA5",
+      "type": "Themes"
+    },
+    {
+      "id": "c6e44a38-a01c-4f4c-b775-c3f184ac9524",
+      "sourceHash": "884119802c076464923548bb9c2abf3a70f40709c415aeac2be7b68b7a6d4171",
+      "topics": [
+        "theme-value",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-C6E44A38A01C",
+      "type": "Themes"
+    },
+    {
+      "id": "c8deba2b-3ef8-430f-a62b-2c58e4d43061",
+      "sourceHash": "e7db84376337fff1cb2c21f96572c6e99249f4206bd0b9afcc94cb3627239212",
+      "topics": [
+        "matchups",
+        "resilience",
+        "mobility",
+        "tempo"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-C8DEBA2B3EF8",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "ca7010ac-95bd-4e5a-ab12-b1bc978e50a9",
+      "sourceHash": "e322bdad5f0b661ffd8c858442d834bdadd1697389257c0103a98732c97708c4",
+      "topics": [
+        "matchups",
+        "damage",
+        "tempo"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-CA7010AC95BD",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "cbe6a7e6-a336-4cd8-9ba6-7612fb05f34a",
+      "sourceHash": "7df7fcab895c20742d1bbf9f39833b722f36ae141c833d61a10e14c5e339e873",
+      "topics": [
+        "matchups",
+        "access"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-CBE6A7E6A336",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "cd3f4f7b-f3f3-4ab2-9fac-f9c6119c8972",
+      "sourceHash": "e6e04981cb71ee89b27bb2649fd7e8fc313f690193db51c9fece657d79441008",
+      "topics": [
+        "theme-value",
+        "choices",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-CD3F4F7BF3F3",
+      "type": "Themes"
+    },
+    {
+      "id": "cdf687eb-092d-413b-9cc4-79aead63cf79",
+      "sourceHash": "a50a6ff31a9b81b6ec7324d1a6634561e1fac315dc10625e2c2a3044b0259275",
+      "topics": [
+        "choices",
+        "tempo",
+        "matchups",
+        "resilience",
+        "damage"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-CDF687EB092D",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "ce36bb3d-2d0c-4190-9206-2903d27e1d6b",
+      "sourceHash": "e254e14c439f8d54c0736fb53bfad54d89afed963bccec3bad002dc254b05404",
+      "topics": [
+        "damage",
+        "mobility",
+        "matchups",
+        "resilience"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-CE36BB3D2D0C",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "cf623ff0-b633-40fd-b3d7-a6e7cfecb75f",
+      "sourceHash": "be9e808a82a849200f5346ed5594b2816b4258b9a761fcbdf43c07771c756c0c",
+      "topics": [
+        "balance",
+        "development",
+        "choices",
+        "identity"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-CF623FF0B633",
+      "type": "Meta"
+    },
+    {
+      "id": "d0130288-7502-448d-9483-a404f17ff0db",
+      "sourceHash": "fc3db9e691b5549b7c12aca4adfc61e44baf0df524896d6e0828e5e2d70bf2a7",
+      "topics": [
+        "theme-value",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-D01302887502",
+      "type": "Themes"
+    },
+    {
+      "id": "d4dfff64-d480-47b8-9e1c-3fafe2b22da2",
+      "sourceHash": "7e013fa33065c17cfc028d87999b161a8089cac8caf85a7f5177ba31b3b7a8c7",
+      "topics": [
+        "ronin",
+        "theme-value",
+        "development",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-D4DFFF64D480",
+      "type": "Meta"
+    },
+    {
+      "id": "d751b050-ff5a-4265-ac41-50a53b54d38b",
+      "sourceHash": "6e89c973db4bc35019eb23a5c704ab65174c8a6c52684697be69ac57f0df7578",
+      "topics": [
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": true,
+      "limitedExperience": false,
+      "ref": "A-D751B050FF5A",
+      "type": "Meta"
+    },
+    {
+      "id": "d8034f48-e846-4151-9063-1b9ed994b77a",
+      "sourceHash": "db33c187064db401454d34e8c20a4c06663faefa47fd60d650f00bc7f3e3cd44",
+      "topics": [
+        "tempo",
+        "dice",
+        "damage",
+        "resilience",
+        "matchups",
+        "mobility"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-D8034F48E846",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "d9c41497-42c7-46e5-9a11-2a5eea97bd5b",
+      "sourceHash": "869d49ef02df4effab55c960a111402107dd7a4c5ec0e56aa89e7f5efa23052c",
+      "topics": [
+        "choices",
+        "matchups",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-D9C4149742C7",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "da4907d4-fb32-4eba-aa65-9373e50bacba",
+      "sourceHash": "5380f0dc1b0ff585c804013f9c97088accaa44283c7af34798c2c14c9bde38a1",
+      "topics": [
+        "development",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-DA4907D4FB32",
+      "type": "Meta"
+    },
+    {
+      "id": "db1bf607-1717-4b53-afe7-88a193723b5f",
+      "sourceHash": "b4f86f8c26ef1e7385306719e11720c2ff6ce9eb0fac88ea6f420e43c642bf3f",
+      "topics": [
+        "scenario",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": true,
+      "limitedExperience": false,
+      "ref": "A-DB1BF6071717",
+      "type": "Meta"
+    },
+    {
+      "id": "dbcbc07f-e302-490a-a4b5-18f50a10644d",
+      "sourceHash": "e5f86e0bb415b7d3da7f0893caeb858bb674ed42dd538ba804c1a3481ad78115",
+      "topics": [
+        "theme-value",
+        "ronin",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-DBCBC07FE302",
+      "type": "Themes"
+    },
+    {
+      "id": "dc224289-3571-4286-8c83-d9ec1612a823",
+      "sourceHash": "06cceabec5b254ce72bed36080217db90ff1d728acb38e5b6446de03f42652e4",
+      "topics": [
+        "theme-value",
+        "choices",
+        "identity",
+        "agency",
+        "tempo",
+        "mobility"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-DC2242893571",
+      "type": "Themes"
+    },
+    {
+      "id": "dcdee3e1-7200-4840-b7e3-30b6b4188b6b",
+      "sourceHash": "3893ccee2272848a46228d58a5ac440d253bccf70298d37facea035a74093cc2",
+      "topics": [
+        "theme-value",
+        "choices",
+        "agency"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-DCDEE3E17200",
+      "type": "Themes"
+    },
+    {
+      "id": "df039dc4-993b-4718-8dd2-53f6e7a9e65e",
+      "sourceHash": "abfeda07f53469148d22496d8efdf982f88ec4c1d2965b290a0e9ff63a2db80e",
+      "topics": [
+        "tempo",
+        "matchups",
+        "damage",
+        "mobility"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-DF039DC4993B",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "df24bf96-d2c7-4f9f-88d1-07a2109dc5be",
+      "sourceHash": "71c2bd15e31c44d49cee74a963990562176087df79a83df4ec1b3f1f9e1aa5ae",
+      "topics": [
+        "balance",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": true,
+      "limitedExperience": false,
+      "ref": "A-DF24BF96D2C7",
+      "type": "Meta"
+    },
+    {
+      "id": "df480fea-4773-4f69-82d1-37cf283c12c8",
+      "sourceHash": "2982df541b0a92e6520cd7504e9fc76442bb345d2cc16c4ef75c34e0bf7ef3aa",
+      "topics": [
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-DF480FEA4773",
+      "type": "Meta"
+    },
+    {
+      "id": "e2a209d9-bd35-4102-9a56-d07b3cad72e9",
+      "sourceHash": "848a46a691df1f5e9eaaa733a667fd9ab855e0010282905a9660615a8bcd980c",
+      "topics": [
+        "matchups",
+        "resilience",
+        "choices",
+        "ronin",
+        "theme-value"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-E2A209D9BD35",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "e40e93ea-99de-4d6a-a426-a9cf032da796",
+      "sourceHash": "fbe8574d5a57c5153317032f9387207caaee9fbcad2ea617b65d048ac5af4f7c",
+      "topics": [
+        "resilience",
+        "damage",
+        "matchups",
+        "access"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": true,
+      "ref": "A-E40E93EA99DE",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "e6f04b1e-1638-4994-b129-df7551f58900",
+      "sourceHash": "3851f2d4aa94832ced64c4a775332c1178f997d1bc50bd2652fc694ef30bcbca",
+      "topics": [
+        "theme-value",
+        "choices",
+        "scenario",
+        "tempo",
+        "agency",
+        "balance"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-E6F04B1E1638",
+      "type": "Themes"
+    },
+    {
+      "id": "e71a32e5-d839-41ac-98ac-06d1c4711a59",
+      "sourceHash": "528736f76d6f4a261b58f210094ecec40451608075c7340f35750cd877064d56",
+      "topics": [
+        "agency",
+        "matchups",
+        "damage",
+        "resilience"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-E71A32E5D839",
+      "type": "Meta"
+    },
+    {
+      "id": "e76e5ad2-1d7e-4a54-a586-4b53fc198872",
+      "sourceHash": "dafa7c18afc65f7b568872ff7ecef3cbffb5a7a3205753429c5559f72d4cac87",
+      "topics": [
+        "resilience",
+        "damage",
+        "tempo",
+        "mobility",
+        "matchups",
+        "agency",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-E76E5AD21D7E",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "e7731a66-dd06-4e0f-b34c-db56b449b8b8",
+      "sourceHash": "bd67631b038c37673c910e21b9a651a2ff620818ce63fdaa9a6224248b2f20ad",
+      "topics": [
+        "damage",
+        "resilience",
+        "matchups",
+        "mobility"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-E7731A66DD06",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "e81f01f7-89a2-473a-80da-148726a58a57",
+      "sourceHash": "91d978d73cd76274f6eb257fcb2e960b5d344b0596523c03cd6dd3172227b73a",
+      "topics": [
+        "theme-value",
+        "tempo"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-E81F01F789A2",
+      "type": "Themes"
+    },
+    {
+      "id": "eb6c78ea-985b-477e-b885-9cacb5fdf5e6",
+      "sourceHash": "8e946d49fee804500bb61cbe83a24e2e766aa14eccf915eadead12446bfa429a",
+      "topics": [
+        "matchups",
+        "damage",
+        "resilience"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-EB6C78EA985B",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "ed107e93-70c6-4b6b-a351-ee367ec42eb8",
+      "sourceHash": "b9c9220800be7afcc37588a0dc607a37fea1d3d3149aeff8d71511bf13b167e0",
+      "topics": [
+        "damage",
+        "agency",
+        "mobility",
+        "tempo",
+        "ronin",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-ED107E9370C6",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "ee08a926-6f08-4d16-83bb-2002b175eed7",
+      "sourceHash": "ea093304676fda2fb87fe0f6b21299442b175a90227040debde8f9cd8ca5d282",
+      "topics": [
+        "resilience",
+        "scenario"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-EE08A9266F08",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "ee29815c-b79e-4881-829b-9f942a654e8a",
+      "sourceHash": "a0ff7da809bc108148b6a1adf4371dcc9d60278d8d400206434e3b7ce175592a",
+      "topics": [
+        "mobility",
+        "damage",
+        "resilience",
+        "access"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-EE29815CB79E",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "ee3ef468-bf02-470a-bd13-a63c5c2c1fb4",
+      "sourceHash": "af0bd5ca7406cbf33629a7a6397c6c089bfe06394be07664e8a0677134398daf",
+      "topics": [
+        "mobility",
+        "damage",
+        "resilience",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-EE3EF468BF02",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "ee550d75-e20e-459d-9aa0-18ebcb6dfd09",
+      "sourceHash": "6fdde48ec03f9a17c082b031498a2aca3293fd6e9c55b1628221de52df91599f",
+      "topics": [
+        "resilience"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-EE550D75E20E",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "f044eea0-82f1-464f-a6d0-17af3e4c10c3",
+      "sourceHash": "31cd3ac9b922357164b0ad93a185fe17461b635c8ee9a007239718162ff5779f",
+      "topics": [
+        "matchups",
+        "damage",
+        "tempo",
+        "choices",
+        "development"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-F044EEA082F1",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "f11a1912-9b17-4954-9f16-06cb6b55c238",
+      "sourceHash": "4bbc685f2dfdb4984165c3f54864a3aa03dd3be3a28557e194d8093afcf4e72c",
+      "topics": [
+        "damage"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-F11A19129B17",
+      "type": "Meta"
+    },
+    {
+      "id": "f230c18f-0960-4f01-8f5c-a5fafe1a25eb",
+      "sourceHash": "0f64b2f19df3a1b402031e34b1debbcf41a38bfa7f5ddc79e928f8ebc55c532e",
+      "topics": [
+        "tempo",
+        "mobility",
+        "damage",
+        "matchups"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-F230C18F0960",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "f3653fb5-276e-404d-ada0-c5ebf78cfdb2",
+      "sourceHash": "0a5f70afd199547f16ef45ff3198d6871553ca0cf1e5f84923b35080af386922",
+      "topics": [
+        "dice",
+        "resilience",
+        "balance",
+        "theme-value"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-F3653FB5276E",
+      "type": "Themes"
+    },
+    {
+      "id": "f3b62823-d73b-4076-9159-ae3dd93d5fc0",
+      "sourceHash": "027f4263d37a45f84346ee535c0728cf8c13c7311a90011423ac1bf145c2f24f",
+      "topics": [
+        "matchups",
+        "agency"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-F3B62823D73B",
+      "type": "Faction & Matchups"
+    },
+    {
+      "id": "f46bd9da-ecfc-473e-ba50-0f46c5714f93",
+      "sourceHash": "3fb81d9df71f6b9a3bb7981f5d7f3aec26b423477977a466c4dc14ec15183bb7",
+      "topics": [
+        "agency",
+        "tempo",
+        "development",
+        "rules"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-F46BD9DAECFC",
+      "type": "Meta"
+    },
+    {
+      "id": "f4afcfc4-11ff-42fb-adb5-32ab79a58296",
+      "sourceHash": "cc6da69d5b2c6ed031cf092da3c1afd21f52fae981fa3a4c8d6ceaf34da32a40",
+      "topics": [
+        "choices",
+        "development"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-F4AFCFC411FF",
+      "type": "Themes"
+    },
+    {
+      "id": "f4cdf63b-6bf3-4dea-927f-9e2d0d98ad47",
+      "sourceHash": "7445e67ea6c2854ce3570701b7f87dec0712a452607a573da4618e1a28111efb",
+      "topics": [
+        "agency",
+        "tempo",
+        "scenario",
+        "ronin"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-F4CDF63B6BF3",
+      "type": "Meta"
+    },
+    {
+      "id": "f5cf3332-fd5e-406a-b637-058bf822b7e2",
+      "sourceHash": "47f089aa1b17c337bbb04db7bfce138929fa4f287c8afcbebc4590e66444c4ee",
+      "topics": [
+        "resilience",
+        "theme-value"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-F5CF3332FD5E",
+      "type": "Themes"
+    },
+    {
+      "id": "f8ffca16-821a-4a94-a04f-62d7a7ce5d8c",
+      "sourceHash": "4ad7af272971f5529eb55ccb62a2e00cd9c3b42c87d4c7ca17e2e2e87d042193",
+      "topics": [
+        "balance",
+        "theme-value"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-F8FFCA16821A",
+      "type": "Meta"
+    },
+    {
+      "id": "f9117579-71a8-44e0-ae50-ec42670cbf45",
+      "sourceHash": "61e1b11209a8ecb351dcdc3bc94f8a259bb413bf34fc26949f408f3485371d24",
+      "topics": [
+        "balance",
+        "resilience"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-F911757971A8",
+      "type": "Meta"
+    },
+    {
+      "id": "fb743348-e523-464d-8a04-8543f468d478",
+      "sourceHash": "b162bdb947129d0e2646fb51464aa839b748c23f0f06376cc4062c64bfea6696",
+      "topics": [
+        "rules"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-FB743348E523",
+      "type": "Meta"
+    },
+    {
+      "id": "fbb4a7e0-2413-4809-9d2f-60873d088ffb",
+      "sourceHash": "97e291dd0cddd3711fe1e6a16487b163d603b0b8121418b0ad6611315d1c74fb",
+      "topics": [
+        "theme-value",
+        "choices"
+      ],
+      "disposition": "substantive",
+      "overallPositive": false,
+      "limitedExperience": false,
+      "ref": "A-FBB4A7E02413",
+      "type": "Meta"
+    }
+  ]
+}
