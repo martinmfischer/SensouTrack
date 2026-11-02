@@ -9,7 +9,7 @@ export default defineConfig(({mode})=>{
   const cloud=Boolean(env.VITE_SUPABASE_URL||env.VITE_SUPABASE_PUBLISHABLE_KEY||env.VITE_TURNSTILE_SITE_KEY);
   const origin=cloud?validateCloudConfig({...env,...process.env}):'';
   const adsense=adsenseVerification(env);
-  const cmpActive=env.VITE_ADSENSE_ACTIVE==='true',adsServing=env.VITE_ADSENSE_SERVING==='true';
+  const cmpActive=mode==='meta'&&env.VITE_ADSENSE_ACTIVE==='true',adsServing=mode==='meta'&&env.VITE_ADSENSE_SERVING==='true';
   if(adsServing&&!cmpActive)throw new Error('Ad serving requires the configured Google CMP.');
   if(cmpActive&&!adsense)throw new Error('Google CMP requires the real public AdSense publisher ID.');
   return {define:mode==='meta'?{'import.meta.env.VITE_ADSENSE_ACTIVE':JSON.stringify(cmpActive),'import.meta.env.VITE_ADSENSE_SERVING':JSON.stringify(adsServing),'import.meta.env.VITE_SUPABASE_URL':JSON.stringify(env.VITE_SUPABASE_URL),'import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY':JSON.stringify(env.VITE_SUPABASE_PUBLISHABLE_KEY)}:{},plugins:[react(),{name:'restrict-authentication-origin',transformIndexHtml:{order:'pre',handler(html){

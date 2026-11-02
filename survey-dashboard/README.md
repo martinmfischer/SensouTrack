@@ -1,6 +1,8 @@
 # Sensou · Community Perceptions
 
-Lokales Dashboard für den Hauptlauf **2jEY7L**. Pretests bleiben getrennt.
+Dashboard für den Hauptlauf **2jEY7L**. Die Befragung ist seit 2. November 2026 geschlossen. Der öffentliche Stand enthält fest gespeicherte 165 Abgaben und 214 geprüfte Textantworten. API-Abruf, Timer, Import und Schreibzugriffe sind abgeschaltet. Pretests bleiben getrennt.
+
+Für die öffentliche Website: `npm run build:meta` im Projekt-Hauptordner. Der lokale Vollzugriff benötigt zusätzlich das private Archiv `private/frozen-2026-11-02/` mit Antworten und Prüfliste. Dieses Archiv gehört nicht ins Git. Ein frischer Checkout enthält die öffentlichen Ergebnisse und Kodierungen, aber keine individuellen Zahlenantworten.
 
 Die englische Oberfläche übernimmt Sensous Farben, Typografie, Logo und Wellenmotiv. Diagramme und CSV-Export sind als Community-Wahrnehmungen gekennzeichnet. Der Hinweis „Perceptions · Not game results“ bleibt beim Scrollen sichtbar.
 
@@ -17,7 +19,7 @@ npm run survey:start
 
 Voraussetzung: Node.js 22.13+ und die vorhandenen Projektabhängigkeiten. Es wurden keine zusätzlichen Pakete benötigt. Der Game-Tracker auf Port 5173 bleibt separat.
 
-## Aktuelle Antworten
+## Früherer Abrufbetrieb (historisch, inzwischen abgeschaltet)
 
 - Der eingerichtete Tally-Key wird mit Windows DPAPI für denselben Windows-Benutzer verschlüsselt gespeichert. Er wird beim Neustart wieder geladen. Tally-Keys haben Kontorechte; diese Anwendung ruft ausschließlich lesend das Formular und dessen abgeschlossene Antworten ab.
 - Beim Start, danach alle **fünf Minuten** und über **Aktualisieren** werden alle abgeschlossenen Abgaben des Hauptlaufs heruntergeladen. Das Intervall lässt sich unter **Daten & Methode** ändern.
@@ -142,7 +144,7 @@ API-Vertrag: [Tally Submissions](https://developers.tally.so/api-reference/endpo
 
 Die Auswertungsprüfung wurde durch den Skill `statistical-analysis` unterstützt. Referenz: Kassis, T., Agarwal, V., He, Y., Patel, D., & Brueckner, A. M. (2026). *Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents*. [arXiv](https://doi.org/10.48550/arXiv.2609.00065).
 
-## Cloud-Aktualisierung · 31. Oktober 2026
+## Cloud-Aktualisierung · 31. Oktober 2026 (historisch, inzwischen abgeschaltet)
 
 Die öffentliche Website liest jetzt die veröffentlichte Supabase-Datenrevision. Die Edge Function `survey-refresh` ruft Tally stündlich zur Minute17 ab; `pg_cron` und `pg_net` starten den Job mit einem separaten, in Vault gespeicherten Token. Die Seite prüft alle fünf Minuten auf neue Daten und bietet Refresh. `publication.json` wird erst nach allen Dateien einer Revision ersetzt. Dadurch stammen Diagramme, Gruppen und Texte stets aus demselben Abruf.
 
@@ -163,6 +165,6 @@ Die Cross-Analysis-Matrix bietet nun einen Umschalter für Abweichungen: Gruppen
 
 The survey is closed. The public site reads fixed same-origin JSON files under public/survey/:165 submissions and214 reviewed answers. freeze.json records SHA-256 hashes of all24 result files; publication.json identifies the fixed revision. Site builds check these hashes. Do not run the old snapshot exporter; it now refuses to overwrite a closed survey.
 
-The hourly Supabase job is inactive and survey-refresh returns HTTP410. The local server uses private/frozen-2026-11-02/responses.json and the matching archived review ledger, makes no Tally requests and rejects sync/import/settings writes. Private source backups remain ignored by Git. Public final files are tracked under public/survey/; only the root questionnaire folder /survey/ stays ignored.
+The hourly Supabase job is inactive and survey-refresh returns HTTP410. The local server uses private/frozen-2026-11-02/responses.json and the matching archived review ledger, makes no Tally requests and rejects sync/import/settings writes. Private source backups remain ignored by Git. Public final files are tracked under public/survey/; questionnaire exports under /survey/ stay ignored, with only the public HTML entry survey/index.html tracked.
 
 Topic definitions, coding assignments and authored summaries remain separate. The summaries were rewritten in plain game terms; original source texts and quotes retain their reviewed wording. Recalculate the existing reports with npm run survey:synthesis:build and validate them with npm run survey:test.

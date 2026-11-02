@@ -1,6 +1,6 @@
 # Sensou
 
-Bushido game tracker: React app for browser, Android and iPhone, installable as a PWA.
+Bushido game tracker and community-survey analysis: React for browser, Android and iPhone, with an installable account PWA.
 
 Live: [Game Stats](https://sensoutrack.pages.dev/), [Meta Survey](https://sensoutrack.pages.dev/survey/) and [Accounts / Report a Game](https://app.sensoutrack.pages.dev/#report). All three share sidebar links, including [SensouCalc](https://sensoucalc.pages.dev/). The former Workers address redirects to the account app. Account deployment: `npm run deploy`; legacy redirect deployment: `npm run deploy:legacy-redirect`.
 
@@ -23,6 +23,7 @@ Open http://localhost:5173. The local Node API stores accounts, sessions and gam
 - Personal history, wins/draws/losses, win rate, average VPs, favourite faction, private notes and deletion of your own games.
 - Explicitly separated synthetic demo dataset. Demo records are never inserted into the database.
 - Responsive navigation and tables; web manifest, icons, service worker and an explicit offline screen. Reading and submitting games requires a connection.
+- Final community survey:165 submissions, frozen aggregate results, group comparisons, matchup rankings, topic browser and curated text/faction analyses linked to reviewed source answers. Build with `npm run build:meta`; full local dashboard instructions are in [survey-dashboard/README.md](survey-dashboard/README.md).
 
 UI is English for the international Bushido community. The look uses muted greens, a restrained red seal, seigaiha waves and geometric landscape art. No official faction artwork is copied.
 
@@ -49,7 +50,7 @@ See [HOSTING.md](HOSTING.md) for the free Cloudflare + Supabase setup. The Free 
 
 Android: Chrome → Install app. iPhone: Safari → Share → Add to Home Screen. Desktop: Chrome/Edge install icon. HTTPS is required outside localhost. These are PWA installs; App Store/Google Play listings and native binaries are not included. The responsive React interface can later be wrapped with Capacitor if store distribution becomes necessary.
 
-See [SECURITY.md](SECURITY.md) for security controls, key backup and online launch requirements. Advertising is deferred; see [ADS-OPTIONS.md](ADS-OPTIONS.md) for the requested comparison and illustrative revenue model.
+See [SECURITY.md](SECURITY.md) for security controls and backups, [PROJECT-REVIEW-2026-11-02.md](PROJECT-REVIEW-2026-11-02.md) for the repository audit and remaining checks, and [ADS-OPTIONS.md](ADS-OPTIONS.md) for advertising status and the illustrative revenue model.
 
 ## Storage and operation
 

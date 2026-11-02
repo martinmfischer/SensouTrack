@@ -7,6 +7,9 @@ test('former survey preview redirects to the canonical site and survey mutations
  const worker=(await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'))).default;
  const redirect=await worker.fetch(new Request('https://survey.sensoutrack.pages.dev/survey/?test=1'),{});
  assert.equal(redirect.status,308);assert.equal(redirect.headers.get('location'),'https://sensoutrack.pages.dev/survey/?test=1');
+ const oldRoot=await worker.fetch(new Request('https://survey.sensoutrack.pages.dev/?test=1'),{});
+ assert.equal(oldRoot.headers.get('location'),'https://sensoutrack.pages.dev/survey/?test=1');
+ assert.equal(oldRoot.headers.get('cache-control'),'no-store');
  assert.equal((await worker.fetch(new Request('https://sensoutrack.pages.dev/survey/summary.json',{method:'POST'}),{})).status,405);
 });
 

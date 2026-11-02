@@ -9,7 +9,8 @@ data/
 *.log
 test-results/
 survey-dashboard/dist/
-/survey/
+/survey/*
+!/survey/index.html
 qa/
 survey-dashboard/qa/
 survey-dashboard/private/

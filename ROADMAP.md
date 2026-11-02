@@ -2,7 +2,7 @@
 
 ## Next major area: Tournament Data
 
-User request,27 October2026: add **Tournament Data** as a third top-level area alongside Game Meta and Meta Survey, using Longshanks Bushido tournament results to estimate faction win rates. This is a long-term item, not an empty navigation tab in the current release.
+User request,27 October2026: add **Tournament Data** as a third top-level area alongside Game Stats and Meta Survey, using Longshanks Bushido tournament results to estimate faction win rates. This is a long-term item, not an empty navigation tab in the current release.
 
 - Check Longshanks' current official data/export/API options and terms before implementing a crawler. If scraping is appropriate, use bounded requests, caching and conservative refreshes; do not bypass login, private event access or access controls.
 - Collect only the event/game/faction fields needed for analysis: stable source/event/game identifiers, event and round dates, faction/theme where actually available, outcome, score type, draw status and rules context. Do not publish player names, account identifiers or other unnecessary personal information.

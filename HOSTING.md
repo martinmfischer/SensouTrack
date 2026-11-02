@@ -42,10 +42,14 @@ npm run deploy
 
 `deploy` prüft die öffentliche Supabase-Konfiguration, baut die Oberfläche und veröffentlicht `dist-cloud/` mit `wrangler.jsonc` im Pages-Projekt „sensoutrack“, Branch `app`. Alternativ dort unter New deployment → Preview den Namen `app` verwenden und nur den Inhalt von `dist-cloud/` als ZIP hochladen. Für die öffentliche Website ausschließlich `dist-meta/` auf Production veröffentlichen. Keine Quellcode-, Datenbank- oder Schlüsselordner hochladen. Die alte Workers-Weiterleitung wird getrennt mit `npm run deploy:legacy-redirect` und `wrangler.legacy.jsonc` veröffentlicht. Das CLI wird über npm geladen; seine Anmeldung bleibt außerhalb des Repositories.
 
+Die bestehende Wrangler-Anmeldung hat derzeit nur die freigegebene Worker-Skriptberechtigung. `npm run deploy` benötigt zusätzlich eine Pages-Schreibberechtigung. Bis diese separat autorisiert ist, funktioniert der beschriebene Dashboard-Upload; damit wurden die aktuellen Pages-Versionen veröffentlicht.
+
 8. Die tatsächliche HTTPS-Adresse in Supabase unter Authentication → URL Configuration als Site URL und erlaubte Redirect-URL eintragen, zusätzlich die Adresse mit `/?recovery=1` für Passwort-Reset. Diese beiden exakten Produktionsadressen sind bereits konfiguriert; keine Wildcard. Lokale Cloud-Testadressen nur bei Bedarf separat erlauben.
 9. Auf der echten URL einmal Registrierung mit E-Mail-Bestätigung, Logout/Login, Passwort-Reset, Spielmeldung, persönliche Notizen und Spiel-Löschung testen. Mit zwei Accounts prüfen, dass fremde private Notizen unzugänglich bleiben. Danach Installation auf iPhone und Android prüfen.
 
 Die Account-App nutzt Hash-Navigation und die mitgelieferte `_headers`-Datei. Sie braucht keine Catch-all-Weiterleitung. Der alte Worker verwendet eine 302-Antwort ohne Cache und mit vollständigem Pfad und Query; eine Browserprüfung bestätigt auch den Erhalt von `#report`.
+
+Die frühere Survey-Adresse `survey.sensoutrack.pages.dev` ist ein eigener Pages-Preview-Alias, Branch `survey`. Er leitet zur öffentlichen Website weiter; seine Wurzel zeigt nach `/survey/`. Wenn die Weiterleitungslogik in `scripts/public-meta-worker.mjs` geändert wird, muss auch dieser Preview-Branch mit dem aktuellen `dist-meta/` aktualisiert werden. Ein Production-Deployment allein ändert die ältere Preview nicht.
 
 ## Mailversand für den kostenlosen Test
 

@@ -4,7 +4,7 @@ const cmpActive=__SENSOU_CMP_ACTIVE__;
 export default {
   async fetch(request,env){
     const url=new URL(request.url);
-    if(url.hostname==='survey.sensoutrack.pages.dev')return Response.redirect('https://sensoutrack.pages.dev'+url.pathname+url.search,308);
+    if(url.hostname==='survey.sensoutrack.pages.dev')return new Response(null,{status:308,headers:{...baseHeaders,Location:'https://sensoutrack.pages.dev'+(url.pathname==='/'?'/survey/':url.pathname)+url.search,'Cache-Control':'no-store'}});
     const path=new URL(request.url).pathname;
     if(path.startsWith('/survey/')&&request.method!=='GET'&&request.method!=='HEAD')return new Response(null,{status:405,headers:{...baseHeaders,Allow:'GET, HEAD'}});
     const root=new URL(request.url).pathname==='/';

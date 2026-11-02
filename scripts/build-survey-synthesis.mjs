@@ -40,6 +40,6 @@ const factionCoding=await json('survey-dashboard/synthesis/faction-coding.json')
 validateFactionReview(factionCoding,factionEditorial,resolved.documents);
 const report={schema:2,status:'final',edition:coding.edition,reviewedAt:coding.reviewedAt,cutoff:coding.cutoff,codebookVersion:codebook.version,sourceSubmissions:coding.sourceSubmissions,sourceTextSubmissions:coding.sourceTextSubmissions,questions:codebook.questions,topics:codebook.topics,methods:codebook.methods,references:codebook.references,documents:entries,stats:summarizeDocuments(resolved.documents,codebook.topics),...content,factionReview:{...factionCoding,profiles:factionEditorial.profiles}};
 const output=JSON.stringify(report,null,2)+'\n',destination='survey-dashboard/synthesis-report.json';
-if(args.includes('--check')){if(await readFile(destination,'utf8')!==output)throw Error('Synthesis output is stale. Run npm run survey:synthesis:build.');}
+if(args.includes('--check')){if((await readFile(destination,'utf8')).replaceAll('\r\n','\n')!==output)throw Error('Synthesis output is stale. Run npm run survey:synthesis:build.');}
 else await writeFile(destination,output);
 console.log(JSON.stringify({checked:args.includes('--check'),documents:report.stats.total,substantive:report.stats.substantive,topics:report.topics.length,chapters:report.chapters.length,cases:report.cases.length,positiveOverall:report.stats.positiveOverall,edition:report.edition}));

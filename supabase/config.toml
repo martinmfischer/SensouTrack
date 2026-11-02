@@ -1,3 +1,3 @@
 [functions.survey-refresh]
 verify_jwt = false
-# The function checks a dedicated SURVEY_SYNC_TOKEN before any network request.
+# Closed survey: this retained endpoint returns HTTP410 without reading any secrets or making requests.

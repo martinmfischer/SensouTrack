@@ -3,9 +3,9 @@ import {ArrowUpRight,BarChart3,Calculator,Database,Eye,Filter,Layers3,Menu,Messa
 import {statsOrigin,accountOrigin,calculatorOrigin} from './site-links.mjs';
 import './hub-navigation.css';
 export const surveyViews=[['overview','Overview',BarChart3],['factions','Factions',Layers3],['explore','Explore perceptions',Eye],['cross','Cross-analysis',Filter],['themes','Themes',Layers3],['matchups','Matchups',Swords],['comments','Written responses',MessageSquare],['data','Data & methods',Database]];
-export function MainSiteLinks({current,onReport,onNavigate=()=>{}}){
+export function MainSiteLinks({current,onStats,onReport,onNavigate=()=>{}}){
   return <nav className="hub-source-nav site-main-nav" aria-label="Main sections">
-    <a href={statsOrigin+'/'} aria-current={current==='stats'?'page':undefined} onClick={onNavigate}><BarChart3 size={17}/>Game Stats</a>
+    <a href={onStats?'#meta':statsOrigin+'/'} aria-current={current==='stats'?'page':undefined} onClick={e=>{onNavigate();if(onStats){e.preventDefault();onStats();}}}><BarChart3 size={17}/>Game Stats</a>
     <a href={statsOrigin+'/survey/'} aria-current={current==='survey'?'page':undefined} onClick={onNavigate}><Eye size={17}/>Meta Survey</a>
     <a href={accountOrigin+'/#report'} aria-current={current==='report'?'page':undefined} onClick={e=>{onNavigate();if(onReport){e.preventDefault();onReport();}}}><Swords size={17}/>Report a Game</a>
     <a href={calculatorOrigin+'/'} onClick={onNavigate}><Calculator size={17}/>SensouCalc</a>

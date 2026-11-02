@@ -37,7 +37,8 @@ export const api={
       const result=unwrap(await supabase.auth.signUp({email,password,options:{captchaToken,data:{name},emailRedirectTo:location.origin}}));
       return result.session?{user:await cloudUser()}:{message:'Check your email to confirm registration. If you already have an account, sign in or use password recovery.'};
     }
-    unwrap(await supabase.auth.signInWithPassword({email,password,options:{captchaToken}}));return {user:await cloudUser()};
+    unwrap(await supabase.auth.signInWithPassword({email,password,options:{captchaToken}}));
+    const user=await cloudUser();if(!user)throw new Error('Your session could not be verified. Please sign in again.');return {user};
   },
   async logout(all=false){
     if(supabase)unwrap(await supabase.auth.signOut({scope:all?'global':'local'}));else await request(all?'/auth/logout-all':'/auth/logout','POST',{});
@@ -51,12 +52,17 @@ export const api={
     return games.sort((a,b)=>b.date.localeCompare(a.date));
   },
   async save(game){if(supabase)return unwrap(await supabase.from('games').insert({payload:game}));return request('/games','POST',game);},
-  async remove(id){if(supabase)unwrap(await supabase.from('games').delete().eq('id',id));else await request(`/games/${id}`,'DELETE');},
+  async remove(id){
+    if(supabase){
+      const rows=unwrap(await supabase.from('games').delete().eq('id',id).select('id'));
+      if(rows.length!==1)throw new Error('The game could not be deleted. Sign in again and reload your history.');
+    }else await request(`/games/${id}`,'DELETE');
+  },
   async reset(email,captchaToken){unwrap(await supabase.auth.resetPasswordForEmail(email,{redirectTo:location.origin+'/?recovery=1',captchaToken}));},
   async updatePassword(password){if(password.length<15||password.length>128)throw new Error('Use a passphrase of 15–128 characters.');const user=await cloudUser();if(!user)throw new Error('Open a valid password reset link from your email.');unwrap(await supabase.auth.updateUser({password}));await this.logout(true);},
   async changePassword(input){
     if(!supabase){await request('/auth/password','POST',input);cleared();channel?.postMessage('signed-out');return;}
     throw new Error('For a hosted account, use the verified email recovery flow.');
   },
-  listen(callback){const handler=()=>callback(null,'SIGNED_OUT');window.addEventListener('sensou-signout',handler);const subscription=supabase?.auth.onAuthStateChange(event=>{if(event==='PASSWORD_RECOVERY')callback(null,event);else if(event==='SIGNED_OUT')callback(null,event);});return()=>{window.removeEventListener('sensou-signout',handler);subscription?.data.subscription.unsubscribe();};}
+  listen(callback){const handler=()=>callback(null,'SIGNED_OUT');window.addEventListener('sensou-signout',handler);const subscription=supabase?.auth.onAuthStateChange(event=>{if(event==='PASSWORD_RECOVERY')callback(null,event);else if(event==='SIGNED_OUT')cleared();});return()=>{window.removeEventListener('sensou-signout',handler);subscription?.data.subscription.unsubscribe();};}
 };
