@@ -157,3 +157,12 @@ Die erste Textanalyse ist unter `#comments` integriert:214 einzeln gelesene Doku
 Der modulare Aufbau und die Befehle für den nächsten Durchgang stehen in [synthesis/README.md](synthesis/README.md). Die Ausgabe wird aus Codebuch, Einzelzuordnungen und ausformulierten Lesarten erzeugt. Der Build prüft die Quellen-Hashes und Belege. Der neue lokale Endpunkt `/api/public-texts` liefert ausschließlich die anonymitätsgeprüfte Projektion; Rohprofile gelangen nicht in die Textsynthese.
 
 Die Cross-Analysis-Matrix bietet nun einen Umschalter für Abweichungen: Gruppenmittel minus Durchschnitt derselben Fraktion in der aktuellen Gesamtauswahl. Rohwerte, gültige n und Verteilungen bleiben in den Details sichtbar. Die Farbskala ist symmetrisch um0. Kleine bzw. ausgeblendete Werte behalten ihre bisherigen Grenzen.
+
+
+## Final dataset · 2 November 2026
+
+The survey is closed. The public site reads fixed same-origin JSON files under public/survey/:165 submissions and214 reviewed answers. freeze.json records SHA-256 hashes of all24 result files; publication.json identifies the fixed revision. Site builds check these hashes. Do not run the old snapshot exporter; it now refuses to overwrite a closed survey.
+
+The hourly Supabase job is inactive and survey-refresh returns HTTP410. The local server uses private/frozen-2026-11-02/responses.json and the matching archived review ledger, makes no Tally requests and rejects sync/import/settings writes. Private source backups remain ignored by Git. Public final files are tracked under public/survey/; only the root questionnaire folder /survey/ stays ignored.
+
+Topic definitions, coding assignments and authored summaries remain separate. The summaries were rewritten in plain game terms; original source texts and quotes retain their reviewed wording. Recalculate the existing reports with npm run survey:synthesis:build and validate them with npm run survey:test.

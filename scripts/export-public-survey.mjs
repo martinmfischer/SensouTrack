@@ -1,5 +1,7 @@
 import {readFile,mkdir,writeFile,readdir,unlink} from 'node:fs/promises';
 import {publicPublication} from '../survey-dashboard/publication.mjs';
+import {SURVEY_CLOSED} from '../survey-dashboard/survey-status.mjs';
+if(SURVEY_CLOSED)throw Error('Survey is closed. The frozen publication must not be overwritten.');
 const snapshot=JSON.parse(await readFile(new URL('../survey-dashboard/private/responses.json',import.meta.url),'utf8'));
 let ledger;
 try{ledger=JSON.parse(await readFile(new URL('../survey-dashboard/private/public-text-review.json',import.meta.url),'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;}

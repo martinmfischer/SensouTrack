@@ -73,3 +73,21 @@ Background refresh correction: the group display and cohort controls remain moun
 Written responses navigation update (1 November): #comments now opens the full Synthesis as the default. #comments/topics holds a compact keyword explorer with source answers, filters and CSV. #comments/factions provides the requested layout-only analysis by respondent main faction, with all 15 choices and shareable faction URLs. No faction-level findings or source-profile links were published. Legacy #synthesis evidence URLs remain supported. Verification: 23 app tests and 49 survey tests passed; public/local builds, release privacy audit, HTTPS asset checks, desktop/mobile navigation and linked evidence verified. Details: qa/synthesis/WRITTEN-RESPONSES-2026-11-01.md.
 
 Deviation colour update (1 November): current survey bundle survey-AbbjBro0.js. Robust symmetric 90th-percentile colour range, saturated endpoint colours and contrast-aware black/white labels; full numeric deviations retained. 50 survey tests, both builds and privacy audit passed. Live legend and bundle verified. Evidence: qa/synthesis/DEVIATION-COLOURS-2026-11-01.md and deviation-colours-live.png.
+
+
+## Faction text review · 2 November 2026
+
+The former By main faction template is now By faction at /survey/#comments/factions. Fifteen authored profiles contain 69 findings. All214 coded documents were read with private context;331 faction–document assignments cover149 documents (219 explicit names/shorthand;112 context). Main-faction context resolves implicit subjects without publishing respondent profiles or cross-answer joins. Named references take precedence within each faction–document pair. Counts are documents, including passing mentions, and conclusions link selected relevant passages.
+
+New modules: synthesis/faction-coding.json, synthesis/faction-editorial.json, faction-synthesis.mjs and FactionSynthesis.jsx. Existing synthesis build validates the edition, references, literal mention wording and source hashes. Evidence opens in the existing searchable dialog. New/changed/removed source handling follows the main synthesis.
+
+Validation:51 survey tests pass, public/local builds pass, privacy scan found no private files or raw respondent/submission IDs in the public bundle. Browser checks cover faction navigation and contextual Shiho evidence. Public bundle survey-BTdxCsyl.js. The private sensitive-statement report is deliberately excluded from the release. Cloudflare upload reports Success.
+
+
+## Survey closed and frozen · 2 November 2026
+
+165 submissions and214 reviewed text answers are fixed under public/survey/. Their24 data-file hashes are recorded in freeze.json and checked on every public/local survey build. Publication no longer depends on Supabase storage, Tally or periodic browser checks. The participation button is disabled; the sidebar shows Survey closed. Group filters, tables, charts, source links and exports continue to use the same final snapshot. Source snapshot:2026-11-02T09:17:03.113Z; frozen:2026-11-02T10:17:27.001Z.
+
+Supabase cron job1 sensou-survey-hourly was disabled through cron.alter_job and read back active=false. The deployed Edge Function was replaced with a closed-survey response; a real HTTP request returned410 and Survey closed. Data is frozen. The local survey server has no refresh timer and rejects writes while closed; private raw responses, raw Tally data and review ledger are archived in private/frozen-2026-11-02/.
+
+Synthesis, all faction profiles, comparison-chart labels, public home copy and both privacy notices were reviewed. Abstract headings and repeated qualifications were replaced with short explanations using model, theme, Ki, OpKi, Fear, camouflage, Sixth Sense, pass and scenario terms. Public texts and quoted respondent wording were kept intact.

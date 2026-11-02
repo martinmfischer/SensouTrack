@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "edition": "2026-11-01",
+  "edition": "2026-11-02",
   "codebookVersion": "1.0.0",
-  "reviewedAt": "2026-11-01T19:32:17.388Z",
-  "cutoff": "2026-11-01T19:25:54.003Z",
-  "sourceSubmissions": 164,
+  "reviewedAt": "2026-11-02T10:22:11.192Z",
+  "cutoff": "2026-11-02T09:17:03.113Z",
+  "sourceSubmissions": 165,
   "sourceTextSubmissions": 102,
   "sourceQuestions": {
     "Meta": 89,

@@ -1,0 +1,2443 @@
+{
+  "schema": 1,
+  "edition": "2026-11-02",
+  "reviewedDocuments": 214,
+  "method": "Each answer was read. Name and shorthand matches were checked; implicit subjects were resolved from the question, named models/themes and private main-faction context. Only faction-specific passages were assigned. General meta comments were excluded.",
+  "entries": [
+    {
+      "ref": "A-02D6A871CFD9",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "ninja"
+      ]
+    },
+    {
+      "ref": "A-04716C33B573",
+      "faction": "Ito Clan",
+      "kind": "mention",
+      "terms": [
+        "Ito"
+      ]
+    },
+    {
+      "ref": "A-04716C33B573",
+      "faction": "Savage Wave",
+      "kind": "mention",
+      "terms": [
+        "Savage wave"
+      ]
+    },
+    {
+      "ref": "A-078F00ABAC75",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Ryu"
+      ]
+    },
+    {
+      "ref": "A-078F00ABAC75",
+      "faction": "The Awoken",
+      "kind": "mention",
+      "terms": [
+        "Awoken"
+      ]
+    },
+    {
+      "ref": "A-09C9C71AF347",
+      "faction": "Horse Lords of Ataka",
+      "kind": "mention",
+      "terms": [
+        "ataka"
+      ]
+    },
+    {
+      "ref": "A-0AED704C91B7",
+      "faction": "The Descension",
+      "kind": "mention",
+      "terms": [
+        "Descension"
+      ]
+    },
+    {
+      "ref": "A-0C7F6B355CB2",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "Shiho"
+      ]
+    },
+    {
+      "ref": "A-124959AA8F80",
+      "faction": "Cult of Yurei",
+      "kind": "mention",
+      "terms": [
+        "Cult"
+      ]
+    },
+    {
+      "ref": "A-124959AA8F80",
+      "faction": "Horse Lords of Ataka",
+      "kind": "mention",
+      "terms": [
+        "Horselords"
+      ]
+    },
+    {
+      "ref": "A-124959AA8F80",
+      "faction": "Kinshi Temple",
+      "kind": "mention",
+      "terms": [
+        "Kinshi"
+      ]
+    },
+    {
+      "ref": "A-124959AA8F80",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Prefecture"
+      ]
+    },
+    {
+      "ref": "A-124959AA8F80",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "Shiho"
+      ]
+    },
+    {
+      "ref": "A-124959AA8F80",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "Temple"
+      ]
+    },
+    {
+      "ref": "A-124959AA8F80",
+      "faction": "The Descension",
+      "kind": "mention",
+      "terms": [
+        "Descension"
+      ]
+    },
+    {
+      "ref": "A-124959AA8F80",
+      "faction": "The Imperial Court",
+      "kind": "mention",
+      "terms": [
+        "Imperials"
+      ]
+    },
+    {
+      "ref": "A-18BDF4B1023A",
+      "faction": "Jung Pirates",
+      "kind": "mention",
+      "terms": [
+        "jung",
+        "Jung"
+      ]
+    },
+    {
+      "ref": "A-18BDF4B1023A",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "Shiho"
+      ]
+    },
+    {
+      "ref": "A-18BDF4B1023A",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "Temple"
+      ]
+    },
+    {
+      "ref": "A-1EB7243517CB",
+      "faction": "The Descension",
+      "kind": "mention",
+      "terms": [
+        "Descension"
+      ]
+    },
+    {
+      "ref": "A-1F2AA24E5790",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "Shiho"
+      ]
+    },
+    {
+      "ref": "A-22C2C52BD521",
+      "faction": "Cult of Yurei",
+      "kind": "mention",
+      "terms": [
+        "Cult"
+      ]
+    },
+    {
+      "ref": "A-22C2C52BD521",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-22C2C52BD521",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Prefecture"
+      ]
+    },
+    {
+      "ref": "A-26D4CB31D873",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-307D9D089E6B",
+      "faction": "Kinshi Temple",
+      "kind": "mention",
+      "terms": [
+        "Kinshi"
+      ]
+    },
+    {
+      "ref": "A-307D9D089E6B",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "Temple"
+      ]
+    },
+    {
+      "ref": "A-3460CAF0845A",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "Ro-Kan",
+        "temple"
+      ]
+    },
+    {
+      "ref": "A-36CD8108ABB7",
+      "faction": "Jung Pirates",
+      "kind": "mention",
+      "terms": [
+        "Jung"
+      ]
+    },
+    {
+      "ref": "A-36CD8108ABB7",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "prefecture",
+        "Ryu"
+      ]
+    },
+    {
+      "ref": "A-36CD8108ABB7",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "Temple"
+      ]
+    },
+    {
+      "ref": "A-384F1F56B267",
+      "faction": "Cult of Yurei",
+      "kind": "mention",
+      "terms": [
+        "Yurei"
+      ]
+    },
+    {
+      "ref": "A-384F1F56B267",
+      "faction": "Jung Pirates",
+      "kind": "mention",
+      "terms": [
+        "Jung"
+      ]
+    },
+    {
+      "ref": "A-384F1F56B267",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-3922DE8D9E64",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "Ninja"
+      ]
+    },
+    {
+      "ref": "A-3D553877300E",
+      "faction": "Cult of Yurei",
+      "kind": "mention",
+      "terms": [
+        "Cult"
+      ]
+    },
+    {
+      "ref": "A-3D553877300E",
+      "faction": "Jung Pirates",
+      "kind": "mention",
+      "terms": [
+        "Jung"
+      ]
+    },
+    {
+      "ref": "A-3D553877300E",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-3F15A7676F76",
+      "faction": "Jung Pirates",
+      "kind": "mention",
+      "terms": [
+        "pirates"
+      ]
+    },
+    {
+      "ref": "A-3F4D0E6B4DAC",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Ryu"
+      ]
+    },
+    {
+      "ref": "A-3F4D0E6B4DAC",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "ninjas"
+      ]
+    },
+    {
+      "ref": "A-3F4D0E6B4DAC",
+      "faction": "Silvermoon Trade Syndicate",
+      "kind": "mention",
+      "terms": [
+        "sts"
+      ]
+    },
+    {
+      "ref": "A-41C6EBA9ABDC",
+      "faction": "The Awoken",
+      "kind": "mention",
+      "terms": [
+        "awoken"
+      ]
+    },
+    {
+      "ref": "A-42FB91104C95",
+      "faction": "The Awoken",
+      "kind": "mention",
+      "terms": [
+        "awoken"
+      ]
+    },
+    {
+      "ref": "A-498DE632B378",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Ryu"
+      ]
+    },
+    {
+      "ref": "A-498DE632B378",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "ninjas"
+      ]
+    },
+    {
+      "ref": "A-498DE632B378",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "Temple"
+      ]
+    },
+    {
+      "ref": "A-498DE632B378",
+      "faction": "The Awoken",
+      "kind": "mention",
+      "terms": [
+        "awoken"
+      ]
+    },
+    {
+      "ref": "A-4DE7BE349FE6",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "shiho"
+      ]
+    },
+    {
+      "ref": "A-59F188A60F67",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-5E028312D70A",
+      "faction": "Horse Lords of Ataka",
+      "kind": "mention",
+      "terms": [
+        "horse lords"
+      ]
+    },
+    {
+      "ref": "A-5F57E493184D",
+      "faction": "Ito Clan",
+      "kind": "mention",
+      "terms": [
+        "Ito"
+      ]
+    },
+    {
+      "ref": "A-5F57E493184D",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-60A1E771C85B",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-60A1E771C85B",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Ryu"
+      ]
+    },
+    {
+      "ref": "A-62AB39AA327F",
+      "faction": "The Awoken",
+      "kind": "mention",
+      "terms": [
+        "Awoken"
+      ]
+    },
+    {
+      "ref": "A-67B182E94028",
+      "faction": "Jung Pirates",
+      "kind": "mention",
+      "terms": [
+        "Jung"
+      ]
+    },
+    {
+      "ref": "A-68BE8A7D016B",
+      "faction": "Savage Wave",
+      "kind": "mention",
+      "terms": [
+        "SW"
+      ]
+    },
+    {
+      "ref": "A-6E559D159FD0",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "minimoto",
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-6E559D159FD0",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Ryu"
+      ]
+    },
+    {
+      "ref": "A-6E6F8D81BF33",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "minimoto"
+      ]
+    },
+    {
+      "ref": "A-6E6F8D81BF33",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "ninjas",
+        "ninja"
+      ]
+    },
+    {
+      "ref": "A-6E74494C434D",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "Temple",
+        "temple"
+      ]
+    },
+    {
+      "ref": "A-6F1443D9A3F2",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-70A2528B54C7",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-70A2528B54C7",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "KKZ"
+      ]
+    },
+    {
+      "ref": "A-7342D4012E59",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-7342D4012E59",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "Ninja"
+      ]
+    },
+    {
+      "ref": "A-74BE69244CA4",
+      "faction": "Horse Lords of Ataka",
+      "kind": "mention",
+      "terms": [
+        "Horsegirls"
+      ]
+    },
+    {
+      "ref": "A-74BE69244CA4",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-74BE69244CA4",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "Ninja"
+      ]
+    },
+    {
+      "ref": "A-772032771E8B",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Ryu"
+      ]
+    },
+    {
+      "ref": "A-777ACAC30D26",
+      "faction": "Horse Lords of Ataka",
+      "kind": "mention",
+      "terms": [
+        "Horses"
+      ]
+    },
+    {
+      "ref": "A-777ACAC30D26",
+      "faction": "Ito Clan",
+      "kind": "mention",
+      "terms": [
+        "Ito"
+      ]
+    },
+    {
+      "ref": "A-777ACAC30D26",
+      "faction": "Kinshi Temple",
+      "kind": "mention",
+      "terms": [
+        "Kinshi"
+      ]
+    },
+    {
+      "ref": "A-777ACAC30D26",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Ryu"
+      ]
+    },
+    {
+      "ref": "A-777ACAC30D26",
+      "faction": "Savage Wave",
+      "kind": "mention",
+      "terms": [
+        "Savage Wave"
+      ]
+    },
+    {
+      "ref": "A-777ACAC30D26",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "temple"
+      ]
+    },
+    {
+      "ref": "A-777ACAC30D26",
+      "faction": "The Imperial Court",
+      "kind": "mention",
+      "terms": [
+        "Imperial Court"
+      ]
+    },
+    {
+      "ref": "A-78EA9E4F548A",
+      "faction": "Savage Wave",
+      "kind": "mention",
+      "terms": [
+        "Savage Wave"
+      ]
+    },
+    {
+      "ref": "A-78EA9E4F548A",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "ninja",
+        "ninjas"
+      ]
+    },
+    {
+      "ref": "A-7932EDD6C647",
+      "faction": "Jung Pirates",
+      "kind": "mention",
+      "terms": [
+        "Jung"
+      ]
+    },
+    {
+      "ref": "A-7932EDD6C647",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-7932EDD6C647",
+      "faction": "The Awoken",
+      "kind": "mention",
+      "terms": [
+        "Awoken"
+      ]
+    },
+    {
+      "ref": "A-7987C3E0E811",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "Templer"
+      ]
+    },
+    {
+      "ref": "A-7B69E8DE0A0F",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-7C227CF76A44",
+      "faction": "Cult of Yurei",
+      "kind": "mention",
+      "terms": [
+        "Yurei",
+        "cult"
+      ]
+    },
+    {
+      "ref": "A-7C227CF76A44",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Prefecture"
+      ]
+    },
+    {
+      "ref": "A-7C227CF76A44",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "temple"
+      ]
+    },
+    {
+      "ref": "A-7F48FE2B0EE1",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Ryu"
+      ]
+    },
+    {
+      "ref": "A-7F8972752E80",
+      "faction": "Horse Lords of Ataka",
+      "kind": "mention",
+      "terms": [
+        "Horse Lords"
+      ]
+    },
+    {
+      "ref": "A-7F8972752E80",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "ninjas",
+        "Ninjas"
+      ]
+    },
+    {
+      "ref": "A-80A4FB23689E",
+      "faction": "Jung Pirates",
+      "kind": "mention",
+      "terms": [
+        "Pirates"
+      ]
+    },
+    {
+      "ref": "A-80A4FB23689E",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "minimoto"
+      ]
+    },
+    {
+      "ref": "A-80A4FB23689E",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "ninja"
+      ]
+    },
+    {
+      "ref": "A-80A4FB23689E",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "Shiho"
+      ]
+    },
+    {
+      "ref": "A-80A4FB23689E",
+      "faction": "Silvermoon Trade Syndicate",
+      "kind": "mention",
+      "terms": [
+        "Syndicate"
+      ]
+    },
+    {
+      "ref": "A-80A4FB23689E",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "temple"
+      ]
+    },
+    {
+      "ref": "A-819D7E10DBAD",
+      "faction": "Cult of Yurei",
+      "kind": "mention",
+      "terms": [
+        "Cult"
+      ]
+    },
+    {
+      "ref": "A-819D7E10DBAD",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Ryu"
+      ]
+    },
+    {
+      "ref": "A-819D7E10DBAD",
+      "faction": "The Descension",
+      "kind": "mention",
+      "terms": [
+        "Descension"
+      ]
+    },
+    {
+      "ref": "A-8962669201CA",
+      "faction": "Savage Wave",
+      "kind": "mention",
+      "terms": [
+        "savage wave"
+      ]
+    },
+    {
+      "ref": "A-8E8DA45B3C5B",
+      "faction": "Horse Lords of Ataka",
+      "kind": "mention",
+      "terms": [
+        "Horselords"
+      ]
+    },
+    {
+      "ref": "A-8E8DA45B3C5B",
+      "faction": "Kinshi Temple",
+      "kind": "mention",
+      "terms": [
+        "Kinshi"
+      ]
+    },
+    {
+      "ref": "A-8E8DA45B3C5B",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-8E8DA45B3C5B",
+      "faction": "Savage Wave",
+      "kind": "mention",
+      "terms": [
+        "Savage Wave"
+      ]
+    },
+    {
+      "ref": "A-8E8DA45B3C5B",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "Ninja"
+      ]
+    },
+    {
+      "ref": "A-8E8DA45B3C5B",
+      "faction": "The Descension",
+      "kind": "mention",
+      "terms": [
+        "Descension"
+      ]
+    },
+    {
+      "ref": "A-8E8DA45B3C5B",
+      "faction": "The Imperial Court",
+      "kind": "mention",
+      "terms": [
+        "Imperial Court"
+      ]
+    },
+    {
+      "ref": "A-8EA29D58AA1A",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "Ninjas"
+      ]
+    },
+    {
+      "ref": "A-9154BD65EEC4",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-915A5EF550EB",
+      "faction": "Cult of Yurei",
+      "kind": "mention",
+      "terms": [
+        "cult"
+      ]
+    },
+    {
+      "ref": "A-915A5EF550EB",
+      "faction": "Horse Lords of Ataka",
+      "kind": "mention",
+      "terms": [
+        "horselords"
+      ]
+    },
+    {
+      "ref": "A-915A5EF550EB",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Ryu"
+      ]
+    },
+    {
+      "ref": "A-915A5EF550EB",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "shiho"
+      ]
+    },
+    {
+      "ref": "A-96367AB0F0EA",
+      "faction": "Silvermoon Trade Syndicate",
+      "kind": "mention",
+      "terms": [
+        "STS"
+      ]
+    },
+    {
+      "ref": "A-9694891B35CE",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "Shiho"
+      ]
+    },
+    {
+      "ref": "A-A0C79BC73A05",
+      "faction": "Silvermoon Trade Syndicate",
+      "kind": "mention",
+      "terms": [
+        "STS"
+      ]
+    },
+    {
+      "ref": "A-A62BB57421CA",
+      "faction": "Jung Pirates",
+      "kind": "mention",
+      "terms": [
+        "Jung"
+      ]
+    },
+    {
+      "ref": "A-A62BB57421CA",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-A66EF83475BB",
+      "faction": "Jung Pirates",
+      "kind": "mention",
+      "terms": [
+        "Jung"
+      ]
+    },
+    {
+      "ref": "A-A7407293119C",
+      "faction": "Jung Pirates",
+      "kind": "mention",
+      "terms": [
+        "Jung"
+      ]
+    },
+    {
+      "ref": "A-A8043EFF7AA0",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "shadow clan"
+      ]
+    },
+    {
+      "ref": "A-A8043EFF7AA0",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "Shiho"
+      ]
+    },
+    {
+      "ref": "A-AECC8C3B3545",
+      "faction": "Jung Pirates",
+      "kind": "mention",
+      "terms": [
+        "Jung"
+      ]
+    },
+    {
+      "ref": "A-AECC8C3B3545",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "ryu"
+      ]
+    },
+    {
+      "ref": "A-AF768FD4D9F8",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "Shiho"
+      ]
+    },
+    {
+      "ref": "A-AFE81719BC2A",
+      "faction": "Cult of Yurei",
+      "kind": "mention",
+      "terms": [
+        "Yurei"
+      ]
+    },
+    {
+      "ref": "A-B0563BE8DB8B",
+      "faction": "Cult of Yurei",
+      "kind": "mention",
+      "terms": [
+        "Cult"
+      ]
+    },
+    {
+      "ref": "A-B2A6CC4A4BAB",
+      "faction": "The Awoken",
+      "kind": "mention",
+      "terms": [
+        "awoken"
+      ]
+    },
+    {
+      "ref": "A-B3233C384185",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "Shiho"
+      ]
+    },
+    {
+      "ref": "A-B47B92E3DFE2",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "ninja"
+      ]
+    },
+    {
+      "ref": "A-B47B92E3DFE2",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "shiho"
+      ]
+    },
+    {
+      "ref": "A-B81281275AEE",
+      "faction": "Kinshi Temple",
+      "kind": "mention",
+      "terms": [
+        "kinshi"
+      ]
+    },
+    {
+      "ref": "A-BB26689396D9",
+      "faction": "Horse Lords of Ataka",
+      "kind": "mention",
+      "terms": [
+        "Horselords"
+      ]
+    },
+    {
+      "ref": "A-BB26689396D9",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "minimoto"
+      ]
+    },
+    {
+      "ref": "A-BB874918ED98",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Ryu"
+      ]
+    },
+    {
+      "ref": "A-BB874918ED98",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "Temple"
+      ]
+    },
+    {
+      "ref": "A-BD22E33B4067",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "minimoto"
+      ]
+    },
+    {
+      "ref": "A-BD22E33B4067",
+      "faction": "Savage Wave",
+      "kind": "mention",
+      "terms": [
+        "savage wave"
+      ]
+    },
+    {
+      "ref": "A-BD22E33B4067",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "shadowind"
+      ]
+    },
+    {
+      "ref": "A-BD22E33B4067",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "shiho"
+      ]
+    },
+    {
+      "ref": "A-BD22E33B4067",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "temple"
+      ]
+    },
+    {
+      "ref": "A-BD22E33B4067",
+      "faction": "The Awoken",
+      "kind": "mention",
+      "terms": [
+        "awoken"
+      ]
+    },
+    {
+      "ref": "A-BD22E33B4067",
+      "faction": "The Imperial Court",
+      "kind": "mention",
+      "terms": [
+        "imperials"
+      ]
+    },
+    {
+      "ref": "A-BEF637BD1235",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Ryu"
+      ]
+    },
+    {
+      "ref": "A-BEF637BD1235",
+      "faction": "The Descension",
+      "kind": "mention",
+      "terms": [
+        "Descension"
+      ]
+    },
+    {
+      "ref": "A-C49F02FD586E",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minomoto"
+      ]
+    },
+    {
+      "ref": "A-C5B0303B67AA",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Prefecture"
+      ]
+    },
+    {
+      "ref": "A-C62BBD7EDF2D",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-C62BBD7EDF2D",
+      "faction": "The Awoken",
+      "kind": "mention",
+      "terms": [
+        "Awoken",
+        "Awakened"
+      ]
+    },
+    {
+      "ref": "A-C6D57BF6BEA5",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-C6D57BF6BEA5",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "ninjas"
+      ]
+    },
+    {
+      "ref": "A-C6E44A38A01C",
+      "faction": "Ito Clan",
+      "kind": "mention",
+      "terms": [
+        "Ito"
+      ]
+    },
+    {
+      "ref": "A-C6E44A38A01C",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-C6E44A38A01C",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "Temple"
+      ]
+    },
+    {
+      "ref": "A-C8DEBA2B3EF8",
+      "faction": "Ito Clan",
+      "kind": "mention",
+      "terms": [
+        "Ito"
+      ]
+    },
+    {
+      "ref": "A-C8DEBA2B3EF8",
+      "faction": "Kinshi Temple",
+      "kind": "mention",
+      "terms": [
+        "Kinshi"
+      ]
+    },
+    {
+      "ref": "A-C8DEBA2B3EF8",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-C8DEBA2B3EF8",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "Shiho"
+      ]
+    },
+    {
+      "ref": "A-C8DEBA2B3EF8",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "Temple"
+      ]
+    },
+    {
+      "ref": "A-C8DEBA2B3EF8",
+      "faction": "The Descension",
+      "kind": "mention",
+      "terms": [
+        "Descension"
+      ]
+    },
+    {
+      "ref": "A-CA7010AC95BD",
+      "faction": "Cult of Yurei",
+      "kind": "mention",
+      "terms": [
+        "Yurei"
+      ]
+    },
+    {
+      "ref": "A-CA7010AC95BD",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-CBE6A7E6A336",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "Ninja"
+      ]
+    },
+    {
+      "ref": "A-CBE6A7E6A336",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "Tempel"
+      ]
+    },
+    {
+      "ref": "A-CD3F4F7BF3F3",
+      "faction": "Jung Pirates",
+      "kind": "mention",
+      "terms": [
+        "Jung"
+      ]
+    },
+    {
+      "ref": "A-CD3F4F7BF3F3",
+      "faction": "The Descension",
+      "kind": "mention",
+      "terms": [
+        "Descension"
+      ]
+    },
+    {
+      "ref": "A-CDF687EB092D",
+      "faction": "Savage Wave",
+      "kind": "mention",
+      "terms": [
+        "Savage Wave"
+      ]
+    },
+    {
+      "ref": "A-CDF687EB092D",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "ninjas"
+      ]
+    },
+    {
+      "ref": "A-CDF687EB092D",
+      "faction": "Silvermoon Trade Syndicate",
+      "kind": "mention",
+      "terms": [
+        "StS"
+      ]
+    },
+    {
+      "ref": "A-CDF687EB092D",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "Temple"
+      ]
+    },
+    {
+      "ref": "A-D8034F48E846",
+      "faction": "Kinshi Temple",
+      "kind": "mention",
+      "terms": [
+        "Kinshi"
+      ]
+    },
+    {
+      "ref": "A-D8034F48E846",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-D8034F48E846",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Ryu"
+      ]
+    },
+    {
+      "ref": "A-D8034F48E846",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "Rokan"
+      ]
+    },
+    {
+      "ref": "A-D8034F48E846",
+      "faction": "The Awoken",
+      "kind": "mention",
+      "terms": [
+        "Awoken"
+      ]
+    },
+    {
+      "ref": "A-D9C4149742C7",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "Shiho"
+      ]
+    },
+    {
+      "ref": "A-DB1BF6071717",
+      "faction": "Horse Lords of Ataka",
+      "kind": "mention",
+      "terms": [
+        "Horselords"
+      ]
+    },
+    {
+      "ref": "A-DB1BF6071717",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "Shiho"
+      ]
+    },
+    {
+      "ref": "A-DB1BF6071717",
+      "faction": "The Awoken",
+      "kind": "mention",
+      "terms": [
+        "Awoken"
+      ]
+    },
+    {
+      "ref": "A-DC2242893571",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Ryu"
+      ]
+    },
+    {
+      "ref": "A-DC2242893571",
+      "faction": "Silvermoon Trade Syndicate",
+      "kind": "mention",
+      "terms": [
+        "STS"
+      ]
+    },
+    {
+      "ref": "A-DC2242893571",
+      "faction": "The Descension",
+      "kind": "mention",
+      "terms": [
+        "Tengu"
+      ]
+    },
+    {
+      "ref": "A-DCDEE3E17200",
+      "faction": "Jung Pirates",
+      "kind": "mention",
+      "terms": [
+        "Jung"
+      ]
+    },
+    {
+      "ref": "A-DF039DC4993B",
+      "faction": "Kinshi Temple",
+      "kind": "mention",
+      "terms": [
+        "Kinshi"
+      ]
+    },
+    {
+      "ref": "A-DF480FEA4773",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "Shadow Wind Clan"
+      ]
+    },
+    {
+      "ref": "A-E2A209D9BD35",
+      "faction": "Cult of Yurei",
+      "kind": "mention",
+      "terms": [
+        "Cult"
+      ]
+    },
+    {
+      "ref": "A-E2A209D9BD35",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-E2A209D9BD35",
+      "faction": "Silvermoon Trade Syndicate",
+      "kind": "mention",
+      "terms": [
+        "Silvermoon"
+      ]
+    },
+    {
+      "ref": "A-E40E93EA99DE",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "Shiho"
+      ]
+    },
+    {
+      "ref": "A-E40E93EA99DE",
+      "faction": "The Imperial Court",
+      "kind": "mention",
+      "terms": [
+        "imperials"
+      ]
+    },
+    {
+      "ref": "A-E6F04B1E1638",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-E6F04B1E1638",
+      "faction": "Temple of Ro-Kan",
+      "kind": "mention",
+      "terms": [
+        "Temple"
+      ]
+    },
+    {
+      "ref": "A-E71A32E5D839",
+      "faction": "Cult of Yurei",
+      "kind": "mention",
+      "terms": [
+        "Yurei"
+      ]
+    },
+    {
+      "ref": "A-E76E5AD21D7E",
+      "faction": "Cult of Yurei",
+      "kind": "mention",
+      "terms": [
+        "Yurei"
+      ]
+    },
+    {
+      "ref": "A-E76E5AD21D7E",
+      "faction": "Horse Lords of Ataka",
+      "kind": "mention",
+      "terms": [
+        "Horse Lords"
+      ]
+    },
+    {
+      "ref": "A-E76E5AD21D7E",
+      "faction": "Savage Wave",
+      "kind": "mention",
+      "terms": [
+        "Savage Wave"
+      ]
+    },
+    {
+      "ref": "A-E76E5AD21D7E",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "KKZ"
+      ]
+    },
+    {
+      "ref": "A-E76E5AD21D7E",
+      "faction": "The Descension",
+      "kind": "mention",
+      "terms": [
+        "descenion"
+      ]
+    },
+    {
+      "ref": "A-E76E5AD21D7E",
+      "faction": "The Imperial Court",
+      "kind": "mention",
+      "terms": [
+        "IC"
+      ]
+    },
+    {
+      "ref": "A-E7731A66DD06",
+      "faction": "Ito Clan",
+      "kind": "mention",
+      "terms": [
+        "Ito"
+      ]
+    },
+    {
+      "ref": "A-E7731A66DD06",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-E7731A66DD06",
+      "faction": "Savage Wave",
+      "kind": "mention",
+      "terms": [
+        "SW"
+      ]
+    },
+    {
+      "ref": "A-E7731A66DD06",
+      "faction": "Silvermoon Trade Syndicate",
+      "kind": "mention",
+      "terms": [
+        "STS"
+      ]
+    },
+    {
+      "ref": "A-EE3EF468BF02",
+      "faction": "Ito Clan",
+      "kind": "mention",
+      "terms": [
+        "Ito"
+      ]
+    },
+    {
+      "ref": "A-EE3EF468BF02",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-EE3EF468BF02",
+      "faction": "Savage Wave",
+      "kind": "mention",
+      "terms": [
+        "Savage Wave"
+      ]
+    },
+    {
+      "ref": "A-EE3EF468BF02",
+      "faction": "The Descension",
+      "kind": "mention",
+      "terms": [
+        "descension"
+      ]
+    },
+    {
+      "ref": "A-F044EEA082F1",
+      "faction": "Minimoto Clan",
+      "kind": "mention",
+      "terms": [
+        "Minimoto"
+      ]
+    },
+    {
+      "ref": "A-F044EEA082F1",
+      "faction": "Prefecture of Ryu",
+      "kind": "mention",
+      "terms": [
+        "Ryu"
+      ]
+    },
+    {
+      "ref": "A-F044EEA082F1",
+      "faction": "The Imperial Court",
+      "kind": "mention",
+      "terms": [
+        "Imperial Court",
+        "IC"
+      ]
+    },
+    {
+      "ref": "A-F3B62823D73B",
+      "faction": "Horse Lords of Ataka",
+      "kind": "mention",
+      "terms": [
+        "horselords"
+      ]
+    },
+    {
+      "ref": "A-F3B62823D73B",
+      "faction": "Kinshi Temple",
+      "kind": "mention",
+      "terms": [
+        "kinshi"
+      ]
+    },
+    {
+      "ref": "A-F3B62823D73B",
+      "faction": "Shadow Wind Clan",
+      "kind": "mention",
+      "terms": [
+        "ninjas"
+      ]
+    },
+    {
+      "ref": "A-F3B62823D73B",
+      "faction": "Shiho Clan",
+      "kind": "mention",
+      "terms": [
+        "shiho"
+      ]
+    },
+    {
+      "ref": "A-F4CDF63B6BF3",
+      "faction": "Kinshi Temple",
+      "kind": "mention",
+      "terms": [
+        "Kinshi"
+      ]
+    },
+    {
+      "ref": "A-F5CF3332FD5E",
+      "faction": "Cult of Yurei",
+      "kind": "mention",
+      "terms": [
+        "yurei"
+      ]
+    },
+    {
+      "ref": "A-009C67B8AEA7",
+      "faction": "Ito Clan",
+      "kind": "context",
+      "reason": "The own-faction answer describes mandatory picks masking roster weakness."
+    },
+    {
+      "ref": "A-09C9C71AF347",
+      "faction": "Shiho Clan",
+      "kind": "context",
+      "reason": "Open Rebellion is the Shiho theme discussed."
+    },
+    {
+      "ref": "A-0AED704C91B7",
+      "faction": "Savage Wave",
+      "kind": "context",
+      "reason": "Bakemono zoo is a Savage Wave list; villagers, Kawa and Byiba identify Ro-Kan."
+    },
+    {
+      "ref": "A-0AED704C91B7",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Bakemono zoo is a Savage Wave list; villagers, Kawa and Byiba identify Ro-Kan."
+    },
+    {
+      "ref": "A-0E9F4621CC4D",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "The own-faction answer contrasts prison and Buzenbo with tribesmen and Karasu."
+    },
+    {
+      "ref": "A-10F91A037523",
+      "faction": "Savage Wave",
+      "kind": "context",
+      "reason": "The own-faction passage explicitly discusses Oni."
+    },
+    {
+      "ref": "A-115C3D09C0E5",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Buzenbo is the Descension model criticised; Shikaku and Master Shi identify Kinshi."
+    },
+    {
+      "ref": "A-115C3D09C0E5",
+      "faction": "Kinshi Temple",
+      "kind": "context",
+      "reason": "Buzenbo is the Descension model criticised; Shikaku and Master Shi identify Kinshi."
+    },
+    {
+      "ref": "A-16F78799BD3D",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Bastions is the Ro-Kan theme; Hunting Pack is Savage Wave."
+    },
+    {
+      "ref": "A-16F78799BD3D",
+      "faction": "Savage Wave",
+      "kind": "context",
+      "reason": "Bastions is the Ro-Kan theme; Hunting Pack is Savage Wave."
+    },
+    {
+      "ref": "A-18BDF4B1023A",
+      "faction": "Savage Wave",
+      "kind": "context",
+      "reason": "Hunting Pack is discussed as a Bakemono build."
+    },
+    {
+      "ref": "A-1BDE50A24895",
+      "faction": "Jung Pirates",
+      "kind": "context",
+      "reason": "Conclave of Captains is the Jung theme criticised."
+    },
+    {
+      "ref": "A-1E1485281072",
+      "faction": "Jung Pirates",
+      "kind": "context",
+      "reason": "The own-list passage describes the cost of losing a model."
+    },
+    {
+      "ref": "A-22C2C52BD521",
+      "faction": "Silvermoon Trade Syndicate",
+      "kind": "context",
+      "reason": "The own-faction answer assesses roster breadth and fear vulnerability."
+    },
+    {
+      "ref": "A-24D885D64FF6",
+      "faction": "Savage Wave",
+      "kind": "context",
+      "reason": "Wrath of the Red Sun belongs to Savage Wave; Jade Rose Gumi to Silvermoon."
+    },
+    {
+      "ref": "A-24D885D64FF6",
+      "faction": "Silvermoon Trade Syndicate",
+      "kind": "context",
+      "reason": "Wrath of the Red Sun belongs to Savage Wave; Jade Rose Gumi to Silvermoon."
+    },
+    {
+      "ref": "A-36F8737959A1",
+      "faction": "Savage Wave",
+      "kind": "context",
+      "reason": "Hunting Pack is Savage Wave; Bastions is Ro-Kan; Haiatake prison is Descension."
+    },
+    {
+      "ref": "A-36F8737959A1",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Hunting Pack is Savage Wave; Bastions is Ro-Kan; Haiatake prison is Descension."
+    },
+    {
+      "ref": "A-36F8737959A1",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Hunting Pack is Savage Wave; Bastions is Ro-Kan; Haiatake prison is Descension."
+    },
+    {
+      "ref": "A-37014A649B9C",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Villagers identifies the Ro-Kan build."
+    },
+    {
+      "ref": "A-3922DE8D9E64",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Villagers identifies the Ro-Kan build."
+    },
+    {
+      "ref": "A-3B5DFA8C1D1A",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Villagers identifies Ro-Kan; Cage identifies the Descension prison build."
+    },
+    {
+      "ref": "A-3B5DFA8C1D1A",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Villagers identifies Ro-Kan; Cage identifies the Descension prison build."
+    },
+    {
+      "ref": "A-3D553877300E",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Bastions, Masters of the Art and Followers of Inari identify Ro-Kan; Eternal Legion identifies Imperial Court."
+    },
+    {
+      "ref": "A-3D553877300E",
+      "faction": "The Imperial Court",
+      "kind": "context",
+      "reason": "Bastions, Masters of the Art and Followers of Inari identify Ro-Kan; Eternal Legion identifies Imperial Court."
+    },
+    {
+      "ref": "A-3F15A7676F76",
+      "faction": "Shadow Wind Clan",
+      "kind": "context",
+      "reason": "House North Star identifies the ninja theme. Brotherhood is a cross-faction Ronin theme and is not assigned to ninjas."
+    },
+    {
+      "ref": "A-4361DE867746",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Haiatake guards and Way of the Ancient Warrior identify Descension; Bastions and Kawa identify Ro-Kan."
+    },
+    {
+      "ref": "A-4361DE867746",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Haiatake guards and Way of the Ancient Warrior identify Descension; Bastions and Kawa identify Ro-Kan."
+    },
+    {
+      "ref": "A-4EE049187057",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Buzenbo is the Descension model discussed."
+    },
+    {
+      "ref": "A-4FF011B528CB",
+      "faction": "Ito Clan",
+      "kind": "context",
+      "reason": "Own-faction dependence on Jade Witch and difficulty into Soulless."
+    },
+    {
+      "ref": "A-5712C4ADDED8",
+      "faction": "The Awoken",
+      "kind": "context",
+      "reason": "Jaakuna, Kimura and Joyless Smiles identify Awoken theme tensions."
+    },
+    {
+      "ref": "A-5F6988F9EDF5",
+      "faction": "The Awoken",
+      "kind": "context",
+      "reason": "Jaakuna and the Family identify the poison, Fear and Ki constraints."
+    },
+    {
+      "ref": "A-6E74494C434D",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Haiatake Prison identifies Descension; Kimura identifies Awoken."
+    },
+    {
+      "ref": "A-6E74494C434D",
+      "faction": "The Awoken",
+      "kind": "context",
+      "reason": "Haiatake Prison identifies Descension; Kimura identifies Awoken."
+    },
+    {
+      "ref": "A-7342D4012E59",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Villagers identifies the Ro-Kan build."
+    },
+    {
+      "ref": "A-74B7620669DB",
+      "faction": "Shadow Wind Clan",
+      "kind": "context",
+      "reason": "House of Bleeding Moon is the ninja theme discussed."
+    },
+    {
+      "ref": "A-772032771E8B",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Bastions, traps and silt kami identify Ro-Kan; prison identifies Descension."
+    },
+    {
+      "ref": "A-772032771E8B",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Bastions, traps and silt kami identify Ro-Kan; prison identifies Descension."
+    },
+    {
+      "ref": "A-787C78425E11",
+      "faction": "Minimoto Clan",
+      "kind": "context",
+      "reason": "The own-faction answer concerns samurai and susceptibility to prone and traps."
+    },
+    {
+      "ref": "A-78EA9E4F548A",
+      "faction": "Silvermoon Trade Syndicate",
+      "kind": "context",
+      "reason": "Roses is the Silvermoon build frustrating the Oni player."
+    },
+    {
+      "ref": "A-7B69E8DE0A0F",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Haiatake prison and Buzenbo identify Descension; Kuna identifies Awoken."
+    },
+    {
+      "ref": "A-7B69E8DE0A0F",
+      "faction": "The Awoken",
+      "kind": "context",
+      "reason": "Haiatake prison and Buzenbo identify Descension; Kuna identifies Awoken."
+    },
+    {
+      "ref": "A-80A4FB23689E",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Birds refers to Descension models countering camouflage."
+    },
+    {
+      "ref": "A-8B763DBEE3D3",
+      "faction": "Shadow Wind Clan",
+      "kind": "context",
+      "reason": "House North Star is a ninja theme; Open Rebellion is Shiho; Conclave of Captains is Jung."
+    },
+    {
+      "ref": "A-8B763DBEE3D3",
+      "faction": "Shiho Clan",
+      "kind": "context",
+      "reason": "House North Star is a ninja theme; Open Rebellion is Shiho; Conclave of Captains is Jung."
+    },
+    {
+      "ref": "A-8B763DBEE3D3",
+      "faction": "Jung Pirates",
+      "kind": "context",
+      "reason": "House North Star is a ninja theme; Open Rebellion is Shiho; Conclave of Captains is Jung."
+    },
+    {
+      "ref": "A-8EA29D58AA1A",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Foxes identifies the Ro-Kan counter to ninjas."
+    },
+    {
+      "ref": "A-8EA701A519FB",
+      "faction": "Cult of Yurei",
+      "kind": "context",
+      "reason": "Things That Go Bump and Wretched Existence identify Yurei; WOTAW identifies Descension; Open Rebellion identifies Shiho."
+    },
+    {
+      "ref": "A-8EA701A519FB",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Things That Go Bump and Wretched Existence identify Yurei; WOTAW identifies Descension; Open Rebellion identifies Shiho."
+    },
+    {
+      "ref": "A-8EA701A519FB",
+      "faction": "Shiho Clan",
+      "kind": "context",
+      "reason": "Things That Go Bump and Wretched Existence identify Yurei; WOTAW identifies Descension; Open Rebellion identifies Shiho."
+    },
+    {
+      "ref": "A-8EE902BDE752",
+      "faction": "Ito Clan",
+      "kind": "context",
+      "reason": "Own-faction armour, wounds, poison and Jade Mamba Guard costs."
+    },
+    {
+      "ref": "A-9003A28CF76D",
+      "faction": "Jung Pirates",
+      "kind": "context",
+      "reason": "Own-faction answer describes losses triggering list collapse."
+    },
+    {
+      "ref": "A-90596B620405",
+      "faction": "Ito Clan",
+      "kind": "context",
+      "reason": "Itsunagi and Lightning Reflexes samurai identify the Ito list."
+    },
+    {
+      "ref": "A-924F60479076",
+      "faction": "Cult of Yurei",
+      "kind": "context",
+      "reason": "Own-faction answer praises model breadth and varied play styles."
+    },
+    {
+      "ref": "A-95B73DBBA0DE",
+      "faction": "Cult of Yurei",
+      "kind": "context",
+      "reason": "Own-faction answer discusses debuffs, Fear, regeneration and survival."
+    },
+    {
+      "ref": "A-9694891B35CE",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Buzenbo identifies the Descension shooter."
+    },
+    {
+      "ref": "A-9B85AB7DE807",
+      "faction": "Savage Wave",
+      "kind": "context",
+      "reason": "Ring of Fire, Onisho and Alphas identify Savage Wave."
+    },
+    {
+      "ref": "A-A019F3E61825",
+      "faction": "Ito Clan",
+      "kind": "context",
+      "reason": "Own-faction answer identifies manoeuvrability as the matchup factor."
+    },
+    {
+      "ref": "A-A177A5D0890D",
+      "faction": "Jung Pirates",
+      "kind": "context",
+      "reason": "Own-faction answer describes tricks, weak fighters and control vulnerability."
+    },
+    {
+      "ref": "A-AECC8C3B3545",
+      "faction": "Minimoto Clan",
+      "kind": "context",
+      "reason": "Kamui identifies the Minimoto profile."
+    },
+    {
+      "ref": "A-B18C690ABF67",
+      "faction": "Cult of Yurei",
+      "kind": "context",
+      "reason": "Skeletons identifies the Yurei build requiring a counter."
+    },
+    {
+      "ref": "A-B81281275AEE",
+      "faction": "Silvermoon Trade Syndicate",
+      "kind": "context",
+      "reason": "Own-faction answer describes Buto specials, events and camouflage vulnerability."
+    },
+    {
+      "ref": "A-B97247DA8594",
+      "faction": "Ito Clan",
+      "kind": "context",
+      "reason": "Cold Blood and The Blessed are the Ito themes compared."
+    },
+    {
+      "ref": "A-BEF637BD1235",
+      "faction": "Ito Clan",
+      "kind": "context",
+      "reason": "The own-faction passage assesses Ayako and counter matchups."
+    },
+    {
+      "ref": "A-C02CD9A59694",
+      "faction": "Minimoto Clan",
+      "kind": "context",
+      "reason": "Own-faction answer identifies armour, stamina and low activation count."
+    },
+    {
+      "ref": "A-C4C4433FEEB7",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Own-faction answer separates prison from speed and support."
+    },
+    {
+      "ref": "A-C566A233D2BC",
+      "faction": "Cult of Yurei",
+      "kind": "context",
+      "reason": "Skeletons, Rise and recursion identify Yurei."
+    },
+    {
+      "ref": "A-C5B0303B67AA",
+      "faction": "Savage Wave",
+      "kind": "context",
+      "reason": "Ring of Fire identifies Savage Wave; Skirmish Mission identifies Shadow Wind."
+    },
+    {
+      "ref": "A-C5B0303B67AA",
+      "faction": "Shadow Wind Clan",
+      "kind": "context",
+      "reason": "Ring of Fire identifies Savage Wave; Skirmish Mission identifies Shadow Wind."
+    },
+    {
+      "ref": "A-C6D57BF6BEA5",
+      "faction": "Kinshi Temple",
+      "kind": "context",
+      "reason": "Everything and Nothing identifies Kinshi; Hunter Gatherers and Zama identify Savage Wave."
+    },
+    {
+      "ref": "A-C6D57BF6BEA5",
+      "faction": "Savage Wave",
+      "kind": "context",
+      "reason": "Everything and Nothing identifies Kinshi; Hunter Gatherers and Zama identify Savage Wave."
+    },
+    {
+      "ref": "A-CD3F4F7BF3F3",
+      "faction": "Cult of Yurei",
+      "kind": "context",
+      "reason": "Bump identifies Yurei; Hunting Pack identifies Savage Wave; JRG identifies Silvermoon."
+    },
+    {
+      "ref": "A-CD3F4F7BF3F3",
+      "faction": "Savage Wave",
+      "kind": "context",
+      "reason": "Bump identifies Yurei; Hunting Pack identifies Savage Wave; JRG identifies Silvermoon."
+    },
+    {
+      "ref": "A-CD3F4F7BF3F3",
+      "faction": "Silvermoon Trade Syndicate",
+      "kind": "context",
+      "reason": "Bump identifies Yurei; Hunting Pack identifies Savage Wave; JRG identifies Silvermoon."
+    },
+    {
+      "ref": "A-CE36BB3D2D0C",
+      "faction": "Horse Lords of Ataka",
+      "kind": "context",
+      "reason": "Own-faction charge plan and Intangible are contrasted with camouflage, darkness and Blizzard."
+    },
+    {
+      "ref": "A-D751B050FF5A",
+      "faction": "Shiho Clan",
+      "kind": "context",
+      "reason": "The main-faction context resolves the unnamed weak own faction."
+    },
+    {
+      "ref": "A-DC2242893571",
+      "faction": "The Awoken",
+      "kind": "context",
+      "reason": "Spiders and their free waits identify Awoken."
+    },
+    {
+      "ref": "A-DCDEE3E17200",
+      "faction": "Savage Wave",
+      "kind": "context",
+      "reason": "Infestation and Ring of Fire identify Savage Wave."
+    },
+    {
+      "ref": "A-E6F04B1E1638",
+      "faction": "Silvermoon Trade Syndicate",
+      "kind": "context",
+      "reason": "Jade Rose Gumi and roses identify Silvermoon."
+    },
+    {
+      "ref": "A-E71A32E5D839",
+      "faction": "Minimoto Clan",
+      "kind": "context",
+      "reason": "Hoshi, Blizzard, Icicle Mastery, Kamuy and Machiko identify Minimoto."
+    },
+    {
+      "ref": "A-E7731A66DD06",
+      "faction": "The Awoken",
+      "kind": "context",
+      "reason": "Spiders identifies the Awoken matchup."
+    },
+    {
+      "ref": "A-E81F01F789A2",
+      "faction": "Cult of Yurei",
+      "kind": "context",
+      "reason": "Bump identifies Yurei; Hunting party here describes the Savage Wave summoning theme."
+    },
+    {
+      "ref": "A-E81F01F789A2",
+      "faction": "Savage Wave",
+      "kind": "context",
+      "reason": "Bump identifies Yurei; Hunting party here describes the Savage Wave summoning theme."
+    },
+    {
+      "ref": "A-EB6C78EA985B",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Own-faction answer identifies Sixth Sense as a strength."
+    },
+    {
+      "ref": "A-EE08A9266F08",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Own-faction answer describes damage mitigation while holding zones."
+    },
+    {
+      "ref": "A-EE29815CB79E",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Own-faction answer describes mobility, playstyle variety and fragile five-wound models."
+    },
+    {
+      "ref": "A-EE550D75E20E",
+      "faction": "Ito Clan",
+      "kind": "context",
+      "reason": "Own-faction context resolves the low-wound, low-armour models."
+    },
+    {
+      "ref": "A-F044EEA082F1",
+      "faction": "Shadow Wind Clan",
+      "kind": "context",
+      "reason": "Bleeding Moon identifies the ninja activation matchup."
+    },
+    {
+      "ref": "A-F230C18F0960",
+      "faction": "Savage Wave",
+      "kind": "context",
+      "reason": "Own-faction answer describes Bakemono numbers and Hunting Pack pressure."
+    },
+    {
+      "ref": "A-F46BD9DAECFC",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Haiatake prison identifies Descension."
+    },
+    {
+      "ref": "A-F4AFCFC411FF",
+      "faction": "Jung Pirates",
+      "kind": "context",
+      "reason": "Mitsukurina is the missing Jung model referenced."
+    },
+    {
+      "ref": "A-F4CDF63B6BF3",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Prison identifies the Descension list."
+    },
+    {
+      "ref": "A-F911757971A8",
+      "faction": "Shiho Clan",
+      "kind": "context",
+      "reason": "Main-faction context resolves the first-person comparison with armoured three-dice samurai."
+    },
+    {
+      "ref": "A-819D7E10DBAD",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Akari identifies the Ro-Kan activation engine."
+    },
+    {
+      "ref": "A-BEF637BD1235",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Masters with Akari identifies Ro-Kan."
+    },
+    {
+      "ref": "A-3F4D0E6B4DAC",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Buzenbo identifies the Descension shooter."
+    },
+    {
+      "ref": "A-B47B92E3DFE2",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Prison identifies the Descension build."
+    },
+    {
+      "ref": "A-4361DE867746",
+      "faction": "Savage Wave",
+      "kind": "context",
+      "reason": "Bakemono Hunting Pack is the summoning theme discussed."
+    },
+    {
+      "ref": "A-307D9D089E6B",
+      "faction": "Savage Wave",
+      "kind": "context",
+      "reason": "Hunting Pack is the summoning theme discussed."
+    },
+    {
+      "ref": "A-8EA701A519FB",
+      "faction": "Jung Pirates",
+      "kind": "context",
+      "reason": "Benthic Servitude identifies Jung."
+    },
+    {
+      "ref": "A-DA4907D4FB32",
+      "faction": "Kinshi Temple",
+      "kind": "context",
+      "reason": "Batsu identifies the Kinshi profile criticised."
+    },
+    {
+      "ref": "A-8B763DBEE3D3",
+      "faction": "Minimoto Clan",
+      "kind": "context",
+      "reason": "Finest Steel identifies Minimoto."
+    },
+    {
+      "ref": "A-679486128B3F",
+      "faction": "Prefecture of Ryu",
+      "kind": "context",
+      "reason": "Own-faction question and main-faction context resolve the reliable fighters and synergies."
+    },
+    {
+      "ref": "A-A1D79838B69C",
+      "faction": "Prefecture of Ryu",
+      "kind": "context",
+      "reason": "Own-faction question and main-faction context resolve the efficient melee and shooting toolkit."
+    },
+    {
+      "ref": "A-E6F04B1E1638",
+      "faction": "Prefecture of Ryu",
+      "kind": "context",
+      "reason": "Passing the Night identifies the Ryu theme."
+    },
+    {
+      "ref": "A-CD3F4F7BF3F3",
+      "faction": "Shiho Clan",
+      "kind": "context",
+      "reason": "Open Rebellion identifies the Shiho theme."
+    },
+    {
+      "ref": "A-8790E6634F5B",
+      "faction": "Shiho Clan",
+      "kind": "context",
+      "reason": "The own-faction answer and main-faction context resolve access to Ronin."
+    },
+    {
+      "ref": "A-8B763DBEE3D3",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Bastions and Villager Spam identify Ro-Kan."
+    },
+    {
+      "ref": "A-74BE69244CA4",
+      "faction": "Temple of Ro-Kan",
+      "kind": "context",
+      "reason": "Kitsune with Sixth Sense identifies Ro-Kan."
+    },
+    {
+      "ref": "A-74BE69244CA4",
+      "faction": "The Descension",
+      "kind": "context",
+      "reason": "Buzembo is a spelling variant of Buzenbo."
+    },
+    {
+      "ref": "A-78EA9E4F548A",
+      "faction": "Cult of Yurei",
+      "kind": "context",
+      "reason": "Skeletons identifies the Yurei matchup."
+    },
+    {
+      "ref": "A-C8DEBA2B3EF8",
+      "faction": "Horse Lords of Ataka",
+      "kind": "mention",
+      "terms": [
+        "Horeslords"
+      ]
+    },
+    {
+      "ref": "A-6E74494C434D",
+      "faction": "Jung Pirates",
+      "kind": "context",
+      "reason": "Landing Party and Benthic Servitude identify Jung."
+    }
+  ]
+}

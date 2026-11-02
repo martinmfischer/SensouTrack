@@ -2,6 +2,7 @@ import {timingSafeEqual} from 'node:crypto';
 import {Buffer} from 'node:buffer';
 import {downloadTally} from './tally.mjs';
 import {publicPublication} from './publication.mjs';
+import {SURVEY_CLOSED} from './survey-status.mjs';
 
 const publicBucket='sensou-survey',reviewBucket='sensou-survey-review';
 const filePattern=/^(?:summary|texts|groups)\.json$|^groups\/(?:faction|experience|day)-\d+\.json$/;
@@ -41,6 +42,7 @@ export async function handleRefresh(request,env,deps){
   const valid=typeof env.SURVEY_SYNC_TOKEN==='string'&&env.SURVEY_SYNC_TOKEN.length>=32&&Buffer.byteLength(received)===Buffer.byteLength(expected)&&timingSafeEqual(Buffer.from(received),Buffer.from(expected));
   if(!valid)return Response.json({error:'Unauthorized'},{status:401,headers:{'Cache-Control':'no-store'}});
   if(request.method!=='POST')return Response.json({error:'Method not allowed'},{status:405,headers:{Allow:'POST'}});
+  if(SURVEY_CLOSED)return Response.json({error:'Survey closed. Data is frozen.'},{status:410,headers:{'Cache-Control':'no-store'}});
   try{return Response.json(await refreshPublication(env,deps),{headers:{'Cache-Control':'no-store'}});}
   catch(error){const code=/^SURVEY_[A-Z0-9_]+$/.test(error?.message)?error.message:'SURVEY_REFRESH_FAILED';console.error(code);return Response.json({error:'Survey refresh failed. The previous publication is preserved.',code},{status:503,headers:{'Cache-Control':'no-store'}});}
 }

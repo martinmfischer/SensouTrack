@@ -1,3 +1,6 @@
+-- CLOSED SURVEY: retained as the original setup record.
+-- Do not recreate the hourly job. Apply migrations/20261102_freeze_survey.sql.
+/*
 -- Run after deploying survey-refresh, uploading the private review ledger and
 -- placing the same dedicated SURVEY_SYNC_TOKEN in Edge secrets and Vault.
 create extension if not exists pg_cron;
@@ -15,3 +18,5 @@ select cron.schedule('sensou-survey-hourly','17 * * * *',$$
   body:='{}'::jsonb,timeout_milliseconds:=120000
  );
 $$);
+
+*/

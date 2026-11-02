@@ -70,3 +70,13 @@ Canonical evidence URLs use #comments/synthesis/<kind>/<id>; legacy #synthesis U
 ## Deviation heatmap colours · 1 November 2026
 
 The symmetric colour range uses the 90th percentile of absolute visible cell deviations, rounded up to a quarter point, minimum ±0.5. Values outside this range retain their full numbers and use the end colours. Stronger opaque terracotta/cream/green fills replace low-opacity tinting. Legend bounds use ≤/≥; colour methodology is expandable. Labels switch black/white with WCAG relative-luminance contrast at least 4.5:1 across the palette; sample-count labels retain full opacity. Current ranges: faction ±0.75, experience ±0.50. Absolute ratings and nomination scales are unchanged.
+
+## Faction review · 2 November 2026
+
+The former layout-only page is now By faction, at #comments/factions. All 214 coded documents were read with private source context. Fifteen profiles contain 69 authored findings. 331 faction–document assignments cover 149 documents: 219 name/shorthand assignments and 112 contextual assignments. An answer may contribute to several factions; each faction–answer pair has one route. Names anywhere in the answer take precedence. Context can resolve an implicit own-faction passage, named model or theme, but a generic Meta comment does not inherit the writer's main faction.
+
+faction-coding.json stores reviewed subject assignments and contextual rationales; faction-editorial.json stores the authored faction-specific readings and supporting refs. The existing synthesis build validates them against the same hash-matched public corpus and includes them in synthesis-report.json. Neither the private response join nor actual respondent profiles are exported. References count answer documents, not distinct writers. Passing mentions are retained in the source inventory; conclusions use specifically selected evidence.
+
+To update: prepare the normal synthesis review queue, read the new/changed material with private question/main-faction context, update both faction modules and their reviewedDocuments count, then run survey:synthesis:build, survey:test and both site builds. Do not regenerate contextual assignments from the main-faction field alone. Cross-faction Ronin themes such as Brotherhood are not assigned to a regular faction just because that faction's player mentions them.
+
+FactionSynthesis.jsx provides the 15-profile overview, shareable faction selection, separate source paths and the existing searchable evidence dialog. Source drift follows the main report's hash checks. The full private review of sensitive statements is in private/faction-sensitive-review.md; it is excluded from Git and deployment.

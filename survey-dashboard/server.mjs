@@ -7,6 +7,7 @@ import {dpapi} from './credentials.mjs';
 import {parseCsv,normalizeRows} from './analysis.mjs';
 import {reviewedPublicTexts} from './public-texts.mjs';
 import {downloadTally,FORM_ID} from './tally.mjs';
+import {SURVEY_CLOSED} from './survey-status.mjs';
 
 const root=fileURLToPath(new URL('.',import.meta.url)),privateDir=path.join(root,'private');
 await mkdir(privateDir,{recursive:true,mode:0o700});
@@ -16,19 +17,20 @@ const csrf=randomBytes(32).toString('hex');
 async function readJson(name,fallback){try{return JSON.parse(await readFile(path.join(privateDir,name),'utf8'));}catch(e){if(e.code==='ENOENT')return fallback;throw new Error(`Local file ${name} is damaged; please restore it from a backup.`);}}
 async function atomic(name,value){const file=path.join(privateDir,name);await writeFile(file+'.tmp',JSON.stringify(value),{mode:0o600});await rename(file+'.tmp',file);}
 let settings=await readJson('connection.json',{intervalMinutes:5}), token=process.env.TALLY_API_KEY||'';
-if(!token&&settings.protectedToken&&process.platform==='win32')token=await dpapi(settings.protectedToken,true);
-let cache=await readJson('responses.json',{formId:FORM_ID,records:[],source:'none',syncedAt:null,duplicates:0});
+if(!SURVEY_CLOSED&&!token&&settings.protectedToken&&process.platform==='win32')token=await dpapi(settings.protectedToken,true);
+let cache=await readJson(SURVEY_CLOSED?'frozen-2026-11-02/responses.json':'responses.json',{formId:FORM_ID,records:[],source:'none',syncedAt:null,duplicates:0});
 if(cache.formId!==FORM_ID)throw new Error('The local cache belongs to a different survey.');
 let syncing=false,error=null,lastAttempt=null,timer=null;
 async function synchronize(candidate=token){
+  if(SURVEY_CLOSED)throw new Error('The survey is closed. The saved data is fixed.');
   if(syncing)throw new Error('A sync is already running.');
   if(!candidate)throw new Error('Please connect a Tally API key first.');
   syncing=true;error=null;lastAttempt=new Date().toISOString();
   try{const next=await downloadTally(candidate,{onRaw:raw=>atomic('tally-raw.json',raw)});await atomic('responses.json',next);cache=next;return next;}
   catch(e){error=e.message;throw e;}finally{syncing=false;}
 }
-function schedule(){clearInterval(timer);if(token){timer=setInterval(()=>synchronize().catch(()=>{}),settings.intervalMinutes*60000);timer.unref();}}
-schedule();if(token)synchronize().catch(()=>{});
+function schedule(){clearInterval(timer);if(token&&!SURVEY_CLOSED){timer=setInterval(()=>synchronize().catch(()=>{}),settings.intervalMinutes*60000);timer.unref();}}
+schedule();if(token&&!SURVEY_CLOSED)synchronize().catch(()=>{});
 
 const headers={'Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Referrer-Policy':'no-referrer','X-Frame-Options':'DENY','Content-Security-Policy':`default-src 'self'; script-src 'self'${dev?" 'unsafe-inline'":''}; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' ${dev?'ws://127.0.0.1:'+port+' ws://localhost:'+port:''}; frame-ancestors 'none'; base-uri 'none'; form-action 'self'`};
 const json=(res,status,value)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8',...headers});res.end(JSON.stringify(value));};
@@ -45,7 +47,8 @@ const server=http.createServer(async(req,res)=>{
     if(![`127.0.0.1:${port}`,`localhost:${port}`].includes(req.headers.host)||req.headers['sec-fetch-site']==='cross-site')return json(res,403,{error:'Local access only.'});
     const url=new URL(req.url,`http://${req.headers.host}`);
     if(req.method!=='GET'&&req.method!=='HEAD'&&(req.headers.origin!==url.origin||!validCsrf(req.headers['x-survey-csrf'])))return json(res,403,{error:'Request rejected. Please reload the dashboard.'});
-    if(url.pathname==='/api/public-texts'&&req.method==='GET')return json(res,200,reviewedPublicTexts(cache,await readJson('public-text-review.json',{schema:1,entries:{},reviewedAt:null})));
+    if(SURVEY_CLOSED&&url.pathname.startsWith('/api/')&&req.method!=='GET'&&req.method!=='HEAD')return json(res,409,{error:'The survey is closed. The saved data is fixed.'});
+    if(url.pathname==='/api/public-texts'&&req.method==='GET')return json(res,200,reviewedPublicTexts(cache,await readJson(SURVEY_CLOSED?'frozen-2026-11-02/public-text-review.json':'public-text-review.json',{schema:1,entries:{},reviewedAt:null})));
     if(url.pathname==='/api/state'&&req.method==='GET')return json(res,200,{...cache,connected:Boolean(token),intervalMinutes:settings.intervalMinutes,syncing,error,lastAttempt,csrf,keyStorage:process.platform==='win32'?'Windows DPAPI':'Session',formId:FORM_ID});
     if(url.pathname==='/api/sync'&&req.method==='POST'){await synchronize();return json(res,200,{ok:true});}
     if(url.pathname==='/api/connect'&&req.method==='POST'){

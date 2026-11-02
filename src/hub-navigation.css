@@ -4,3 +4,4 @@
 @media(prefers-reduced-motion:reduce){.hub-sidebar{transition:none}}
 .hub-page .public-header{display:none}
 @media(max-width:700px){.hub-sidebar{visibility:hidden}.hub-sidebar.is-open{visibility:visible}.hub-mobile button{min-height:44px;min-width:44px}}
+.survey-closed-label{display:inline-block;margin-top:12px;padding:7px 10px;border:1px solid #d8dfd2;border-radius:5px;font-size:12px;color:#607065;background:#f3f5ed}

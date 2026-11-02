@@ -1,11 +1,11 @@
 {
   "schema": 2,
-  "status": "first-pass",
-  "edition": "2026-11-01",
-  "reviewedAt": "2026-11-01T19:32:17.388Z",
-  "cutoff": "2026-11-01T19:25:54.003Z",
+  "status": "final",
+  "edition": "2026-11-02",
+  "reviewedAt": "2026-11-02T10:22:11.192Z",
+  "cutoff": "2026-11-02T09:17:03.113Z",
   "codebookVersion": "1.0.0",
-  "sourceSubmissions": 164,
+  "sourceSubmissions": 165,
   "sourceTextSubmissions": 102,
   "questions": {
     "Meta": "Biggest meta problems",
@@ -63,7 +63,7 @@
     },
     {
       "id": "damage",
-      "label": "Damage, shooting & early swings",
+      "label": "Damage, shooting & early losses",
       "family": "Playing the opponent",
       "definition": "Lethality, ranged pressure, alpha strikes and the consequences of early damage.",
       "include": "Ranged threats, size-related shooting damage, early removal, attack output and weak hitting power.",
@@ -87,7 +87,7 @@
     },
     {
       "id": "ki",
-      "label": "Ki supply & resource engines",
+      "label": "Ki generation & transfers",
       "family": "Building a list",
       "definition": "Ki generation, transfer, shortage and the synergies or support chains they enable.",
       "include": "Free Ki, summoning fuel, focus/transfer bottlenecks, Ki-starved themes and recurring resource provision.",
@@ -135,7 +135,7 @@
     },
     {
       "id": "ronin",
-      "label": "Ronin access & shared staples",
+      "label": "Ronin & common picks",
       "family": "Building a list",
       "definition": "The place of cross-faction models and cards within faction rosters.",
       "include": "Ronin recruitment, Hozumi enabling Ronin, shared staple cards, desired access and concerns about homogenisation.",
@@ -143,7 +143,7 @@
     },
     {
       "id": "access",
-      "label": "Learning, workload & retention",
+      "label": "Learning & keeping up with the game",
       "family": "Maintaining the game",
       "definition": "Practice, execution difficulty, new-player experience, keeping up with releases and continued participation.",
       "include": "Learning curves, low error tolerance, discouragement, local play availability and reduced interest or play.",
@@ -151,24 +151,16 @@
     }
   ],
   "methods": [
-    "Every document was read in full and assigned individually against this codebook. Assignments are many-to-many; repeated wording within one answer counts once per topic.",
-    "Counts refer to answer documents. One submission can contribute an answer to each of three questions. Public texts have independent document IDs and no linked player profile.",
-    "Question counts use their own written-answer denominator. The prompts ask about problems, strong/weak themes and faction matchups; this shapes what people discuss.",
-    "Brief answers and statements declining assessment remain visible with a separate disposition. All reviewed documents remain in the counting denominator.",
-    "Explicitly positive overall assessments are tagged separately. Mentions of a mechanic can describe a strength, a problem or a trade-off; read the linked wording for the position taken.",
-    "This first pass was prepared by Codex with AI assistance, using the reviewed public corpus. One coding pass was completed; independent second-coder agreement has not been assessed.",
-    "Editorial interpretations and proposed follow-ups are authored separately from the counts. Rebuilding validates source hashes and recalculates membership, question counts and overlaps. New or changed answers enter the review queue.",
-    "Results describe these written accounts. The analysis uses no player-profile joins, significance tests or inferred faction win rates."
+    "Every answer was read and assigned topics using the definitions below. An answer can have several topics; repeating a point within one answer does not add to its count.",
+    "Counts refer to answers to individual questions. One submission can contain up to three written answers. Public answer IDs do not link different answers to the same player.",
+    "Each question uses its own answer count. The questions asked about meta problems, strong or weak themes, and faction matchups, so criticism is expected in these answers.",
+    "Brief answers and answers declining to judge remain in the source browser and total answer counts.",
+    "Answers explicitly praising the overall meta are marked separately. A topic can describe a strength, a weakness or both; the linked answer shows the writer’s view.",
+    "Codex prepared this analysis from the reviewed public texts. The coding has not had an independent second-coder review.",
+    "The written summaries are separate from the topic counts. The build checks source wording and recalculates counts. The survey is closed; this edition uses the saved final text dataset.",
+    "The overall topic analysis uses the public texts. The separate faction review also uses private main-faction context to identify an implicit subject. Individual player profiles are not published."
   ],
-  "references": [
-    {
-      "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
-      "authors": "Kassis, T., Agarwal, V., He, Y., Patel, D., & Brueckner, A. M.",
-      "year": 2026,
-      "url": "https://doi.org/10.48550/arXiv.2609.00065",
-      "use": "Evidence-appraisal workflow used during preparation."
-    }
-  ],
+  "references": [],
   "documents": [
     {
       "id": "009c67b8-aea7-4be1-96e6-8d612cf0a12f",
@@ -3691,7 +3683,7 @@
       },
       {
         "id": "damage",
-        "label": "Damage, shooting & early swings",
+        "label": "Damage, shooting & early losses",
         "family": "Playing the opponent",
         "definition": "Lethality, ranged pressure, alpha strikes and the consequences of early damage.",
         "include": "Ranged threats, size-related shooting damage, early removal, attack output and weak hitting power.",
@@ -3854,7 +3846,7 @@
       },
       {
         "id": "ki",
-        "label": "Ki supply & resource engines",
+        "label": "Ki generation & transfers",
         "family": "Building a list",
         "definition": "Ki generation, transfer, shortage and the synergies or support chains they enable.",
         "include": "Free Ki, summoning fuel, focus/transfer bottlenecks, Ki-starved themes and recurring resource provision.",
@@ -4058,7 +4050,7 @@
       },
       {
         "id": "ronin",
-        "label": "Ronin access & shared staples",
+        "label": "Ronin & common picks",
         "family": "Building a list",
         "definition": "The place of cross-faction models and cards within faction rosters.",
         "include": "Ronin recruitment, Hozumi enabling Ronin, shared staple cards, desired access and concerns about homogenisation.",
@@ -4098,7 +4090,7 @@
       },
       {
         "id": "access",
-        "label": "Learning, workload & retention",
+        "label": "Learning & keeping up with the game",
         "family": "Maintaining the game",
         "definition": "Practice, execution difficulty, new-player experience, keeping up with releases and continued participation.",
         "include": "Learning curves, low error tolerance, discouragement, local play availability and reduced interest or play.",
@@ -4131,13 +4123,13 @@
       }
     ]
   },
-  "title": "Choices, counterplay and the experience of play",
-  "subtitle": "A close reading of the open answers: how list construction, counterplay and the experience of a game connect.",
-  "overview": "A recurring concern is the narrowing of meaningful choices. Before a game, a few efficient profiles or themes can crowd out alternatives. During a game, extra actions, inaccessible targets and binary counters can leave a player with few useful responses. The same corpus also contains clear praise for Bushido’s tactical depth, varied factions and recent corrections. The practical agenda is to preserve that variety while making more of it usable on the table.",
+  "title": "Lists, matchups and what players want changed",
+  "subtitle": "What players wrote about models, themes, matchups and the current rules.",
+  "overview": "Many answers describe the same problem: a faction has plenty of models, but only a few feel worth taking. On the table, extra activations, hard-to-target models and immunities can leave opponents struggling to respond. Players also praise Bushido’s varied factions, tactical choices and recent errata. Their suggestions focus on specific models, cards and themes.",
   "takeaways": [
     {
-      "title": "A faction's ceiling can hide its roster",
-      "body": "Several accounts separate a faction's strongest build from the health of its other models. They describe mandatory support pieces, one dominant theme and attractive models that are difficult to justify competitively.",
+      "title": "A strong list can hide weak models",
+      "body": "Several players say their faction depends on one theme or a few must-take models. Other profiles rarely make the list.",
       "refs": [
         "A-009C67B8AEA7",
         "A-41C6EBA9ABDC",
@@ -4150,8 +4142,8 @@
       ]
     },
     {
-      "title": "Action supply becomes a form of control",
-      "body": "Pass tokens, additional activations and cheap bodies recur as ways to decide when the opponent must commit. Criticism is sharpest where waiting combines with shooting, camouflage or a burst of late actions.",
+      "title": "Extra activations let a player wait out the opponent",
+      "body": "Pass tokens, summons and cheap models let a player save important activations until the opponent has finished. Shooting and camouflage make that late attack harder to answer.",
       "refs": [
         "A-078F00ABAC75",
         "A-093A166EA109",
@@ -4166,8 +4158,8 @@
       ]
     },
     {
-      "title": "Counter-tools shape the matchup",
-      "body": "The explanations repeatedly turn on whether a list can answer camouflage, armour, fear or control immunity. Several players describe paying for a signature mechanic that the opposing toolkit can switch off.",
+      "title": "Some matchups depend on one counter",
+      "body": "Sixth Sense can bypass camouflage; Soulless can stop Fear, poison and OpKi effects. Several players say their faction lacks an affordable answer when its main abilities do not work.",
       "refs": [
         "A-4BAB0AB4DA30",
         "A-4FF011B528CB",
@@ -4182,8 +4174,8 @@
       ]
     },
     {
-      "title": "The criticism includes a case for preservation",
-      "body": "{{positiveOverall}} answers to the meta-problems question explicitly describe the overall game positively. Their requested changes often target particular cards, models or list patterns while retaining the wider system.",
+      "title": "Players also say the overall game is good",
+      "body": "{{positiveOverall}} answers to the meta-problems question explicitly praise the game overall. They still ask for changes to particular cards, models or lists.",
       "refs": [
         "A-16200E880B63",
         "A-1F2AA24E5790",
@@ -4202,11 +4194,11 @@
   ],
   "topicNotes": {
     "choices": {
-      "reading": "Roster breadth and usable choice are different experiences in these accounts. A large faction can offer many profiles while competition repeatedly funnels players into the same small package. The strongest versions of this argument identify both the dominant choice and the alternatives it displaces.",
+      "reading": "A faction can have many profiles while players keep choosing the same few. Awoken, Jung, Minimoto and Shiho answers name models or themes that feel difficult to leave out.",
       "details": [
-        "Awoken, Jung, Minimoto and Shiho examples describe individual profiles or a theme carrying much of the faction's strength.",
-        "Temple provides a different case: wide access can itself become an advantage, and one answer questions whether that breadth blurs faction identity.",
-        "A useful follow-up is to track alternative builds and why they are rejected: cost, missing support, scenario coverage or a competing theme's benefits."
+        "Players describe weak alternatives, expensive support and models that rarely see play.",
+        "Ro-Kan raises the opposite concern: a very large selection gives it answers to many opponents.",
+        "Compare the usual picks with the models left out, and record whether cost, rules or theme restrictions decide the choice."
       ],
       "refs": [
         "A-009C67B8AEA7",
@@ -4221,11 +4213,11 @@
       ]
     },
     "theme-value": {
-      "reading": "Respondents use at least three criteria when explaining a theme rating: the permitted model pool, the value of its bonuses and how well those two parts fit. Several explicitly struggle to separate a strong theme from strong models that would be useful anyway.",
+      "reading": "Players judge themes by which models they allow, what bonuses they give and whether those bonuses help the permitted models. Several answers say strong models can make even a modest theme look strong.",
       "details": [
-        "Finest Steel repeatedly illustrates restrictions that retain desirable models while adding useful benefits.",
-        "Weak-theme examples stress narrow recruitment, situational rewards, late bonuses and awkward support chains.",
-        "The corpus also supports preserving targeted bonuses that make otherwise fragile or difficult models viable; Ring of Fire is a recurring example."
+        "Finest Steel is repeatedly praised for keeping the preferred models and adding useful bonuses.",
+        "Weak themes are described as restrictive, too situational or too slow to help.",
+        "Some bonuses make fragile models playable. Ring of Fire is the recurring example."
       ],
       "refs": [
         "A-08CD6A91CC0F",
@@ -4242,11 +4234,11 @@
       ]
     },
     "matchups": {
-      "reading": "Many faction explanations describe the availability of answers to a mechanic. Examples include camouflage versus Sixth Sense, fear or poison versus immunities, and charge-dependent lists versus tools that prevent the charge. These accounts provide concrete hypotheses for matchup testing.",
+      "reading": "Many answers explain matchups through particular rules: camouflage against Sixth Sense, Fear or poison against immunities, and charges against darkness or Blizzard.",
       "details": [
-        "Ninja accounts frame camouflage as both an expensive strength and a liability when widely bypassed.",
-        "Horselord accounts connect charge access to the ability to threaten durable opponents.",
-        "List pairing can soften a difficult matchup, yet several answers describe it pushing them towards a compulsory counter-pick or a Ronin package."
+        "Ninja players describe paying for camouflage that some opponents can bypass.",
+        "Horse Lords need to reach and hurt their target with the charge.",
+        "A second list can cover a bad matchup, but several players feel forced to take one counter-model or a Ronin list."
       ],
       "refs": [
         "A-4BAB0AB4DA30",
@@ -4264,11 +4256,11 @@
       ]
     },
     "agency": {
-      "reading": "The vocabulary ranges from broad NPE complaints to precise descriptions of being unable to move, target, pass or take a useful action. Prison is the clearest recurring named example. Other answers connect negative play to waiting, avoidance, traps or automatic effects.",
+      "reading": "Players describe models unable to move, target an enemy, pass or take a useful action. Prison is the most repeated example. Waiting, traps and effects with no opposing roll also draw complaints.",
       "details": [
-        "Several accounts identify the frustration as losing the ability to pursue a plan even while models remain on the table.",
-        "A powerful effect can also be difficult to anticipate: the Bastions discussion includes an instant-speed gotcha example.",
-        "The strongest follow-up question is specific: what useful response remains available, at what cost, and at which point in the turn?"
+        "The frustration is being unable to carry out a plan while models are still on the table.",
+        "One Bastions answer criticises Last Stand timing as a surprise an unfamiliar opponent cannot prepare for.",
+        "For each disputed effect, ask what the opponent can still do and when they can do it."
       ],
       "refs": [
         "A-0AED704C91B7",
@@ -4286,11 +4278,11 @@
       ]
     },
     "tempo": {
-      "reading": "Activation supply appears in both strength descriptions and complaints. Low-model-count factions describe vulnerability to being outwaited or losing one piece; other accounts explain how passes, summons or extra activations allow a list to choose the decisive engagement.",
+      "reading": "Pass tokens, summons, cheap models and extra activations let a list act after its opponent has committed. Low-model-count lists describe how difficult it is to face that advantage.",
       "details": [
-        "The same resource can be valued defensively by one player and experienced as denial by the opponent.",
-        "Several detailed accounts combine late activation advantage with ranged or high-mobility threats.",
-        "Pricing a model solely by its individual combat output can miss the opportunity cost described by players choosing between one expensive piece and several cheaper activations."
+        "An extra activation can protect one player’s list while giving the opponent fewer chances to respond.",
+        "Several answers link late activations to shooting or fast attackers.",
+        "Compare an expensive model’s activations with the cheaper models that could be taken for the same Rice."
       ],
       "refs": [
         "A-078F00ABAC75",
@@ -4309,11 +4301,11 @@
       ]
     },
     "balance": {
-      "reading": "Power complaints range from brief declarations to comparisons of Rice cost, model tools and the strongest build available to a faction. The detailed answers are most useful when they specify what the extra power buys: resilience, flexibility, reliability or action supply.",
+      "reading": "Players compare Rice costs, model rules and the best lists each faction can field. Detailed answers point to armour, damage, rerolls, model choice or extra activations as the reason for a rating.",
       "details": [
-        "Several respondents name Shiho, Horselords and Imperial Court as needing support, alongside strong Temple or Ryu packages.",
-        "Others explicitly describe a broadly healthy meta with a small set of outliers.",
-        "The practical split is between broad faction changes and targeted model, card or theme adjustments. The linked examples explain why players favour each route."
+        "Shiho, Horse Lords and Imperial Court are repeatedly named as needing help; Ro-Kan and Ryu are often named as strong.",
+        "Other answers call the overall meta good while identifying a few overpowered models or cards.",
+        "Suggested changes range from individual profile costs to theme rules and wider faction support."
       ],
       "refs": [
         "A-124959AA8F80",
@@ -4332,11 +4324,11 @@
       ]
     },
     "damage": {
-      "reading": "Shooting and early damage feature in accounts of decisive first exchanges, size-related vulnerability and low error tolerance. Oni and other large or low-count models are recurring examples. Some players describe the discouragement of falling behind before their own plan develops.",
+      "reading": "Shooting and early attacks can remove important models before they contribute. Large models such as Oni and lists with few models are common examples.",
       "details": [
-        "The proposed issue is often the combination of reach, safety and damage.",
-        "Other accounts describe ranged threats as a necessary way to handle resilient or hard-to-catch models.",
-        "Useful observations would include when the first decisive loss occurs, the target's remaining activations and whether the disadvantaged side retains scoring options."
+        "Players often criticise attacks that combine long reach, high damage and little risk to the attacker.",
+        "Other answers value shooting as a way to deal with durable or hard-to-catch models.",
+        "Record when the first important model dies, how many activations it loses and whether its side can still score."
       ],
       "refs": [
         "A-10F91A037523",
@@ -4354,11 +4346,11 @@
       ]
     },
     "resilience": {
-      "reading": "Durability is both an attraction and a matchup problem. Minimoto-style armour, recursion, large wound pools and Last Stand are described as allowing a list to hold its plan together. Opponents discuss insufficient penetration, weak damage tools or trouble shifting a zone-holder.",
+      "reading": "Armour, Rise, healing, high wounds and Last Stand help models survive and hold zones. Opponents describe lacking enough damage or a way to move those models.",
       "details": [
-        "Minimoto accounts also identify counters: speed, control, displacement and opponents who can decline the preferred melee exchange.",
-        "Fragile lists describe one failed roll or lost model becoming disproportionately costly.",
-        "The key design question is whether a list has several practical routes to contest a resilient opponent: damage, displacement, timing or scoring."
+        "Minimoto players also name movement, control and displacement as ways to beat their samurai.",
+        "Fragile lists describe one failed roll or lost model causing the rest of the list to collapse.",
+        "Check the available ways to contest a durable model: damage, displacement, timing and scenario play."
       ],
       "refs": [
         "A-0C7F6B355CB2",
@@ -4376,11 +4368,11 @@
       ]
     },
     "mobility": {
-      "reading": "Movement explains why a strong combat profile may still struggle to impose its preferred game. Faction accounts describe choosing engagements, bypassing slow fighters, reaching support pieces and using placement to preserve fragile models.",
+      "reading": "Movement lets players choose fights, reach support models, avoid slow fighters and keep fragile models safe. A strong melee profile does little if it cannot reach the right fight.",
       "details": [
-        "Several Minimoto perspectives acknowledge that opponents can win by avoiding or delaying the favourable fight.",
-        "Descension accounts praise speed while explaining the difficulty of facing durable opponents who survive the first hit.",
-        "Spatial counterplay deserves attention alongside damage and activation totals: can the opponent reposition, disengage or reach the engine?"
+        "Minimoto answers describe opponents avoiding or delaying melee.",
+        "Descension players value speed but struggle when their first attack fails to remove a durable target.",
+        "Compare movement and placement effects alongside damage: who can engage, disengage or reach the support models?"
       ],
       "refs": [
         "A-0E45BD644949",
@@ -4400,11 +4392,11 @@
       ]
     },
     "ki": {
-      "reading": "The Ki discussions are concrete accounts of engines and bottlenecks: plentiful free resources support summons, control or repeated tricks; shortages leave thematic combinations difficult to run. This is especially visible in comparisons of theme benefits and support chains.",
+      "reading": "Some themes provide enough Ki for repeated summons or feats. Other lists struggle to get Ki onto the right models before those models need to act.",
       "details": [
-        "Hunting Pack and Hozumi examples stress the freedom created by recurring Ki.",
-        "Awoken and Imperial examples describe resources arriving in the wrong place, demanding support pieces or creating anti-synergy.",
-        "A useful resource audit follows the full sequence: generation, transfer, movement, activation cost and the action that finally spends the Ki."
+        "Hunting Pack and Hozumi are described as providing plenty of Ki.",
+        "Awoken and Imperial Court answers describe Ki shortages, expensive support and models unable to keep up with one another.",
+        "Follow the turn: who generates Ki, who transfers it, who moves, and when the model can use its feat."
       ],
       "refs": [
         "A-16F78799BD3D",
@@ -4423,11 +4415,11 @@
       ]
     },
     "dice": {
-      "reading": "Reliability appears in two directions. Players criticise powerful dice substitution such as Preordain, while fragile or low-count lists describe the consequences of failing one important roll and having few reroll tools. Both concerns involve how much the outcome can be planned for.",
+      "reading": "Players criticise Preordain’s dice changes. Players with fragile or low-count lists also describe how one failed roll can decide a game when they lack rerolls.",
       "details": [
-        "Preordain is discussed as both a direct effect and a list-building tax that shapes the remaining Rice budget.",
-        "Some answers connect automatic effects to a lack of reciprocal risk.",
-        "A useful comparison would examine cost, access and the decisions left after a failed or substituted roll."
+        "Several answers describe Preordain as a near-mandatory three-Rice purchase.",
+        "Effects that work without an opposing roll also draw criticism.",
+        "Compare the cost, availability and choices left after a failed roll or a changed result."
       ],
       "refs": [
         "A-182862207115",
@@ -4448,11 +4440,11 @@
       ]
     },
     "scenario": {
-      "reading": "Several answers explain why strength depends on the mission and on when a list starts functioning. Late bonuses, fragile portals, zone-holding and scoring cards all change the value of an otherwise appealing theme or profile.",
+      "reading": "A model or theme needs to help before the important scoring turns. Answers discuss late bonuses, portals, zone-holding and cards that award scenario points.",
       "details": [
-        "Kinshi and Yurei examples ask whether a turn-four reward arrives after the decisive part of the game.",
-        "Other answers question games ending early through time or attrition, and suggest reviewing how remaining points are resolved.",
-        "Scenario coverage should be part of any follow-up: the same build can perform differently in zones, VIM or games that require an early contest."
+        "Kinshi and Yurei answers question bonuses that arrive after the most important turns.",
+        "Other players describe games ending early through time limits or heavy losses, and ask how remaining points should be awarded.",
+        "Compare lists across zones, VIM scenarios and scenarios that require early scoring."
       ],
       "refs": [
         "A-01FD4355E2E0",
@@ -4474,11 +4466,11 @@
       ]
     },
     "development": {
-      "reading": "The corpus contains both praise for recent corrections and frustration with release pace or overcorrection. Several players want old models and weaker roster branches revisited; others describe uncertainty about investing time in a list that may change abruptly.",
+      "reading": "Some players praise recent errata. Others say new releases outclass older models, or that sudden changes leave a list without useful replacements.",
       "details": [
-        "Awoken errata are praised in one account and criticised as removing attractive options in another.",
-        "Playtesting concerns appear as requests for broader coverage and earlier detection of extreme interactions.",
-        "A practical response would make the purpose and expected effect of changes easier to follow, then check whether more viable choices actually appear."
+        "Awoken changes receive both praise and criticism.",
+        "Playtesting comments ask for more matchups to be checked before release.",
+        "Explain which problem a change should fix, then check whether players use more of the faction’s models afterwards."
       ],
       "refs": [
         "A-089BB1BB2E93",
@@ -4500,11 +4492,11 @@
       ]
     },
     "rules": {
-      "reading": "Rules-access complaints are less numerous than roster or matchup explanations, but unusually actionable. They identify scattered sources, lengthy cards, unintuitive interactions and exploitable gaps. Some connect these burdens directly to newcomer difficulty.",
+      "reading": "Players describe looking through the rulebook, errata, tournament documents, FAQ and Discord to find a ruling. Long cards and unclear interactions make that harder.",
       "details": [
-        "Players name the rulebook, errata, tournament material, FAQ and Discord as places they have to consult.",
-        "Other comments target interaction complexity and card text accumulated over releases.",
-        "A consolidated current rules index and worked examples for recurring interactions would directly address the reported task of finding and applying a ruling."
+        "Several answers ask for current rules in one place.",
+        "Other answers identify rules that are difficult to interpret or can be exploited.",
+        "A rules index and worked examples would help players find and apply the relevant ruling."
       ],
       "refs": [
         "A-089BB1BB2E93",
@@ -4517,11 +4509,11 @@
       ]
     },
     "identity": {
-      "reading": "Some answers describe a gap between the faction or models they want to play and the package they feel rewarded for taking. Shared Ronin staples are one route to that gap; broad or overlapping faction rosters and the sidelining of attractive older models are others.",
+      "reading": "Some players want to use a faction’s own models but feel pushed towards a few strong profiles or a Ronin list. Others think overlapping themes give too little reason to choose between them.",
       "details": [
-        "The request is often for more viable in-faction expression, including weaker subthemes and distinctive profiles.",
-        "Temple's breadth is praised for flexibility and questioned for blurring boundaries.",
-        "Faction identity can therefore pull in two directions: preserve flexible list-building while giving different themes a clearer reason to exist."
+        "Requests include better native models and more useful weaker themes.",
+        "Ro-Kan’s large selection is praised for variety and criticised for an unclear faction identity.",
+        "Keep list-building choices while giving each theme a clear reason to be taken."
       ],
       "refs": [
         "A-01FD4355E2E0",
@@ -4541,11 +4533,11 @@
       ]
     },
     "ronin": {
-      "reading": "Ronin are described as a source of flexibility, shared efficiency and possible homogenisation. The views differ by context: some players want stronger restrictions on common packages, while others feel their own faction lacks useful access.",
+      "reading": "Some players want tighter Ronin restrictions; others want their faction to have better access. Both views appear in the answers.",
       "details": [
-        "Hozumi and Preordain discussions connect the issue to resources and mandatory picks.",
-        "A Silvermoon explanation asks for access that would fit the theme's character.",
-        "This suggests auditing particular recruitment paths and incentives, while keeping the desire for cross-faction tools visible alongside the identity critique."
+        "Hozumi is discussed as a way to bring strong Ronin and extra Ki. Universal cards such as Preordain also make lists more similar.",
+        "A Silvermoon answer asks for Ronin access that fits the theme.",
+        "Check which models each theme allows and which shared picks repeatedly replace faction models."
       ],
       "refs": [
         "A-01FD4355E2E0",
@@ -4568,11 +4560,11 @@
       ]
     },
     "access": {
-      "reading": "These answers describe the work of learning, executing and keeping up with Bushido. Some players connect growing complexity, hard counters or frequent releases to reduced enjoyment or participation. Others frame a faction's strength as something unlocked by practice and precise play.",
+      "reading": "Players describe the time needed to learn matchups, follow releases and keep up with rules. Some report playing less as the game becomes harder to follow.",
       "details": [
-        "Small play groups and limited exposure can narrow the matchups a player can learn.",
-        "Low error tolerance matters for fragile factions and for the experience of an early setback.",
-        "The follow-up should distinguish information problems, practice requirements and structural lack of counterplay, because each calls for a different response."
+        "Small groups give players fewer chances to practise different matchups.",
+        "Fragile lists can punish an early mistake before a new player gets much practice.",
+        "Separate missing information, a need for practice and a lack of in-faction answers when deciding what would help."
       ],
       "refs": [
         "A-04716C33B573",
@@ -4597,11 +4589,11 @@
   "chapters": [
     {
       "id": "narrowing-choices",
-      "title": "The roster can be broad while the viable choice is narrow",
-      "lead": "A central list-building concern is concentration: a few models or themes become the default answer to a faction's needs.",
+      "title": "Many models, but few regular picks",
+      "lead": "Players repeatedly separate their faction’s best list from the rest of its models.",
       "paragraphs": [
-        "The comments repeatedly separate the power of a faction's strongest list from the usefulness of the rest of its collection. A faction can appear competitive while players still describe weak internal balance. Awoken accounts name unusually attractive and unattractive profiles; Jung explanations focus on costs and support for less-used models; a Shiho answer describes dependence on one named model. These are concrete accounts of opportunity cost at list selection.",
-        "Theme explanations show how that concentration can be reinforced. A restriction may have little practical cost when it removes the models a player would already omit. Useful bonuses then strengthen an already preferred package. The reverse case also appears: a narrow theme gives situational benefits that fail to compensate for the tools it excludes. This makes a theme-only fix and a profile-only fix different interventions."
+        "Awoken answers compare must-take profiles with models that rarely earn their Rice. Jung players ask for cheaper Kaizoku, captains and better support. Shiho players describe relying on Keita. These answers explain why a faction can compete while much of its roster still feels weak.",
+        "Theme restrictions can reinforce the same choices. Finest Steel is described as excluding models players would leave out anyway, then improving the models they already want. Other themes exclude useful models for bonuses that do little. The proposed fixes therefore need to consider both model profiles and theme rules."
       ],
       "refs": [
         "A-009C67B8AEA7",
@@ -4624,7 +4616,7 @@
         "start": 355,
         "end": 469
       },
-      "counterpoint": "There is also a clear defence of useful specialisation. Ring of Fire is described as making vulnerable models playable, and broad access is praised as a genuine attraction. Preserving those functions matters when adjusting a dominant theme.",
+      "counterpoint": "Ring of Fire is described as making vulnerable models playable. Players also praise broad model choice. Keep those benefits in mind when changing a dominant theme.",
       "counterRefs": [
         "A-9B85AB7DE807",
         "A-C5B0303B67AA",
@@ -4634,11 +4626,11 @@
     },
     {
       "id": "tempo-agency",
-      "title": "Timing advantage becomes frustrating when useful replies disappear",
-      "lead": "Action economy connects the construction of a list to the moment-by-moment experience of facing it.",
+      "title": "Waiting can leave the opponent with no reply",
+      "lead": "Extra activations and pass tokens decide who must move first.",
       "paragraphs": [
-        "Several answers describe passes, extra activations or low-cost bodies allowing one side to wait until the other has committed. This appears in faction-strength explanations as well as complaints about negative play. The concern sharpens when late actions are combined with shooting, camouflage, high mobility or a concentrated attack: the opponent has already spent the actions that might have answered it.",
-        "Prison and restrictive control are a related, distinct route. Their critics describe having models on the board while being unable to take a useful action, leave a position or carry out a plan. A response about prison specifically proposes the ability to pass instead of losing remaining activations. The common design question is how much meaningful participation survives after the strong effect has worked."
+        "Several answers describe one side using cheap models, summons or passes until the other side has finished its important activations. Shooting, camouflage and fast attackers can then exploit the remaining activations. The opponent has already spent the actions that could have helped.",
+        "Prison draws a related complaint: models remain on the table but cannot move, take a useful action or carry out their plan. One answer asks to allow passing instead of losing the remaining activations. The practical question is what the opponent can still do after the effect is applied."
       ],
       "refs": [
         "A-078F00ABAC75",
@@ -4662,7 +4654,7 @@
         "start": 410,
         "end": 539
       },
-      "counterpoint": "Extra actions are also part of what makes some lists function. Low-count Minimoto and Oni accounts explain the cost of being outactivated. A change needs to examine both the engine and the vulnerabilities of the list using it.",
+      "counterpoint": "Extra activations also help some lists function. Minimoto and Oni answers describe the problems of having few models. Compare the advantages with the weaknesses of the list using them.",
       "counterRefs": [
         "A-26D4CB31D873",
         "A-6E559D159FD0",
@@ -4673,11 +4665,11 @@
     },
     {
       "id": "counterplay",
-      "title": "Matchup pressure often begins with access to the right answer",
-      "lead": "The written explanations turn faction ratings into testable questions about particular mechanics and list pairs.",
+      "title": "Some matchups depend on having the right model or rule",
+      "lead": "The answers name specific rules that decide whether a list’s usual plan works.",
       "paragraphs": [
-        "Camouflage, Soulless, fear resistance and armour recur as points at which an opposing toolkit can sharply change the value of a list. Ninja accounts explain paying for camouflage and then facing opponents able to bypass it. Fear- or poison-based accounts describe a similar problem with immunity. Horselord explanations connect the ability to charge with the ability to threaten a durable target. These are different mechanisms, united by their dependence on the opponent's available tools.",
-        "The counter-perspective is important. Minimoto accounts describe strong melee and resilience alongside slow movement, limited activations and vulnerability to control or disengagement. An answer about matchup ratings also stresses that a faction label hides very different list pairings. Follow-up tests should therefore specify the lists, scenario and available answers on both sides."
+        "Ninja players describe paying for camouflage, then facing Sixth Sense or other ways around it. Fear and poison lose value against immunities. Horse Lords struggle when darkness, Blizzard or camouflage prevents the charge. These complaints identify which opposing rules stop the list’s main plan.",
+        "Minimoto answers describe a different weakness: opponents can avoid slow samurai, remove their activations or move them away from a zone. One matchup answer also stresses that different pairs of lists within the same faction create very different games. Compare actual lists and scenarios when checking these claims."
       ],
       "refs": [
         "A-26D4CB31D873",
@@ -4703,7 +4695,7 @@
         "start": 55,
         "end": 138
       },
-      "counterpoint": "Several accounts describe skill, positioning and playable uphill matchups. Those examples are useful controls when testing the more absolute hard-counter claims.",
+      "counterpoint": "Several answers describe positioning, practice and winnable uphill matchups. Include those examples when testing claims that a matchup has no answer.",
       "counterRefs": [
         "A-04716C33B573",
         "A-22C2C52BD521",
@@ -4716,11 +4708,11 @@
     },
     {
       "id": "scoring-time",
-      "title": "A powerful model can still arrive too late for the mission",
-      "lead": "The scenario and the usable timing of a benefit are part of how respondents evaluate strength.",
+      "title": "Theme bonuses need to arrive in time to score",
+      "lead": "Players judge rules by when they help and which scenarios they suit.",
       "paragraphs": [
-        "The detailed Kinshi explanation connects portal deployment, counter generation, terrain interaction and the difficulty of catching up on points. A Yurei explanation similarly questions rewards that become useful on turn four when the writer sees turns two and three as decisive. Theme critiques also point to VIM restrictions and benefits designed around losing models. These accounts explain why an attractive rule can feel marginal in practice.",
-        "Other answers focus on completing the game. They describe time limits, early attrition and situations where a game is largely resolved before its remaining turns are played. Suggestions include shorter scenarios or a clearer resolution of remaining points after tabling. These proposals can be tested by recording when games become decisive, which objectives remain contestable and how often the scheduled duration is actually reached."
+        "The detailed Kinshi answer discusses portal placement, Void counters and falling behind on points. A Yurei answer says a turn-four bonus arrives too late when turns two and three decide the game. Other theme answers mention VIM restrictions and bonuses triggered by losing models.",
+        "Players also report games ending before the final turn because of time limits or heavy losses. Suggestions include shorter scenarios and clearer scoring after a side is tabled. Record which turns are played, when the result becomes clear and which objectives remain in reach."
       ],
       "refs": [
         "A-01FD4355E2E0",
@@ -4745,7 +4737,7 @@
         "start": 956,
         "end": 1026
       },
-      "counterpoint": "Mission strength is also a positive niche: some defensive models are valued precisely because they can remain in a zone. Preserving useful scenario roles belongs alongside reviewing scoring shortcuts.",
+      "counterpoint": "Durable models are valued for holding zones. Changes to scoring or late bonuses should keep useful scenario roles.",
       "counterRefs": [
         "A-41C6EBA9ABDC",
         "A-6E559D159FD0",
@@ -4756,11 +4748,11 @@
     },
     {
       "id": "change-and-trust",
-      "title": "Players ask for stronger alternatives and a steadier path of change",
-      "lead": "Release pace, corrections and the work of keeping up connect balance discussion to continued participation.",
+      "title": "Players want better alternatives and clearer rule changes",
+      "lead": "Errata, releases and finding current rules affect what players enjoy fielding.",
       "paragraphs": [
-        "Development feedback points in several directions. Players praise particular errata and ask for comparable attention to weak models or subthemes. Other accounts describe changes as abrupt, overly severe or difficult to absorb after investing in a list. The Awoken examples make this tension visible: one response praises the correction of an earlier problem, while another says attractive parts disappeared without an adequate replacement.",
-        "Rules-access and learning comments add a practical layer. Finding rulings across several documents and Discord, processing more special rules and learning extreme matchups all take time. A few answers connect those demands to reduced play or difficulty growing a local scene. A useful response combines targeted balance work with clear change notes, accessible current rules and explicit examples for recurring interactions."
+        "Some answers praise errata and ask for similar attention to weak models. Others describe nerfs as sudden or too severe after they have invested in a list. Awoken answers show both views: some welcome the Fear changes, while others say useful options disappeared without replacements.",
+        "Players also describe searching several documents and Discord for rulings, learning more special rules and trying to keep up with difficult matchups. A few connect this workload to playing less or struggling to grow a local group. Clear change notes, current rules in one place and worked examples would address those complaints."
       ],
       "refs": [
         "A-089BB1BB2E93",
@@ -4789,7 +4781,7 @@
         "start": 0,
         "end": 45
       },
-      "counterpoint": "Praise is specific too: engagement, recent fixes and the scope for varied factions are valued. The accounts support improving how change is targeted and communicated while retaining those strengths.",
+      "counterpoint": "Positive answers praise community engagement, recent fixes and faction variety. Those are parts of Bushido that players want to keep.",
       "counterRefs": [
         "A-538EF57F61A9",
         "A-62AB39AA327F",
@@ -4803,8 +4795,8 @@
     {
       "a": "choices",
       "b": "theme-value",
-      "title": "Theme incentives concentrate the roster",
-      "body": "The pool and the bonus are evaluated together. Read how the strongest package changes the appeal of its alternatives.",
+      "title": "Theme restrictions reinforce the usual picks",
+      "body": "These answers discuss theme bonuses alongside which models are worth taking.",
       "count": 48,
       "refs": [
         "A-02D6A871CFD9",
@@ -4860,8 +4852,8 @@
     {
       "a": "agency",
       "b": "tempo",
-      "title": "Timing advantage changes participation",
-      "body": "These answers connect action supply or waiting to the opponent's ability to respond.",
+      "title": "Waiting leaves fewer replies",
+      "body": "These answers connect passes or extra activations with the opponent’s remaining actions.",
       "count": 20,
       "refs": [
         "A-078F00ABAC75",
@@ -4889,8 +4881,8 @@
     {
       "a": "matchups",
       "b": "choices",
-      "title": "A missing counter narrows list-building",
-      "body": "Tool gaps recur alongside compulsory models, counter-picks or restricted alternatives.",
+      "title": "Missing counters force list choices",
+      "body": "These answers describe must-take models or second lists needed for difficult matchups.",
       "count": 23,
       "refs": [
         "A-22C2C52BD521",
@@ -4921,8 +4913,8 @@
     {
       "a": "damage",
       "b": "resilience",
-      "title": "Lethality is experienced through the target",
-      "body": "These accounts discuss damage together with fragility, armour, wound pools or recovery.",
+      "title": "Damage depends on the target",
+      "body": "These answers discuss attacks alongside armour, wounds, healing or fragility.",
       "count": 19,
       "refs": [
         "A-384F1F56B267",
@@ -4949,8 +4941,8 @@
     {
       "a": "development",
       "b": "choices",
-      "title": "Change is judged by the options it creates",
-      "body": "Release and errata discussions repeatedly return to which models or themes become worth fielding.",
+      "title": "Errata change which models get played",
+      "body": "These answers discuss releases and changes alongside the models or themes players choose.",
       "count": 20,
       "refs": [
         "A-089BB1BB2E93",
@@ -4978,8 +4970,8 @@
     {
       "a": "rules",
       "b": "access",
-      "title": "Rules workload becomes a participation cost",
-      "body": "These answers connect understanding or finding rules to learning and keeping up with the game.",
+      "title": "Finding rules makes learning harder",
+      "body": "These answers connect scattered or complex rules with the time needed to learn the game.",
       "count": 3,
       "refs": [
         "A-182862207115",
@@ -4992,7 +4984,7 @@
     {
       "id": "yurei",
       "name": "Cult of Yurei",
-      "reading": "The accounts juxtapose strong recursion, debuffs and resilient lists with complaints about the wider roster, fear's usefulness and the timing of rewards. One detailed explanation asks why expensive profiles pay for abilities that commonly meet resistance; another emphasises the advantages into low-Ki opponents. This is a useful case for separating an efficient package from support for other models.",
+      "reading": "Yurei answers praise debuffs, varied models, healing and returning models. Other passages question Fear against common immunities, expensive profiles and theme bonuses that arrive on turn four. Strong skeleton lists and weaker parts of the roster appear in the same discussion.",
       "refs": [
         "A-18BDF4B1023A",
         "A-30160C2BB686",
@@ -5007,7 +4999,7 @@
     {
       "id": "ataka",
       "name": "Horse Lords of Ataka",
-      "reading": "Charge access is the clearest explanatory thread. Darkness, Blizzard, camouflage or a target that survives the initial hit are described as disrupting the plan. Other responses ask for more model options or support for weaker factions. The priority question is what the list can do after a charge is prevented or fails to remove its target.",
+      "reading": "Horse Lords need the charge to work. Darkness, Blizzard, camouflage and durable targets are repeatedly described as problems. Players ask for more models and ways to keep playing after a charge is prevented or fails.",
       "refs": [
         "A-09C9C71AF347",
         "A-124959AA8F80",
@@ -5022,7 +5014,7 @@
     {
       "id": "ito",
       "name": "Ito Clan",
-      "reading": "The explanations describe speed, hitting power and poison alongside fragility and difficulty converting attacks into damage against resilient opponents. Theme comments ask whether limited bonuses repay recruitment restrictions and whether alternatives distinguish themselves from The Blessed. Matchup tests can examine the trade between pressure and the ability to survive the reply.",
+      "reading": "Ito answers praise speed and poison but describe low wounds, little armour and difficulty damaging durable opponents. Cold Blood is criticised for restrictive recruitment and modest bonuses compared with The Blessed.",
       "refs": [
         "A-04716C33B573",
         "A-5F57E493184D",
@@ -5036,7 +5028,7 @@
     {
       "id": "jung",
       "name": "Jung Pirates",
-      "reading": "Jung is repeatedly discussed through The Deep's dominance and less attractive Kaizoku, captain or theme options. Detailed accounts praise movement and diverse ideas while describing costs, fear exposure, weak support interactions and missing pieces. Several theme critiques identify narrow recruitment with little practical return. That suggests auditing specific internal alternatives alongside headline faction performance.",
+      "reading": "Jung players describe The Deep as the main competitive choice. They ask for cheaper Kaizoku and captains, missing models and better support for other themes. Movement and varied list ideas receive praise, while Fear and low Ki remain common problems.",
       "refs": [
         "A-18BDF4B1023A",
         "A-36CD8108ABB7",
@@ -5055,7 +5047,7 @@
     {
       "id": "kinshi",
       "name": "Kinshi Temple",
-      "reading": "The detailed accounts focus on control and activation effects, Ki-related matchups, setup time and the ability to contest early. The contrast between Everything and Nothing and Zenith of the Void turns on counter generation, portal exposure and timing. One answer also worries about support for a limited faction over time. These are precise questions for scenario-based testing.",
+      "reading": "Kinshi answers focus on activation control, OpKi, Void counters and portal survival. A detailed answer prefers Everything and Nothing to Zenith of the Void because it gives more control over counter generation. Early attacks can stop the list getting ready.",
       "refs": [
         "A-307D9D089E6B",
         "A-777ACAC30D26",
@@ -5068,7 +5060,7 @@
     {
       "id": "minimoto",
       "name": "Minimoto Clan",
-      "reading": "Armour and strong fighters dominate opposing descriptions, while Minimoto perspectives identify low numbers, slow movement and difficulty with displacement or control. Finest Steel is repeatedly used to explain a theme that rewards already-preferred models. The two perspectives create a useful test pair: the opponent who cannot damage the samurai and the opponent who can avoid or redirect the fight.",
+      "reading": "Opponents describe difficulty damaging Minimoto samurai. Minimoto players describe low numbers, slow movement and trouble with prone, traps and displacement. Finest Steel is repeatedly described as improving the models players already prefer.",
       "refs": [
         "A-26D4CB31D873",
         "A-3D553877300E",
@@ -5088,7 +5080,7 @@
     {
       "id": "ryu",
       "name": "Prefecture of Ryu",
-      "reading": "Extra actions, passes and delayed commitment recur in explanations of Ryu pressure. Some answers connect that timing to shooting or an alpha strike. A detailed faction perspective also identifies opposed-Ki effects, prone and mobile opponents as difficulties, and treats some unfavourable matches as still playable. Testing should retain those counter-perspectives alongside the activation-engine complaints.",
+      "reading": "Ryu answers praise extra activations, passes, shooting and reliable melee. Opponents repeatedly criticise being waited out. A detailed Ryu answer also identifies OpKi, prone and mobile opponents as problems.",
       "refs": [
         "A-078F00ABAC75",
         "A-124959AA8F80",
@@ -5106,7 +5098,7 @@
     {
       "id": "savage-wave",
       "name": "Savage Wave",
-      "reading": "The accounts cover several very different experiences: Bakemono numbers and summon engines, the support provided by Ring of Fire, and the exposure of large or low-count Oni to shooting and activation disadvantage. Combining those experiences into one faction label obscures the list-level contrast. Theme-specific examination would make the feedback easier to act on.",
+      "reading": "Savage Wave answers describe different lists: Bakemono bring numbers and summons; Ring of Fire helps Oni survive; large Oni remain vulnerable to shooting and being outactivated. Those builds need separate matchup comparisons.",
       "refs": [
         "A-04716C33B573",
         "A-10F91A037523",
@@ -5125,7 +5117,7 @@
     {
       "id": "shadow-wind",
       "name": "Shadow Wind Clan / Ninja lists",
-      "reading": "Camouflage is described as a central advantage whose value changes sharply with opposing counter-tools. Accounts connect difficult games to Sixth Sense, placement effects, Blizzard or opponents who can outwait the list. Others see a high ceiling in skilled hands. The useful comparison is between those conditions, with House of the Bleeding Moon's action supply examined as a separate component.",
+      "reading": "Camouflage is central to ninja lists. Sixth Sense, Blizzard, placement and opponents with more passes can take away that advantage. Some opponents rate ninjas extremely highly; ninja answers stress low model count, failed rolls and the differences between themes.",
       "refs": [
         "A-498DE632B378",
         "A-70A2528B54C7",
@@ -5142,7 +5134,7 @@
     {
       "id": "shiho",
       "name": "Shiho Clan",
-      "reading": "Several accounts identify few efficient options, dependence on Keita, insufficient answers to fear or opposed-Ki effects and difficulty against resilient models. One explanation connects crowding out to the challenge of also playing the scenario. Theme comments ask for more viable model support. The recurring request is for workable in-faction tools and alternatives.",
+      "reading": "Shiho answers describe dependence on Keita, expensive models and too few answers to Fear, OpKi and durable opponents. Open Rebellion needs more models or better bonuses. Crowding enemies for melee advantages can also pull models away from the scenario.",
       "refs": [
         "A-09C9C71AF347",
         "A-0C7F6B355CB2",
@@ -5157,7 +5149,7 @@
     {
       "id": "silvermoon",
       "name": "Silvermoon Trade Syndicate",
-      "reading": "Accounts describe tactical control, events, special techniques and some strong fighters alongside limited damage or rerolls against resilient opposition. The Ronin discussion has a counter-direction here: one writer wants more access consistent with a theme's character. Another describes a key model's weaknesses defining the wider faction's difficult games. This case links toolkit gaps to faction expression.",
+      "reading": "Silvermoon answers praise events, control, special attacks and varied models. Durable opponents and limited rerolls can leave it short of damage. One answer describes Malosi as hard to leave out; another asks for more theme-appropriate Ronin access.",
       "refs": [
         "A-22C2C52BD521",
         "A-3F4D0E6B4DAC",
@@ -5171,7 +5163,7 @@
     {
       "id": "rokan",
       "name": "Temple of Ro-Kan",
-      "reading": "Breadth is simultaneously the attraction and the concern. Responses praise flexible recruitment and several distinct threats, while some argue that Villager or Bastions packages concentrate too much value or dilute a clearer faction identity. Other accounts explicitly treat strong Temple options as acceptable. Reviewing the particular engines and recruitment incentives would preserve both perspectives.",
+      "reading": "Ro-Kan’s large model selection receives praise for covering many matchups. Villagers, Bastions, traps and Ki also draw repeated criticism. One own-faction answer asks for the faction to be split; others welcome its variety.",
       "refs": [
         "A-18BDF4B1023A",
         "A-3460CAF0845A",
@@ -5188,7 +5180,7 @@
     {
       "id": "awoken",
       "name": "The Awoken",
-      "reading": "The feedback separates internal balance, Ki supply and fear dependence from the wider assessment of recent changes. Some writers praise the correction of earlier fear-heavy play; others describe lost options, awkward Family support or anti-synergy. Comparing the exact profiles and sequences mentioned would help distinguish a welcome targeted correction from a remaining shortage of viable alternatives.",
+      "reading": "Awoken answers ask for better internal balance and less dependence on Fear. Family comments describe Ki shortages and control effects that work awkwardly together. Some players praise recent Fear fixes; others miss options removed by the changes.",
       "refs": [
         "A-078F00ABAC75",
         "A-41C6EBA9ABDC",
@@ -5207,7 +5199,7 @@
     {
       "id": "descension",
       "name": "The Descension",
-      "reading": "Several answers explicitly separate prison and Buzenbo from the rest of the faction. Other accounts value speed, support and the ability to choose engagements, while describing fragile models or difficulty finishing resilient targets. This distinction matters: an adjustment to a dominant package can have different consequences for the alternative themes players want to use.",
+      "reading": "Several Descension answers say prison and Buzenbo make the faction look stronger than its other lists. Other passages praise speed and support while describing fragile models and difficulty finishing durable targets.",
       "refs": [
         "A-0E9F4621CC4D",
         "A-1EB7243517CB",
@@ -5222,7 +5214,7 @@
     {
       "id": "imperial",
       "name": "The Imperial Court",
-      "reading": "Imperial accounts describe durable bodies, shooting and numbers alongside slow movement, limited tools and missing support pieces. One theme explanation follows a detailed chain of focus, movement, Ki transfer and recruitment costs. Another describes the faction as incomplete. This supports a sequence-level audit of the intended engine and how it reaches the early scenario contest.",
+      "reading": "Imperial Court answers praise armour, shooting, cover and model count. They also describe low movement, few counters and missing support. One detailed answer explains how Fangshi, Warden and Bai Qian movement and Ki needs get in each other’s way.",
       "refs": [
         "A-3D553877300E",
         "A-777ACAC30D26",
@@ -5235,8 +5227,8 @@
   ],
   "counterpoints": [
     {
-      "title": "Targeted changes can coexist with a positive view of the game",
-      "body": "Several answers call the meta good or broadly balanced while identifying individual exceptions. The strongest positive accounts also value tactical richness, faction variety and the possibility of competing with many factions.",
+      "title": "Players praise the overall game while asking for fixes",
+      "body": "Several answers call Bushido good or broadly balanced. They value the tactical choices, different factions and chance to compete with varied lists.",
       "refs": [
         "A-16200E880B63",
         "A-1F2AA24E5790",
@@ -5254,8 +5246,8 @@
       ]
     },
     {
-      "title": "Some strong bonuses support an otherwise difficult roster",
-      "body": "Ring of Fire examples argue that the benefit is doing necessary work for vulnerable models. A theme adjustment should examine how those models function afterwards.",
+      "title": "Some themes keep vulnerable models playable",
+      "body": "Ring of Fire is described as doing important work for its models. Check how those models would play after a theme change.",
       "refs": [
         "A-78EA9E4F548A",
         "A-9B85AB7DE807",
@@ -5264,8 +5256,8 @@
       ]
     },
     {
-      "title": "Ronin access is also requested",
-      "body": "The corpus contains calls for restrictions and calls for better access. Silvermoon provides a specific example of a player asking for recruitment that fits the theme's character.",
+      "title": "Some players want more Ronin access",
+      "body": "Answers ask both for tighter restrictions and for better access. A Silvermoon player gives examples of Ronin recruitment that would fit a theme.",
       "refs": [
         "A-8790E6634F5B",
         "A-C6D57BF6BEA5",
@@ -5275,8 +5267,8 @@
       ]
     },
     {
-      "title": "Players disagree about the effects of corrections",
-      "body": "Awoken and broader errata comments include praise, acceptance and frustration with lost options. Reading those accounts together identifies what a successful correction would need to preserve.",
+      "title": "Players disagree about errata",
+      "body": "Awoken changes receive praise and criticism. Some welcome the fixes; others want replacements for the options they lost.",
       "refs": [
         "A-538EF57F61A9",
         "A-62AB39AA327F",
@@ -5290,8 +5282,8 @@
       ]
     },
     {
-      "title": "Execution and list choice remain part of the explanation",
-      "body": "Several writers explicitly mention practice, positioning, differing list archetypes and the skill needed to realise a faction's strengths. These accounts give follow-up tests useful comparison conditions.",
+      "title": "Practice and positioning matter too",
+      "body": "Several writers mention practice, positioning and the differences between actual lists. Include those details when comparing faction matchups.",
       "refs": [
         "A-02D6A871CFD9",
         "A-04716C33B573",
@@ -5307,9 +5299,9 @@
   ],
   "actions": [
     {
-      "title": "Audit mandatory packages and rejected alternatives",
-      "question": "Which profiles or themes repeatedly displace others, and what would make the alternatives usable?",
-      "measure": "Record the model/theme kept, the alternative rejected, the reason and the scenario coverage lost. Separate profile cost from theme restrictions.",
+      "title": "Compare must-take models with unused alternatives",
+      "question": "Which models or themes keep being chosen, and why are others left out?",
+      "measure": "Record both choices, their Rice costs, theme restrictions and the scenarios each can cover.",
       "refs": [
         "A-009C67B8AEA7",
         "A-3D553877300E",
@@ -5323,9 +5315,9 @@
       ]
     },
     {
-      "title": "Stress-test response windows",
-      "question": "After a strong activation or control engine works, what useful replies remain?",
-      "measure": "Track pass supply, activations remaining, actions made unusable and when the decisive engagement occurs. Test late shooting and prison cases explicitly.",
+      "title": "Check what the opponent can still do",
+      "question": "After extra activations or a control effect takes over, which useful actions remain?",
+      "measure": "Record passes, activations left and actions prevented. Include late shooting and prison lists.",
       "refs": [
         "A-078F00ABAC75",
         "A-0AED704C91B7",
@@ -5339,9 +5331,9 @@
       ]
     },
     {
-      "title": "Test counterplay with specified list pairs",
-      "question": "Is a difficult matchup softened by practical tools within the faction?",
-      "measure": "Vary list pairing, counter-model cost, scenario and terrain. Include camouflage/Sixth Sense, immunities, charge denial and armour examples.",
+      "title": "Play the actual list pairings",
+      "question": "Can a second list or an available model improve the difficult matchup?",
+      "measure": "Name both lists, scenario and terrain. Check Sixth Sense, immunities, charge prevention and armour.",
       "refs": [
         "A-4BAB0AB4DA30",
         "A-4FF011B528CB",
@@ -5356,9 +5348,9 @@
       ]
     },
     {
-      "title": "Follow the resource sequence and mission clock",
-      "question": "Do support chains and theme bonuses become useful before the key scenario contest?",
-      "measure": "Write out Ki generation, transfers, movement and activation costs by turn. Check late bonuses, portal survival, VIM restrictions and time to first score.",
+      "title": "Follow Ki and scoring turn by turn",
+      "question": "Do support models and theme bonuses help before the important scoring turns?",
+      "measure": "Record Ki generation and transfers, movement, activations, portal survival, VIM restrictions and the first scoring turn.",
       "refs": [
         "A-3D553877300E",
         "A-5712C4ADDED8",
@@ -5374,9 +5366,9 @@
       ]
     },
     {
-      "title": "Review early damage and recovery options",
-      "question": "Which early losses remove meaningful ways to continue the game?",
-      "measure": "Record first decisive damage, target size/resilience, activations lost and remaining scoring routes. Compare fragile and resilient lists.",
+      "title": "Check the effect of early losses",
+      "question": "After losing an important model early, what can the player still do to score?",
+      "measure": "Record when the model dies, its remaining activations and the surviving ways to contest the scenario.",
       "refs": [
         "A-10F91A037523",
         "A-196B360747EA",
@@ -5391,9 +5383,9 @@
       ]
     },
     {
-      "title": "Make changes and rulings easier to follow",
-      "question": "Can a returning or new player find the current rule and understand the purpose of a change?",
-      "measure": "Use a current rules index, short change rationales and worked examples. Collect the cases where players need multiple sources or cannot see how an interaction resolves.",
+      "title": "Make current rules easier to find",
+      "question": "Can a new or returning player find the ruling and understand the change?",
+      "measure": "Keep a current rules index, short explanations of changes and worked examples of difficult interactions.",
       "refs": [
         "A-089BB1BB2E93",
         "A-182862207115",
@@ -5409,5 +5401,3244 @@
         "A-FB743348E523"
       ]
     }
-  ]
+  ],
+  "factionReview": {
+    "schema": 1,
+    "edition": "2026-11-02",
+    "reviewedDocuments": 214,
+    "method": "Each answer was read. Name and shorthand matches were checked; implicit subjects were resolved from the question, named models/themes and private main-faction context. Only faction-specific passages were assigned. General meta comments were excluded.",
+    "entries": [
+      {
+        "ref": "A-02D6A871CFD9",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "ninja"
+        ]
+      },
+      {
+        "ref": "A-04716C33B573",
+        "faction": "Ito Clan",
+        "kind": "mention",
+        "terms": [
+          "Ito"
+        ]
+      },
+      {
+        "ref": "A-04716C33B573",
+        "faction": "Savage Wave",
+        "kind": "mention",
+        "terms": [
+          "Savage wave"
+        ]
+      },
+      {
+        "ref": "A-078F00ABAC75",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Ryu"
+        ]
+      },
+      {
+        "ref": "A-078F00ABAC75",
+        "faction": "The Awoken",
+        "kind": "mention",
+        "terms": [
+          "Awoken"
+        ]
+      },
+      {
+        "ref": "A-09C9C71AF347",
+        "faction": "Horse Lords of Ataka",
+        "kind": "mention",
+        "terms": [
+          "ataka"
+        ]
+      },
+      {
+        "ref": "A-0AED704C91B7",
+        "faction": "The Descension",
+        "kind": "mention",
+        "terms": [
+          "Descension"
+        ]
+      },
+      {
+        "ref": "A-0C7F6B355CB2",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "Shiho"
+        ]
+      },
+      {
+        "ref": "A-124959AA8F80",
+        "faction": "Cult of Yurei",
+        "kind": "mention",
+        "terms": [
+          "Cult"
+        ]
+      },
+      {
+        "ref": "A-124959AA8F80",
+        "faction": "Horse Lords of Ataka",
+        "kind": "mention",
+        "terms": [
+          "Horselords"
+        ]
+      },
+      {
+        "ref": "A-124959AA8F80",
+        "faction": "Kinshi Temple",
+        "kind": "mention",
+        "terms": [
+          "Kinshi"
+        ]
+      },
+      {
+        "ref": "A-124959AA8F80",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Prefecture"
+        ]
+      },
+      {
+        "ref": "A-124959AA8F80",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "Shiho"
+        ]
+      },
+      {
+        "ref": "A-124959AA8F80",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "Temple"
+        ]
+      },
+      {
+        "ref": "A-124959AA8F80",
+        "faction": "The Descension",
+        "kind": "mention",
+        "terms": [
+          "Descension"
+        ]
+      },
+      {
+        "ref": "A-124959AA8F80",
+        "faction": "The Imperial Court",
+        "kind": "mention",
+        "terms": [
+          "Imperials"
+        ]
+      },
+      {
+        "ref": "A-18BDF4B1023A",
+        "faction": "Jung Pirates",
+        "kind": "mention",
+        "terms": [
+          "jung",
+          "Jung"
+        ]
+      },
+      {
+        "ref": "A-18BDF4B1023A",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "Shiho"
+        ]
+      },
+      {
+        "ref": "A-18BDF4B1023A",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "Temple"
+        ]
+      },
+      {
+        "ref": "A-1EB7243517CB",
+        "faction": "The Descension",
+        "kind": "mention",
+        "terms": [
+          "Descension"
+        ]
+      },
+      {
+        "ref": "A-1F2AA24E5790",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "Shiho"
+        ]
+      },
+      {
+        "ref": "A-22C2C52BD521",
+        "faction": "Cult of Yurei",
+        "kind": "mention",
+        "terms": [
+          "Cult"
+        ]
+      },
+      {
+        "ref": "A-22C2C52BD521",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-22C2C52BD521",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Prefecture"
+        ]
+      },
+      {
+        "ref": "A-26D4CB31D873",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-307D9D089E6B",
+        "faction": "Kinshi Temple",
+        "kind": "mention",
+        "terms": [
+          "Kinshi"
+        ]
+      },
+      {
+        "ref": "A-307D9D089E6B",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "Temple"
+        ]
+      },
+      {
+        "ref": "A-3460CAF0845A",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "Ro-Kan",
+          "temple"
+        ]
+      },
+      {
+        "ref": "A-36CD8108ABB7",
+        "faction": "Jung Pirates",
+        "kind": "mention",
+        "terms": [
+          "Jung"
+        ]
+      },
+      {
+        "ref": "A-36CD8108ABB7",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "prefecture",
+          "Ryu"
+        ]
+      },
+      {
+        "ref": "A-36CD8108ABB7",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "Temple"
+        ]
+      },
+      {
+        "ref": "A-384F1F56B267",
+        "faction": "Cult of Yurei",
+        "kind": "mention",
+        "terms": [
+          "Yurei"
+        ]
+      },
+      {
+        "ref": "A-384F1F56B267",
+        "faction": "Jung Pirates",
+        "kind": "mention",
+        "terms": [
+          "Jung"
+        ]
+      },
+      {
+        "ref": "A-384F1F56B267",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-3922DE8D9E64",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "Ninja"
+        ]
+      },
+      {
+        "ref": "A-3D553877300E",
+        "faction": "Cult of Yurei",
+        "kind": "mention",
+        "terms": [
+          "Cult"
+        ]
+      },
+      {
+        "ref": "A-3D553877300E",
+        "faction": "Jung Pirates",
+        "kind": "mention",
+        "terms": [
+          "Jung"
+        ]
+      },
+      {
+        "ref": "A-3D553877300E",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-3F15A7676F76",
+        "faction": "Jung Pirates",
+        "kind": "mention",
+        "terms": [
+          "pirates"
+        ]
+      },
+      {
+        "ref": "A-3F4D0E6B4DAC",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Ryu"
+        ]
+      },
+      {
+        "ref": "A-3F4D0E6B4DAC",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "ninjas"
+        ]
+      },
+      {
+        "ref": "A-3F4D0E6B4DAC",
+        "faction": "Silvermoon Trade Syndicate",
+        "kind": "mention",
+        "terms": [
+          "sts"
+        ]
+      },
+      {
+        "ref": "A-41C6EBA9ABDC",
+        "faction": "The Awoken",
+        "kind": "mention",
+        "terms": [
+          "awoken"
+        ]
+      },
+      {
+        "ref": "A-42FB91104C95",
+        "faction": "The Awoken",
+        "kind": "mention",
+        "terms": [
+          "awoken"
+        ]
+      },
+      {
+        "ref": "A-498DE632B378",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Ryu"
+        ]
+      },
+      {
+        "ref": "A-498DE632B378",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "ninjas"
+        ]
+      },
+      {
+        "ref": "A-498DE632B378",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "Temple"
+        ]
+      },
+      {
+        "ref": "A-498DE632B378",
+        "faction": "The Awoken",
+        "kind": "mention",
+        "terms": [
+          "awoken"
+        ]
+      },
+      {
+        "ref": "A-4DE7BE349FE6",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "shiho"
+        ]
+      },
+      {
+        "ref": "A-59F188A60F67",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-5E028312D70A",
+        "faction": "Horse Lords of Ataka",
+        "kind": "mention",
+        "terms": [
+          "horse lords"
+        ]
+      },
+      {
+        "ref": "A-5F57E493184D",
+        "faction": "Ito Clan",
+        "kind": "mention",
+        "terms": [
+          "Ito"
+        ]
+      },
+      {
+        "ref": "A-5F57E493184D",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-60A1E771C85B",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-60A1E771C85B",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Ryu"
+        ]
+      },
+      {
+        "ref": "A-62AB39AA327F",
+        "faction": "The Awoken",
+        "kind": "mention",
+        "terms": [
+          "Awoken"
+        ]
+      },
+      {
+        "ref": "A-67B182E94028",
+        "faction": "Jung Pirates",
+        "kind": "mention",
+        "terms": [
+          "Jung"
+        ]
+      },
+      {
+        "ref": "A-68BE8A7D016B",
+        "faction": "Savage Wave",
+        "kind": "mention",
+        "terms": [
+          "SW"
+        ]
+      },
+      {
+        "ref": "A-6E559D159FD0",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "minimoto",
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-6E559D159FD0",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Ryu"
+        ]
+      },
+      {
+        "ref": "A-6E6F8D81BF33",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "minimoto"
+        ]
+      },
+      {
+        "ref": "A-6E6F8D81BF33",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "ninjas",
+          "ninja"
+        ]
+      },
+      {
+        "ref": "A-6E74494C434D",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "Temple",
+          "temple"
+        ]
+      },
+      {
+        "ref": "A-6F1443D9A3F2",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-70A2528B54C7",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-70A2528B54C7",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "KKZ"
+        ]
+      },
+      {
+        "ref": "A-7342D4012E59",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-7342D4012E59",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "Ninja"
+        ]
+      },
+      {
+        "ref": "A-74BE69244CA4",
+        "faction": "Horse Lords of Ataka",
+        "kind": "mention",
+        "terms": [
+          "Horsegirls"
+        ]
+      },
+      {
+        "ref": "A-74BE69244CA4",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-74BE69244CA4",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "Ninja"
+        ]
+      },
+      {
+        "ref": "A-772032771E8B",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Ryu"
+        ]
+      },
+      {
+        "ref": "A-777ACAC30D26",
+        "faction": "Horse Lords of Ataka",
+        "kind": "mention",
+        "terms": [
+          "Horses"
+        ]
+      },
+      {
+        "ref": "A-777ACAC30D26",
+        "faction": "Ito Clan",
+        "kind": "mention",
+        "terms": [
+          "Ito"
+        ]
+      },
+      {
+        "ref": "A-777ACAC30D26",
+        "faction": "Kinshi Temple",
+        "kind": "mention",
+        "terms": [
+          "Kinshi"
+        ]
+      },
+      {
+        "ref": "A-777ACAC30D26",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Ryu"
+        ]
+      },
+      {
+        "ref": "A-777ACAC30D26",
+        "faction": "Savage Wave",
+        "kind": "mention",
+        "terms": [
+          "Savage Wave"
+        ]
+      },
+      {
+        "ref": "A-777ACAC30D26",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "temple"
+        ]
+      },
+      {
+        "ref": "A-777ACAC30D26",
+        "faction": "The Imperial Court",
+        "kind": "mention",
+        "terms": [
+          "Imperial Court"
+        ]
+      },
+      {
+        "ref": "A-78EA9E4F548A",
+        "faction": "Savage Wave",
+        "kind": "mention",
+        "terms": [
+          "Savage Wave"
+        ]
+      },
+      {
+        "ref": "A-78EA9E4F548A",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "ninja",
+          "ninjas"
+        ]
+      },
+      {
+        "ref": "A-7932EDD6C647",
+        "faction": "Jung Pirates",
+        "kind": "mention",
+        "terms": [
+          "Jung"
+        ]
+      },
+      {
+        "ref": "A-7932EDD6C647",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-7932EDD6C647",
+        "faction": "The Awoken",
+        "kind": "mention",
+        "terms": [
+          "Awoken"
+        ]
+      },
+      {
+        "ref": "A-7987C3E0E811",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "Templer"
+        ]
+      },
+      {
+        "ref": "A-7B69E8DE0A0F",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-7C227CF76A44",
+        "faction": "Cult of Yurei",
+        "kind": "mention",
+        "terms": [
+          "Yurei",
+          "cult"
+        ]
+      },
+      {
+        "ref": "A-7C227CF76A44",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Prefecture"
+        ]
+      },
+      {
+        "ref": "A-7C227CF76A44",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "temple"
+        ]
+      },
+      {
+        "ref": "A-7F48FE2B0EE1",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Ryu"
+        ]
+      },
+      {
+        "ref": "A-7F8972752E80",
+        "faction": "Horse Lords of Ataka",
+        "kind": "mention",
+        "terms": [
+          "Horse Lords"
+        ]
+      },
+      {
+        "ref": "A-7F8972752E80",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "ninjas",
+          "Ninjas"
+        ]
+      },
+      {
+        "ref": "A-80A4FB23689E",
+        "faction": "Jung Pirates",
+        "kind": "mention",
+        "terms": [
+          "Pirates"
+        ]
+      },
+      {
+        "ref": "A-80A4FB23689E",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "minimoto"
+        ]
+      },
+      {
+        "ref": "A-80A4FB23689E",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "ninja"
+        ]
+      },
+      {
+        "ref": "A-80A4FB23689E",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "Shiho"
+        ]
+      },
+      {
+        "ref": "A-80A4FB23689E",
+        "faction": "Silvermoon Trade Syndicate",
+        "kind": "mention",
+        "terms": [
+          "Syndicate"
+        ]
+      },
+      {
+        "ref": "A-80A4FB23689E",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "temple"
+        ]
+      },
+      {
+        "ref": "A-819D7E10DBAD",
+        "faction": "Cult of Yurei",
+        "kind": "mention",
+        "terms": [
+          "Cult"
+        ]
+      },
+      {
+        "ref": "A-819D7E10DBAD",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Ryu"
+        ]
+      },
+      {
+        "ref": "A-819D7E10DBAD",
+        "faction": "The Descension",
+        "kind": "mention",
+        "terms": [
+          "Descension"
+        ]
+      },
+      {
+        "ref": "A-8962669201CA",
+        "faction": "Savage Wave",
+        "kind": "mention",
+        "terms": [
+          "savage wave"
+        ]
+      },
+      {
+        "ref": "A-8E8DA45B3C5B",
+        "faction": "Horse Lords of Ataka",
+        "kind": "mention",
+        "terms": [
+          "Horselords"
+        ]
+      },
+      {
+        "ref": "A-8E8DA45B3C5B",
+        "faction": "Kinshi Temple",
+        "kind": "mention",
+        "terms": [
+          "Kinshi"
+        ]
+      },
+      {
+        "ref": "A-8E8DA45B3C5B",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-8E8DA45B3C5B",
+        "faction": "Savage Wave",
+        "kind": "mention",
+        "terms": [
+          "Savage Wave"
+        ]
+      },
+      {
+        "ref": "A-8E8DA45B3C5B",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "Ninja"
+        ]
+      },
+      {
+        "ref": "A-8E8DA45B3C5B",
+        "faction": "The Descension",
+        "kind": "mention",
+        "terms": [
+          "Descension"
+        ]
+      },
+      {
+        "ref": "A-8E8DA45B3C5B",
+        "faction": "The Imperial Court",
+        "kind": "mention",
+        "terms": [
+          "Imperial Court"
+        ]
+      },
+      {
+        "ref": "A-8EA29D58AA1A",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "Ninjas"
+        ]
+      },
+      {
+        "ref": "A-9154BD65EEC4",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-915A5EF550EB",
+        "faction": "Cult of Yurei",
+        "kind": "mention",
+        "terms": [
+          "cult"
+        ]
+      },
+      {
+        "ref": "A-915A5EF550EB",
+        "faction": "Horse Lords of Ataka",
+        "kind": "mention",
+        "terms": [
+          "horselords"
+        ]
+      },
+      {
+        "ref": "A-915A5EF550EB",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Ryu"
+        ]
+      },
+      {
+        "ref": "A-915A5EF550EB",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "shiho"
+        ]
+      },
+      {
+        "ref": "A-96367AB0F0EA",
+        "faction": "Silvermoon Trade Syndicate",
+        "kind": "mention",
+        "terms": [
+          "STS"
+        ]
+      },
+      {
+        "ref": "A-9694891B35CE",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "Shiho"
+        ]
+      },
+      {
+        "ref": "A-A0C79BC73A05",
+        "faction": "Silvermoon Trade Syndicate",
+        "kind": "mention",
+        "terms": [
+          "STS"
+        ]
+      },
+      {
+        "ref": "A-A62BB57421CA",
+        "faction": "Jung Pirates",
+        "kind": "mention",
+        "terms": [
+          "Jung"
+        ]
+      },
+      {
+        "ref": "A-A62BB57421CA",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-A66EF83475BB",
+        "faction": "Jung Pirates",
+        "kind": "mention",
+        "terms": [
+          "Jung"
+        ]
+      },
+      {
+        "ref": "A-A7407293119C",
+        "faction": "Jung Pirates",
+        "kind": "mention",
+        "terms": [
+          "Jung"
+        ]
+      },
+      {
+        "ref": "A-A8043EFF7AA0",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "shadow clan"
+        ]
+      },
+      {
+        "ref": "A-A8043EFF7AA0",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "Shiho"
+        ]
+      },
+      {
+        "ref": "A-AECC8C3B3545",
+        "faction": "Jung Pirates",
+        "kind": "mention",
+        "terms": [
+          "Jung"
+        ]
+      },
+      {
+        "ref": "A-AECC8C3B3545",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "ryu"
+        ]
+      },
+      {
+        "ref": "A-AF768FD4D9F8",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "Shiho"
+        ]
+      },
+      {
+        "ref": "A-AFE81719BC2A",
+        "faction": "Cult of Yurei",
+        "kind": "mention",
+        "terms": [
+          "Yurei"
+        ]
+      },
+      {
+        "ref": "A-B0563BE8DB8B",
+        "faction": "Cult of Yurei",
+        "kind": "mention",
+        "terms": [
+          "Cult"
+        ]
+      },
+      {
+        "ref": "A-B2A6CC4A4BAB",
+        "faction": "The Awoken",
+        "kind": "mention",
+        "terms": [
+          "awoken"
+        ]
+      },
+      {
+        "ref": "A-B3233C384185",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "Shiho"
+        ]
+      },
+      {
+        "ref": "A-B47B92E3DFE2",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "ninja"
+        ]
+      },
+      {
+        "ref": "A-B47B92E3DFE2",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "shiho"
+        ]
+      },
+      {
+        "ref": "A-B81281275AEE",
+        "faction": "Kinshi Temple",
+        "kind": "mention",
+        "terms": [
+          "kinshi"
+        ]
+      },
+      {
+        "ref": "A-BB26689396D9",
+        "faction": "Horse Lords of Ataka",
+        "kind": "mention",
+        "terms": [
+          "Horselords"
+        ]
+      },
+      {
+        "ref": "A-BB26689396D9",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "minimoto"
+        ]
+      },
+      {
+        "ref": "A-BB874918ED98",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Ryu"
+        ]
+      },
+      {
+        "ref": "A-BB874918ED98",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "Temple"
+        ]
+      },
+      {
+        "ref": "A-BD22E33B4067",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "minimoto"
+        ]
+      },
+      {
+        "ref": "A-BD22E33B4067",
+        "faction": "Savage Wave",
+        "kind": "mention",
+        "terms": [
+          "savage wave"
+        ]
+      },
+      {
+        "ref": "A-BD22E33B4067",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "shadowind"
+        ]
+      },
+      {
+        "ref": "A-BD22E33B4067",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "shiho"
+        ]
+      },
+      {
+        "ref": "A-BD22E33B4067",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "temple"
+        ]
+      },
+      {
+        "ref": "A-BD22E33B4067",
+        "faction": "The Awoken",
+        "kind": "mention",
+        "terms": [
+          "awoken"
+        ]
+      },
+      {
+        "ref": "A-BD22E33B4067",
+        "faction": "The Imperial Court",
+        "kind": "mention",
+        "terms": [
+          "imperials"
+        ]
+      },
+      {
+        "ref": "A-BEF637BD1235",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Ryu"
+        ]
+      },
+      {
+        "ref": "A-BEF637BD1235",
+        "faction": "The Descension",
+        "kind": "mention",
+        "terms": [
+          "Descension"
+        ]
+      },
+      {
+        "ref": "A-C49F02FD586E",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minomoto"
+        ]
+      },
+      {
+        "ref": "A-C5B0303B67AA",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Prefecture"
+        ]
+      },
+      {
+        "ref": "A-C62BBD7EDF2D",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-C62BBD7EDF2D",
+        "faction": "The Awoken",
+        "kind": "mention",
+        "terms": [
+          "Awoken",
+          "Awakened"
+        ]
+      },
+      {
+        "ref": "A-C6D57BF6BEA5",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-C6D57BF6BEA5",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "ninjas"
+        ]
+      },
+      {
+        "ref": "A-C6E44A38A01C",
+        "faction": "Ito Clan",
+        "kind": "mention",
+        "terms": [
+          "Ito"
+        ]
+      },
+      {
+        "ref": "A-C6E44A38A01C",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-C6E44A38A01C",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "Temple"
+        ]
+      },
+      {
+        "ref": "A-C8DEBA2B3EF8",
+        "faction": "Ito Clan",
+        "kind": "mention",
+        "terms": [
+          "Ito"
+        ]
+      },
+      {
+        "ref": "A-C8DEBA2B3EF8",
+        "faction": "Kinshi Temple",
+        "kind": "mention",
+        "terms": [
+          "Kinshi"
+        ]
+      },
+      {
+        "ref": "A-C8DEBA2B3EF8",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-C8DEBA2B3EF8",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "Shiho"
+        ]
+      },
+      {
+        "ref": "A-C8DEBA2B3EF8",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "Temple"
+        ]
+      },
+      {
+        "ref": "A-C8DEBA2B3EF8",
+        "faction": "The Descension",
+        "kind": "mention",
+        "terms": [
+          "Descension"
+        ]
+      },
+      {
+        "ref": "A-CA7010AC95BD",
+        "faction": "Cult of Yurei",
+        "kind": "mention",
+        "terms": [
+          "Yurei"
+        ]
+      },
+      {
+        "ref": "A-CA7010AC95BD",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-CBE6A7E6A336",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "Ninja"
+        ]
+      },
+      {
+        "ref": "A-CBE6A7E6A336",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "Tempel"
+        ]
+      },
+      {
+        "ref": "A-CD3F4F7BF3F3",
+        "faction": "Jung Pirates",
+        "kind": "mention",
+        "terms": [
+          "Jung"
+        ]
+      },
+      {
+        "ref": "A-CD3F4F7BF3F3",
+        "faction": "The Descension",
+        "kind": "mention",
+        "terms": [
+          "Descension"
+        ]
+      },
+      {
+        "ref": "A-CDF687EB092D",
+        "faction": "Savage Wave",
+        "kind": "mention",
+        "terms": [
+          "Savage Wave"
+        ]
+      },
+      {
+        "ref": "A-CDF687EB092D",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "ninjas"
+        ]
+      },
+      {
+        "ref": "A-CDF687EB092D",
+        "faction": "Silvermoon Trade Syndicate",
+        "kind": "mention",
+        "terms": [
+          "StS"
+        ]
+      },
+      {
+        "ref": "A-CDF687EB092D",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "Temple"
+        ]
+      },
+      {
+        "ref": "A-D8034F48E846",
+        "faction": "Kinshi Temple",
+        "kind": "mention",
+        "terms": [
+          "Kinshi"
+        ]
+      },
+      {
+        "ref": "A-D8034F48E846",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-D8034F48E846",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Ryu"
+        ]
+      },
+      {
+        "ref": "A-D8034F48E846",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "Rokan"
+        ]
+      },
+      {
+        "ref": "A-D8034F48E846",
+        "faction": "The Awoken",
+        "kind": "mention",
+        "terms": [
+          "Awoken"
+        ]
+      },
+      {
+        "ref": "A-D9C4149742C7",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "Shiho"
+        ]
+      },
+      {
+        "ref": "A-DB1BF6071717",
+        "faction": "Horse Lords of Ataka",
+        "kind": "mention",
+        "terms": [
+          "Horselords"
+        ]
+      },
+      {
+        "ref": "A-DB1BF6071717",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "Shiho"
+        ]
+      },
+      {
+        "ref": "A-DB1BF6071717",
+        "faction": "The Awoken",
+        "kind": "mention",
+        "terms": [
+          "Awoken"
+        ]
+      },
+      {
+        "ref": "A-DC2242893571",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Ryu"
+        ]
+      },
+      {
+        "ref": "A-DC2242893571",
+        "faction": "Silvermoon Trade Syndicate",
+        "kind": "mention",
+        "terms": [
+          "STS"
+        ]
+      },
+      {
+        "ref": "A-DC2242893571",
+        "faction": "The Descension",
+        "kind": "mention",
+        "terms": [
+          "Tengu"
+        ]
+      },
+      {
+        "ref": "A-DCDEE3E17200",
+        "faction": "Jung Pirates",
+        "kind": "mention",
+        "terms": [
+          "Jung"
+        ]
+      },
+      {
+        "ref": "A-DF039DC4993B",
+        "faction": "Kinshi Temple",
+        "kind": "mention",
+        "terms": [
+          "Kinshi"
+        ]
+      },
+      {
+        "ref": "A-DF480FEA4773",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "Shadow Wind Clan"
+        ]
+      },
+      {
+        "ref": "A-E2A209D9BD35",
+        "faction": "Cult of Yurei",
+        "kind": "mention",
+        "terms": [
+          "Cult"
+        ]
+      },
+      {
+        "ref": "A-E2A209D9BD35",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-E2A209D9BD35",
+        "faction": "Silvermoon Trade Syndicate",
+        "kind": "mention",
+        "terms": [
+          "Silvermoon"
+        ]
+      },
+      {
+        "ref": "A-E40E93EA99DE",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "Shiho"
+        ]
+      },
+      {
+        "ref": "A-E40E93EA99DE",
+        "faction": "The Imperial Court",
+        "kind": "mention",
+        "terms": [
+          "imperials"
+        ]
+      },
+      {
+        "ref": "A-E6F04B1E1638",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-E6F04B1E1638",
+        "faction": "Temple of Ro-Kan",
+        "kind": "mention",
+        "terms": [
+          "Temple"
+        ]
+      },
+      {
+        "ref": "A-E71A32E5D839",
+        "faction": "Cult of Yurei",
+        "kind": "mention",
+        "terms": [
+          "Yurei"
+        ]
+      },
+      {
+        "ref": "A-E76E5AD21D7E",
+        "faction": "Cult of Yurei",
+        "kind": "mention",
+        "terms": [
+          "Yurei"
+        ]
+      },
+      {
+        "ref": "A-E76E5AD21D7E",
+        "faction": "Horse Lords of Ataka",
+        "kind": "mention",
+        "terms": [
+          "Horse Lords"
+        ]
+      },
+      {
+        "ref": "A-E76E5AD21D7E",
+        "faction": "Savage Wave",
+        "kind": "mention",
+        "terms": [
+          "Savage Wave"
+        ]
+      },
+      {
+        "ref": "A-E76E5AD21D7E",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "KKZ"
+        ]
+      },
+      {
+        "ref": "A-E76E5AD21D7E",
+        "faction": "The Descension",
+        "kind": "mention",
+        "terms": [
+          "descenion"
+        ]
+      },
+      {
+        "ref": "A-E76E5AD21D7E",
+        "faction": "The Imperial Court",
+        "kind": "mention",
+        "terms": [
+          "IC"
+        ]
+      },
+      {
+        "ref": "A-E7731A66DD06",
+        "faction": "Ito Clan",
+        "kind": "mention",
+        "terms": [
+          "Ito"
+        ]
+      },
+      {
+        "ref": "A-E7731A66DD06",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-E7731A66DD06",
+        "faction": "Savage Wave",
+        "kind": "mention",
+        "terms": [
+          "SW"
+        ]
+      },
+      {
+        "ref": "A-E7731A66DD06",
+        "faction": "Silvermoon Trade Syndicate",
+        "kind": "mention",
+        "terms": [
+          "STS"
+        ]
+      },
+      {
+        "ref": "A-EE3EF468BF02",
+        "faction": "Ito Clan",
+        "kind": "mention",
+        "terms": [
+          "Ito"
+        ]
+      },
+      {
+        "ref": "A-EE3EF468BF02",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-EE3EF468BF02",
+        "faction": "Savage Wave",
+        "kind": "mention",
+        "terms": [
+          "Savage Wave"
+        ]
+      },
+      {
+        "ref": "A-EE3EF468BF02",
+        "faction": "The Descension",
+        "kind": "mention",
+        "terms": [
+          "descension"
+        ]
+      },
+      {
+        "ref": "A-F044EEA082F1",
+        "faction": "Minimoto Clan",
+        "kind": "mention",
+        "terms": [
+          "Minimoto"
+        ]
+      },
+      {
+        "ref": "A-F044EEA082F1",
+        "faction": "Prefecture of Ryu",
+        "kind": "mention",
+        "terms": [
+          "Ryu"
+        ]
+      },
+      {
+        "ref": "A-F044EEA082F1",
+        "faction": "The Imperial Court",
+        "kind": "mention",
+        "terms": [
+          "Imperial Court",
+          "IC"
+        ]
+      },
+      {
+        "ref": "A-F3B62823D73B",
+        "faction": "Horse Lords of Ataka",
+        "kind": "mention",
+        "terms": [
+          "horselords"
+        ]
+      },
+      {
+        "ref": "A-F3B62823D73B",
+        "faction": "Kinshi Temple",
+        "kind": "mention",
+        "terms": [
+          "kinshi"
+        ]
+      },
+      {
+        "ref": "A-F3B62823D73B",
+        "faction": "Shadow Wind Clan",
+        "kind": "mention",
+        "terms": [
+          "ninjas"
+        ]
+      },
+      {
+        "ref": "A-F3B62823D73B",
+        "faction": "Shiho Clan",
+        "kind": "mention",
+        "terms": [
+          "shiho"
+        ]
+      },
+      {
+        "ref": "A-F4CDF63B6BF3",
+        "faction": "Kinshi Temple",
+        "kind": "mention",
+        "terms": [
+          "Kinshi"
+        ]
+      },
+      {
+        "ref": "A-F5CF3332FD5E",
+        "faction": "Cult of Yurei",
+        "kind": "mention",
+        "terms": [
+          "yurei"
+        ]
+      },
+      {
+        "ref": "A-009C67B8AEA7",
+        "faction": "Ito Clan",
+        "kind": "context",
+        "reason": "The own-faction answer describes mandatory picks masking roster weakness."
+      },
+      {
+        "ref": "A-09C9C71AF347",
+        "faction": "Shiho Clan",
+        "kind": "context",
+        "reason": "Open Rebellion is the Shiho theme discussed."
+      },
+      {
+        "ref": "A-0AED704C91B7",
+        "faction": "Savage Wave",
+        "kind": "context",
+        "reason": "Bakemono zoo is a Savage Wave list; villagers, Kawa and Byiba identify Ro-Kan."
+      },
+      {
+        "ref": "A-0AED704C91B7",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Bakemono zoo is a Savage Wave list; villagers, Kawa and Byiba identify Ro-Kan."
+      },
+      {
+        "ref": "A-0E9F4621CC4D",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "The own-faction answer contrasts prison and Buzenbo with tribesmen and Karasu."
+      },
+      {
+        "ref": "A-10F91A037523",
+        "faction": "Savage Wave",
+        "kind": "context",
+        "reason": "The own-faction passage explicitly discusses Oni."
+      },
+      {
+        "ref": "A-115C3D09C0E5",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Buzenbo is the Descension model criticised; Shikaku and Master Shi identify Kinshi."
+      },
+      {
+        "ref": "A-115C3D09C0E5",
+        "faction": "Kinshi Temple",
+        "kind": "context",
+        "reason": "Buzenbo is the Descension model criticised; Shikaku and Master Shi identify Kinshi."
+      },
+      {
+        "ref": "A-16F78799BD3D",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Bastions is the Ro-Kan theme; Hunting Pack is Savage Wave."
+      },
+      {
+        "ref": "A-16F78799BD3D",
+        "faction": "Savage Wave",
+        "kind": "context",
+        "reason": "Bastions is the Ro-Kan theme; Hunting Pack is Savage Wave."
+      },
+      {
+        "ref": "A-18BDF4B1023A",
+        "faction": "Savage Wave",
+        "kind": "context",
+        "reason": "Hunting Pack is discussed as a Bakemono build."
+      },
+      {
+        "ref": "A-1BDE50A24895",
+        "faction": "Jung Pirates",
+        "kind": "context",
+        "reason": "Conclave of Captains is the Jung theme criticised."
+      },
+      {
+        "ref": "A-1E1485281072",
+        "faction": "Jung Pirates",
+        "kind": "context",
+        "reason": "The own-list passage describes the cost of losing a model."
+      },
+      {
+        "ref": "A-22C2C52BD521",
+        "faction": "Silvermoon Trade Syndicate",
+        "kind": "context",
+        "reason": "The own-faction answer assesses roster breadth and fear vulnerability."
+      },
+      {
+        "ref": "A-24D885D64FF6",
+        "faction": "Savage Wave",
+        "kind": "context",
+        "reason": "Wrath of the Red Sun belongs to Savage Wave; Jade Rose Gumi to Silvermoon."
+      },
+      {
+        "ref": "A-24D885D64FF6",
+        "faction": "Silvermoon Trade Syndicate",
+        "kind": "context",
+        "reason": "Wrath of the Red Sun belongs to Savage Wave; Jade Rose Gumi to Silvermoon."
+      },
+      {
+        "ref": "A-36F8737959A1",
+        "faction": "Savage Wave",
+        "kind": "context",
+        "reason": "Hunting Pack is Savage Wave; Bastions is Ro-Kan; Haiatake prison is Descension."
+      },
+      {
+        "ref": "A-36F8737959A1",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Hunting Pack is Savage Wave; Bastions is Ro-Kan; Haiatake prison is Descension."
+      },
+      {
+        "ref": "A-36F8737959A1",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Hunting Pack is Savage Wave; Bastions is Ro-Kan; Haiatake prison is Descension."
+      },
+      {
+        "ref": "A-37014A649B9C",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Villagers identifies the Ro-Kan build."
+      },
+      {
+        "ref": "A-3922DE8D9E64",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Villagers identifies the Ro-Kan build."
+      },
+      {
+        "ref": "A-3B5DFA8C1D1A",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Villagers identifies Ro-Kan; Cage identifies the Descension prison build."
+      },
+      {
+        "ref": "A-3B5DFA8C1D1A",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Villagers identifies Ro-Kan; Cage identifies the Descension prison build."
+      },
+      {
+        "ref": "A-3D553877300E",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Bastions, Masters of the Art and Followers of Inari identify Ro-Kan; Eternal Legion identifies Imperial Court."
+      },
+      {
+        "ref": "A-3D553877300E",
+        "faction": "The Imperial Court",
+        "kind": "context",
+        "reason": "Bastions, Masters of the Art and Followers of Inari identify Ro-Kan; Eternal Legion identifies Imperial Court."
+      },
+      {
+        "ref": "A-3F15A7676F76",
+        "faction": "Shadow Wind Clan",
+        "kind": "context",
+        "reason": "House North Star identifies the ninja theme. Brotherhood is a cross-faction Ronin theme and is not assigned to ninjas."
+      },
+      {
+        "ref": "A-4361DE867746",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Haiatake guards and Way of the Ancient Warrior identify Descension; Bastions and Kawa identify Ro-Kan."
+      },
+      {
+        "ref": "A-4361DE867746",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Haiatake guards and Way of the Ancient Warrior identify Descension; Bastions and Kawa identify Ro-Kan."
+      },
+      {
+        "ref": "A-4EE049187057",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Buzenbo is the Descension model discussed."
+      },
+      {
+        "ref": "A-4FF011B528CB",
+        "faction": "Ito Clan",
+        "kind": "context",
+        "reason": "Own-faction dependence on Jade Witch and difficulty into Soulless."
+      },
+      {
+        "ref": "A-5712C4ADDED8",
+        "faction": "The Awoken",
+        "kind": "context",
+        "reason": "Jaakuna, Kimura and Joyless Smiles identify Awoken theme tensions."
+      },
+      {
+        "ref": "A-5F6988F9EDF5",
+        "faction": "The Awoken",
+        "kind": "context",
+        "reason": "Jaakuna and the Family identify the poison, Fear and Ki constraints."
+      },
+      {
+        "ref": "A-6E74494C434D",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Haiatake Prison identifies Descension; Kimura identifies Awoken."
+      },
+      {
+        "ref": "A-6E74494C434D",
+        "faction": "The Awoken",
+        "kind": "context",
+        "reason": "Haiatake Prison identifies Descension; Kimura identifies Awoken."
+      },
+      {
+        "ref": "A-7342D4012E59",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Villagers identifies the Ro-Kan build."
+      },
+      {
+        "ref": "A-74B7620669DB",
+        "faction": "Shadow Wind Clan",
+        "kind": "context",
+        "reason": "House of Bleeding Moon is the ninja theme discussed."
+      },
+      {
+        "ref": "A-772032771E8B",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Bastions, traps and silt kami identify Ro-Kan; prison identifies Descension."
+      },
+      {
+        "ref": "A-772032771E8B",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Bastions, traps and silt kami identify Ro-Kan; prison identifies Descension."
+      },
+      {
+        "ref": "A-787C78425E11",
+        "faction": "Minimoto Clan",
+        "kind": "context",
+        "reason": "The own-faction answer concerns samurai and susceptibility to prone and traps."
+      },
+      {
+        "ref": "A-78EA9E4F548A",
+        "faction": "Silvermoon Trade Syndicate",
+        "kind": "context",
+        "reason": "Roses is the Silvermoon build frustrating the Oni player."
+      },
+      {
+        "ref": "A-7B69E8DE0A0F",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Haiatake prison and Buzenbo identify Descension; Kuna identifies Awoken."
+      },
+      {
+        "ref": "A-7B69E8DE0A0F",
+        "faction": "The Awoken",
+        "kind": "context",
+        "reason": "Haiatake prison and Buzenbo identify Descension; Kuna identifies Awoken."
+      },
+      {
+        "ref": "A-80A4FB23689E",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Birds refers to Descension models countering camouflage."
+      },
+      {
+        "ref": "A-8B763DBEE3D3",
+        "faction": "Shadow Wind Clan",
+        "kind": "context",
+        "reason": "House North Star is a ninja theme; Open Rebellion is Shiho; Conclave of Captains is Jung."
+      },
+      {
+        "ref": "A-8B763DBEE3D3",
+        "faction": "Shiho Clan",
+        "kind": "context",
+        "reason": "House North Star is a ninja theme; Open Rebellion is Shiho; Conclave of Captains is Jung."
+      },
+      {
+        "ref": "A-8B763DBEE3D3",
+        "faction": "Jung Pirates",
+        "kind": "context",
+        "reason": "House North Star is a ninja theme; Open Rebellion is Shiho; Conclave of Captains is Jung."
+      },
+      {
+        "ref": "A-8EA29D58AA1A",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Foxes identifies the Ro-Kan counter to ninjas."
+      },
+      {
+        "ref": "A-8EA701A519FB",
+        "faction": "Cult of Yurei",
+        "kind": "context",
+        "reason": "Things That Go Bump and Wretched Existence identify Yurei; WOTAW identifies Descension; Open Rebellion identifies Shiho."
+      },
+      {
+        "ref": "A-8EA701A519FB",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Things That Go Bump and Wretched Existence identify Yurei; WOTAW identifies Descension; Open Rebellion identifies Shiho."
+      },
+      {
+        "ref": "A-8EA701A519FB",
+        "faction": "Shiho Clan",
+        "kind": "context",
+        "reason": "Things That Go Bump and Wretched Existence identify Yurei; WOTAW identifies Descension; Open Rebellion identifies Shiho."
+      },
+      {
+        "ref": "A-8EE902BDE752",
+        "faction": "Ito Clan",
+        "kind": "context",
+        "reason": "Own-faction armour, wounds, poison and Jade Mamba Guard costs."
+      },
+      {
+        "ref": "A-9003A28CF76D",
+        "faction": "Jung Pirates",
+        "kind": "context",
+        "reason": "Own-faction answer describes losses triggering list collapse."
+      },
+      {
+        "ref": "A-90596B620405",
+        "faction": "Ito Clan",
+        "kind": "context",
+        "reason": "Itsunagi and Lightning Reflexes samurai identify the Ito list."
+      },
+      {
+        "ref": "A-924F60479076",
+        "faction": "Cult of Yurei",
+        "kind": "context",
+        "reason": "Own-faction answer praises model breadth and varied play styles."
+      },
+      {
+        "ref": "A-95B73DBBA0DE",
+        "faction": "Cult of Yurei",
+        "kind": "context",
+        "reason": "Own-faction answer discusses debuffs, Fear, regeneration and survival."
+      },
+      {
+        "ref": "A-9694891B35CE",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Buzenbo identifies the Descension shooter."
+      },
+      {
+        "ref": "A-9B85AB7DE807",
+        "faction": "Savage Wave",
+        "kind": "context",
+        "reason": "Ring of Fire, Onisho and Alphas identify Savage Wave."
+      },
+      {
+        "ref": "A-A019F3E61825",
+        "faction": "Ito Clan",
+        "kind": "context",
+        "reason": "Own-faction answer identifies manoeuvrability as the matchup factor."
+      },
+      {
+        "ref": "A-A177A5D0890D",
+        "faction": "Jung Pirates",
+        "kind": "context",
+        "reason": "Own-faction answer describes tricks, weak fighters and control vulnerability."
+      },
+      {
+        "ref": "A-AECC8C3B3545",
+        "faction": "Minimoto Clan",
+        "kind": "context",
+        "reason": "Kamui identifies the Minimoto profile."
+      },
+      {
+        "ref": "A-B18C690ABF67",
+        "faction": "Cult of Yurei",
+        "kind": "context",
+        "reason": "Skeletons identifies the Yurei build requiring a counter."
+      },
+      {
+        "ref": "A-B81281275AEE",
+        "faction": "Silvermoon Trade Syndicate",
+        "kind": "context",
+        "reason": "Own-faction answer describes Buto specials, events and camouflage vulnerability."
+      },
+      {
+        "ref": "A-B97247DA8594",
+        "faction": "Ito Clan",
+        "kind": "context",
+        "reason": "Cold Blood and The Blessed are the Ito themes compared."
+      },
+      {
+        "ref": "A-BEF637BD1235",
+        "faction": "Ito Clan",
+        "kind": "context",
+        "reason": "The own-faction passage assesses Ayako and counter matchups."
+      },
+      {
+        "ref": "A-C02CD9A59694",
+        "faction": "Minimoto Clan",
+        "kind": "context",
+        "reason": "Own-faction answer identifies armour, stamina and low activation count."
+      },
+      {
+        "ref": "A-C4C4433FEEB7",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Own-faction answer separates prison from speed and support."
+      },
+      {
+        "ref": "A-C566A233D2BC",
+        "faction": "Cult of Yurei",
+        "kind": "context",
+        "reason": "Skeletons, Rise and recursion identify Yurei."
+      },
+      {
+        "ref": "A-C5B0303B67AA",
+        "faction": "Savage Wave",
+        "kind": "context",
+        "reason": "Ring of Fire identifies Savage Wave; Skirmish Mission identifies Shadow Wind."
+      },
+      {
+        "ref": "A-C5B0303B67AA",
+        "faction": "Shadow Wind Clan",
+        "kind": "context",
+        "reason": "Ring of Fire identifies Savage Wave; Skirmish Mission identifies Shadow Wind."
+      },
+      {
+        "ref": "A-C6D57BF6BEA5",
+        "faction": "Kinshi Temple",
+        "kind": "context",
+        "reason": "Everything and Nothing identifies Kinshi; Hunter Gatherers and Zama identify Savage Wave."
+      },
+      {
+        "ref": "A-C6D57BF6BEA5",
+        "faction": "Savage Wave",
+        "kind": "context",
+        "reason": "Everything and Nothing identifies Kinshi; Hunter Gatherers and Zama identify Savage Wave."
+      },
+      {
+        "ref": "A-CD3F4F7BF3F3",
+        "faction": "Cult of Yurei",
+        "kind": "context",
+        "reason": "Bump identifies Yurei; Hunting Pack identifies Savage Wave; JRG identifies Silvermoon."
+      },
+      {
+        "ref": "A-CD3F4F7BF3F3",
+        "faction": "Savage Wave",
+        "kind": "context",
+        "reason": "Bump identifies Yurei; Hunting Pack identifies Savage Wave; JRG identifies Silvermoon."
+      },
+      {
+        "ref": "A-CD3F4F7BF3F3",
+        "faction": "Silvermoon Trade Syndicate",
+        "kind": "context",
+        "reason": "Bump identifies Yurei; Hunting Pack identifies Savage Wave; JRG identifies Silvermoon."
+      },
+      {
+        "ref": "A-CE36BB3D2D0C",
+        "faction": "Horse Lords of Ataka",
+        "kind": "context",
+        "reason": "Own-faction charge plan and Intangible are contrasted with camouflage, darkness and Blizzard."
+      },
+      {
+        "ref": "A-D751B050FF5A",
+        "faction": "Shiho Clan",
+        "kind": "context",
+        "reason": "The main-faction context resolves the unnamed weak own faction."
+      },
+      {
+        "ref": "A-DC2242893571",
+        "faction": "The Awoken",
+        "kind": "context",
+        "reason": "Spiders and their free waits identify Awoken."
+      },
+      {
+        "ref": "A-DCDEE3E17200",
+        "faction": "Savage Wave",
+        "kind": "context",
+        "reason": "Infestation and Ring of Fire identify Savage Wave."
+      },
+      {
+        "ref": "A-E6F04B1E1638",
+        "faction": "Silvermoon Trade Syndicate",
+        "kind": "context",
+        "reason": "Jade Rose Gumi and roses identify Silvermoon."
+      },
+      {
+        "ref": "A-E71A32E5D839",
+        "faction": "Minimoto Clan",
+        "kind": "context",
+        "reason": "Hoshi, Blizzard, Icicle Mastery, Kamuy and Machiko identify Minimoto."
+      },
+      {
+        "ref": "A-E7731A66DD06",
+        "faction": "The Awoken",
+        "kind": "context",
+        "reason": "Spiders identifies the Awoken matchup."
+      },
+      {
+        "ref": "A-E81F01F789A2",
+        "faction": "Cult of Yurei",
+        "kind": "context",
+        "reason": "Bump identifies Yurei; Hunting party here describes the Savage Wave summoning theme."
+      },
+      {
+        "ref": "A-E81F01F789A2",
+        "faction": "Savage Wave",
+        "kind": "context",
+        "reason": "Bump identifies Yurei; Hunting party here describes the Savage Wave summoning theme."
+      },
+      {
+        "ref": "A-EB6C78EA985B",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Own-faction answer identifies Sixth Sense as a strength."
+      },
+      {
+        "ref": "A-EE08A9266F08",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Own-faction answer describes damage mitigation while holding zones."
+      },
+      {
+        "ref": "A-EE29815CB79E",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Own-faction answer describes mobility, playstyle variety and fragile five-wound models."
+      },
+      {
+        "ref": "A-EE550D75E20E",
+        "faction": "Ito Clan",
+        "kind": "context",
+        "reason": "Own-faction context resolves the low-wound, low-armour models."
+      },
+      {
+        "ref": "A-F044EEA082F1",
+        "faction": "Shadow Wind Clan",
+        "kind": "context",
+        "reason": "Bleeding Moon identifies the ninja activation matchup."
+      },
+      {
+        "ref": "A-F230C18F0960",
+        "faction": "Savage Wave",
+        "kind": "context",
+        "reason": "Own-faction answer describes Bakemono numbers and Hunting Pack pressure."
+      },
+      {
+        "ref": "A-F46BD9DAECFC",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Haiatake prison identifies Descension."
+      },
+      {
+        "ref": "A-F4AFCFC411FF",
+        "faction": "Jung Pirates",
+        "kind": "context",
+        "reason": "Mitsukurina is the missing Jung model referenced."
+      },
+      {
+        "ref": "A-F4CDF63B6BF3",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Prison identifies the Descension list."
+      },
+      {
+        "ref": "A-F911757971A8",
+        "faction": "Shiho Clan",
+        "kind": "context",
+        "reason": "Main-faction context resolves the first-person comparison with armoured three-dice samurai."
+      },
+      {
+        "ref": "A-819D7E10DBAD",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Akari identifies the Ro-Kan activation engine."
+      },
+      {
+        "ref": "A-BEF637BD1235",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Masters with Akari identifies Ro-Kan."
+      },
+      {
+        "ref": "A-3F4D0E6B4DAC",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Buzenbo identifies the Descension shooter."
+      },
+      {
+        "ref": "A-B47B92E3DFE2",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Prison identifies the Descension build."
+      },
+      {
+        "ref": "A-4361DE867746",
+        "faction": "Savage Wave",
+        "kind": "context",
+        "reason": "Bakemono Hunting Pack is the summoning theme discussed."
+      },
+      {
+        "ref": "A-307D9D089E6B",
+        "faction": "Savage Wave",
+        "kind": "context",
+        "reason": "Hunting Pack is the summoning theme discussed."
+      },
+      {
+        "ref": "A-8EA701A519FB",
+        "faction": "Jung Pirates",
+        "kind": "context",
+        "reason": "Benthic Servitude identifies Jung."
+      },
+      {
+        "ref": "A-DA4907D4FB32",
+        "faction": "Kinshi Temple",
+        "kind": "context",
+        "reason": "Batsu identifies the Kinshi profile criticised."
+      },
+      {
+        "ref": "A-8B763DBEE3D3",
+        "faction": "Minimoto Clan",
+        "kind": "context",
+        "reason": "Finest Steel identifies Minimoto."
+      },
+      {
+        "ref": "A-679486128B3F",
+        "faction": "Prefecture of Ryu",
+        "kind": "context",
+        "reason": "Own-faction question and main-faction context resolve the reliable fighters and synergies."
+      },
+      {
+        "ref": "A-A1D79838B69C",
+        "faction": "Prefecture of Ryu",
+        "kind": "context",
+        "reason": "Own-faction question and main-faction context resolve the efficient melee and shooting toolkit."
+      },
+      {
+        "ref": "A-E6F04B1E1638",
+        "faction": "Prefecture of Ryu",
+        "kind": "context",
+        "reason": "Passing the Night identifies the Ryu theme."
+      },
+      {
+        "ref": "A-CD3F4F7BF3F3",
+        "faction": "Shiho Clan",
+        "kind": "context",
+        "reason": "Open Rebellion identifies the Shiho theme."
+      },
+      {
+        "ref": "A-8790E6634F5B",
+        "faction": "Shiho Clan",
+        "kind": "context",
+        "reason": "The own-faction answer and main-faction context resolve access to Ronin."
+      },
+      {
+        "ref": "A-8B763DBEE3D3",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Bastions and Villager Spam identify Ro-Kan."
+      },
+      {
+        "ref": "A-74BE69244CA4",
+        "faction": "Temple of Ro-Kan",
+        "kind": "context",
+        "reason": "Kitsune with Sixth Sense identifies Ro-Kan."
+      },
+      {
+        "ref": "A-74BE69244CA4",
+        "faction": "The Descension",
+        "kind": "context",
+        "reason": "Buzembo is a spelling variant of Buzenbo."
+      },
+      {
+        "ref": "A-78EA9E4F548A",
+        "faction": "Cult of Yurei",
+        "kind": "context",
+        "reason": "Skeletons identifies the Yurei matchup."
+      },
+      {
+        "ref": "A-C8DEBA2B3EF8",
+        "faction": "Horse Lords of Ataka",
+        "kind": "mention",
+        "terms": [
+          "Horeslords"
+        ]
+      },
+      {
+        "ref": "A-6E74494C434D",
+        "faction": "Jung Pirates",
+        "kind": "context",
+        "reason": "Landing Party and Benthic Servitude identify Jung."
+      }
+    ],
+    "profiles": [
+      {
+        "faction": "Cult of Yurei",
+        "lead": "Players praise durable lists, debuffs and model choice, but question Fear, expensive profiles and bonuses that arrive too late.",
+        "findings": [
+          {
+            "title": "Recursion and breadth",
+            "body": "Answers praise debuffs, regeneration, returning models and varied play styles. Opposing accounts single out skeleton durability, healing, Rise and state immunity as difficult to break.",
+            "refs": [
+              "A-924F60479076",
+              "A-95B73DBBA0DE",
+              "A-C566A233D2BC",
+              "A-CA7010AC95BD",
+              "A-F5CF3332FD5E"
+            ]
+          },
+          {
+            "title": "Fear has very different value across opponents",
+            "body": "Low-Ki opponents are described as favourable. High Fear, Bravery, Fearless, resistance and shooting reduce the usefulness of those abilities; one detailed answer questions paying for Fear on profiles where it often has little effect.",
+            "refs": [
+              "A-95B73DBBA0DE",
+              "A-AFE81719BC2A",
+              "A-CA7010AC95BD"
+            ]
+          },
+          {
+            "title": "Strong lists can hide weaker models",
+            "body": "Things That Go Bump receives praise for recruitment freedom. Wretched Existence and orphan summoning are criticised for delayed benefits; the detailed roster critique names Yama Uba and skeleton Bodyguard changes.",
+            "refs": [
+              "A-8EA701A519FB",
+              "A-AFE81719BC2A",
+              "A-E81F01F789A2"
+            ]
+          },
+          {
+            "title": "What opponents describe",
+            "body": "Jung respondents describe cheap resilient models as difficult to fight. Other answers criticise automatically resolving Ki feats and the need to build specifically for skeletons.",
+            "refs": [
+              "A-384F1F56B267",
+              "A-B18C690ABF67",
+              "A-E71A32E5D839"
+            ]
+          }
+        ]
+      },
+      {
+        "faction": "Horse Lords of Ataka",
+        "lead": "Early charges are the main strength. Darkness, Blizzard, camouflage and durable targets can stop the plan.",
+        "findings": [
+          {
+            "title": "Early pressure is the asset",
+            "body": "The own-faction account describes positioning and Intangible as ways to remove key models early and bypass opposing game plans.",
+            "refs": [
+              "A-CE36BB3D2D0C"
+            ]
+          },
+          {
+            "title": "A narrow set of counters attacks the core plan",
+            "body": "Darkness, Blizzard and camouflage prevent charges. Durable targets and Minimoto can absorb the opening hit, leaving the Horse Lords with less momentum.",
+            "refs": [
+              "A-74BE69244CA4",
+              "A-8E8DA45B3C5B",
+              "A-BB26689396D9",
+              "A-C8DEBA2B3EF8",
+              "A-CE36BB3D2D0C"
+            ]
+          },
+          {
+            "title": "More tools and support",
+            "body": "Answers ask for more model options and support for the faction. One respondent calls some matchups automatic losses; others place Ataka among the factions needing help.",
+            "refs": [
+              "A-09C9C71AF347",
+              "A-124959AA8F80",
+              "A-5E028312D70A",
+              "A-915A5EF550EB",
+              "A-DB1BF6071717"
+            ]
+          },
+          {
+            "title": "Opposing perspectives",
+            "body": "Ninja and Imperial Court accounts describe favourable games into Ataka because camouflage or shooting interferes with its approach. A Kinshi account includes Horse Lords among lists capable of early engagement.",
+            "refs": [
+              "A-777ACAC30D26",
+              "A-7F8972752E80",
+              "A-E76E5AD21D7E",
+              "A-F3B62823D73B"
+            ]
+          }
+        ]
+      },
+      {
+        "faction": "Ito Clan",
+        "lead": "Ito is described as fast and hard-hitting but fragile, with limited answers to armour and Soulless.",
+        "findings": [
+          {
+            "title": "Fast pressure, little room to absorb a reply",
+            "body": "The own-faction answers describe low wounds and armour, quick hard-hitting models and the importance of manoeuvring. Opposing accounts recognise Ito’s control and mobility as threatening.",
+            "refs": [
+              "A-5F57E493184D",
+              "A-8EE902BDE752",
+              "A-A019F3E61825",
+              "A-E7731A66DD06",
+              "A-EE3EF468BF02",
+              "A-EE550D75E20E"
+            ]
+          },
+          {
+            "title": "Armour and Soulless narrow the options",
+            "body": "Minimoto is repeatedly described as difficult to damage. One answer identifies Jade Witch as the required response to Soulless; another identifies limited Pierce and delayed poison damage.",
+            "refs": [
+              "A-4FF011B528CB",
+              "A-5F57E493184D",
+              "A-8EE902BDE752",
+              "A-E7731A66DD06"
+            ]
+          },
+          {
+            "title": "Mandatory picks and theme overlap",
+            "body": "An implicit own-faction answer says a few mandatory models hide weakness. Itsunagi and Lightning Reflexes samurai are named as top-end defaults. Cold Blood is criticised for restrictive recruitment and situational bonuses too similar to The Blessed.",
+            "refs": [
+              "A-009C67B8AEA7",
+              "A-90596B620405",
+              "A-B97247DA8594",
+              "A-C6E44A38A01C"
+            ]
+          },
+          {
+            "title": "Different matchup experiences",
+            "body": "One own-faction answer describes consistent beginner play but hard counters from prison, Ryu timing and Masters with Akari. Another lists tools against Savage Wave, Silvermoon and spiders; Minimoto and Descension accounts also describe Ito as a difficult opponent.",
+            "refs": [
+              "A-BEF637BD1235",
+              "A-C8DEBA2B3EF8",
+              "A-E7731A66DD06",
+              "A-EE3EF468BF02"
+            ]
+          }
+        ]
+      },
+      {
+        "faction": "Jung Pirates",
+        "lead": "The Deep is repeatedly named as the strongest choice. Players ask for better support for Jung’s other models and themes.",
+        "findings": [
+          {
+            "title": "Breadth of ideas, narrow competitive choice",
+            "body": "The Deep repeatedly dominates comparisons. Accounts praise theme variety and movement while describing many older models, captains and Kaizoku as too costly for their output.",
+            "refs": [
+              "A-18BDF4B1023A",
+              "A-36CD8108ABB7",
+              "A-3D553877300E",
+              "A-67B182E94028",
+              "A-7932EDD6C647",
+              "A-A66EF83475BB",
+              "A-A7407293119C"
+            ]
+          },
+          {
+            "title": "Weak themes give too little back",
+            "body": "Landing Party, Benthic Servitude and Conclave of Captains are criticised for limited recruitment with little practical benefit. Missing Juhin and Mitsukurina support also appears.",
+            "refs": [
+              "A-1BDE50A24895",
+              "A-36CD8108ABB7",
+              "A-8EA701A519FB",
+              "A-A7407293119C",
+              "A-DCDEE3E17200",
+              "A-F4AFCFC411FF"
+            ]
+          },
+          {
+            "title": "Fragility and low Ki make mistakes expensive",
+            "body": "Own-faction answers emphasise low Ki, Fear and OpKi vulnerability, weak reroll access and lists crumbling after a loss. Shooting and mobility receive praise; durable Yurei models and control are difficult.",
+            "refs": [
+              "A-1E1485281072",
+              "A-384F1F56B267",
+              "A-67B182E94028",
+              "A-9003A28CF76D",
+              "A-A177A5D0890D",
+              "A-A7407293119C"
+            ]
+          },
+          {
+            "title": "The stronger builds also draw criticism",
+            "body": "Opponents describe Queen of the Waves and The Deep using placement and water kami to constrain movement. The 15-Rice crabs are also named as overtuned.",
+            "refs": [
+              "A-A62BB57421CA",
+              "A-AECC8C3B3545"
+            ]
+          },
+          {
+            "title": "Requests for sustained model support",
+            "body": "The detailed Jung accounts ask for missing Juhin and Mitsukurina, more viable Kaizoku and captains, and competitive options beyond variations of The Deep.",
+            "refs": [
+              "A-A66EF83475BB",
+              "A-A7407293119C",
+              "A-F4AFCFC411FF"
+            ]
+          }
+        ]
+      },
+      {
+        "faction": "Kinshi Temple",
+        "lead": "Kinshi needs time to build Void counters and use its control effects. Early attacks can prevent that.",
+        "findings": [
+          {
+            "title": "Control works best into valuable targets",
+            "body": "Own-faction accounts describe activation stealing as especially valuable against expensive, low-count lists and Shikaku as a large swing into roughly five-wound models.",
+            "refs": [
+              "A-777ACAC30D26",
+              "A-DF039DC4993B"
+            ]
+          },
+          {
+            "title": "Setup, portals and counter generation",
+            "body": "A detailed answer contrasts Everything and Nothing’s control over counter generation with Zenith of the Void’s slower counter generation and exposed portals. Early aggression, high model count and attacks on the back line can prevent the faction reaching turn-two/three strength.",
+            "refs": [
+              "A-777ACAC30D26",
+              "A-DF039DC4993B"
+            ]
+          },
+          {
+            "title": "Immunities and disruption interfere with the plan",
+            "body": "Soulless and high Ki restrict key effects. Prison, poor dice forced on Ku and camouflage are also described as disruptive. A Ryu account, however, finds Kinshi’s movement and OpKi tools difficult to face.",
+            "refs": [
+              "A-777ACAC30D26",
+              "A-8E8DA45B3C5B",
+              "A-D8034F48E846",
+              "A-F3B62823D73B"
+            ]
+          },
+          {
+            "title": "Support and rule changes",
+            "body": "The detailed account asks for new Death Sentence synergy and support for a limited faction. Another strongly criticises changes to Batsu. Separate comments praise free actions while one criticises unlimited scenario actions for Ronin.",
+            "refs": [
+              "A-777ACAC30D26",
+              "A-C6D57BF6BEA5",
+              "A-DA4907D4FB32",
+              "A-F4CDF63B6BF3"
+            ]
+          }
+        ]
+      },
+      {
+        "faction": "Minimoto Clan",
+        "lead": "Opponents struggle to damage the samurai. Minimoto players describe low numbers, slow movement and trouble with control effects.",
+        "findings": [
+          {
+            "title": "Resilience and melee efficiency",
+            "body": "Minimoto answers emphasise armour, stamina and strong counter-hits. Ito, Silvermoon and ninja accounts describe struggling to damage the samurai.",
+            "refs": [
+              "A-26D4CB31D873",
+              "A-5F57E493184D",
+              "A-6E559D159FD0",
+              "A-70A2528B54C7",
+              "A-9154BD65EEC4",
+              "A-C02CD9A59694",
+              "A-E2A209D9BD35"
+            ]
+          },
+          {
+            "title": "Slow, low-count lists can be redirected",
+            "body": "Prone, traps, displacement, high mobility and activation efficiency recur as weaknesses. Exceptional burst damage can also bypass the usual resilience. Opponents describe exploiting these limits through movement and timing.",
+            "refs": [
+              "A-26D4CB31D873",
+              "A-59F188A60F67",
+              "A-6E559D159FD0",
+              "A-787C78425E11",
+              "A-C02CD9A59694",
+              "A-C8DEBA2B3EF8",
+              "A-D8034F48E846"
+            ]
+          },
+          {
+            "title": "Finest Steel and the rest of the roster",
+            "body": "Several answers say Finest Steel rewards the already preferred models while barely restricting recruitment. Garrison, Ashigaru and some support options receive weaker assessments. One Minimoto answer instead says strong models carry mostly weak themes.",
+            "refs": [
+              "A-3D553877300E",
+              "A-6F1443D9A3F2",
+              "A-7932EDD6C647",
+              "A-8B763DBEE3D3",
+              "A-A62BB57421CA",
+              "A-C6D57BF6BEA5",
+              "A-C6E44A38A01C",
+              "A-E6F04B1E1638"
+            ]
+          },
+          {
+            "title": "Blizzard, Kamuy and Machiko",
+            "body": "Opponents identify Blizzard, Kamuy, Machiko and the ice models and feats as major constraints on charges, camouflage and approaching safely. One answer says Kamuy itself narrows Minimoto list building.",
+            "refs": [
+              "A-6E6F8D81BF33",
+              "A-74BE69244CA4",
+              "A-7B69E8DE0A0F",
+              "A-80A4FB23689E",
+              "A-8E8DA45B3C5B",
+              "A-E71A32E5D839",
+              "A-F044EEA082F1"
+            ]
+          },
+          {
+            "title": "The Ryu comparison is contested",
+            "body": "Some Minimoto accounts describe Ryu as doing the same job better, and a Ryu answer explains its timing and displacement advantages. Another Minimoto answer reports success into other samurai warbands.",
+            "refs": [
+              "A-60A1E771C85B",
+              "A-6E559D159FD0",
+              "A-787C78425E11",
+              "A-D8034F48E846"
+            ]
+          }
+        ]
+      },
+      {
+        "faction": "Prefecture of Ryu",
+        "lead": "Players praise Ryu’s melee, shooting and extra activations. Opponents repeatedly criticise being waited out.",
+        "findings": [
+          {
+            "title": "Efficient models and useful rules",
+            "body": "Own-faction answers praise cost efficiency, reliable fighters, fear protection, shooting, rerolls and layered synergies. Other answers point to broad model access and resource-rich themes.",
+            "refs": [
+              "A-679486128B3F",
+              "A-7C227CF76A44",
+              "A-A1D79838B69C",
+              "A-BB874918ED98",
+              "A-D8034F48E846"
+            ]
+          },
+          {
+            "title": "Waiting is the central interaction complaint",
+            "body": "Extra activations and passes are repeatedly linked to delaying commitment, late shooting and alpha strikes. A detailed Ryu answer also calls this powerful and unpleasant to face.",
+            "refs": [
+              "A-078F00ABAC75",
+              "A-124959AA8F80",
+              "A-498DE632B378",
+              "A-772032771E8B",
+              "A-819D7E10DBAD",
+              "A-BEF637BD1235",
+              "A-D8034F48E846",
+              "A-DC2242893571",
+              "A-E6F04B1E1638",
+              "A-F044EEA082F1"
+            ]
+          },
+          {
+            "title": "Theme alternatives receive unequal support",
+            "body": "Prefecture Patrol is criticised for bonuses that rarely affect play and passes arriving after their most useful window. Passing the Night receives both power criticism and frustration about post-release changes.",
+            "refs": [
+              "A-36CD8108ABB7",
+              "A-7F48FE2B0EE1",
+              "A-C5B0303B67AA",
+              "A-E6F04B1E1638"
+            ]
+          },
+          {
+            "title": "There are specific counter-tools",
+            "body": "The detailed own-faction account identifies OpKi, prone and manoeuvrable opponents as problems, naming Kinshi, Ro-Kan and Awoken. Its description still treats difficult games as playable.",
+            "refs": [
+              "A-D8034F48E846"
+            ]
+          }
+        ]
+      },
+      {
+        "faction": "Savage Wave",
+        "lead": "Bakemono bring numbers and summons. Oni bring durability but remain vulnerable to shooting and fewer activations.",
+        "findings": [
+          {
+            "title": "Hunting Pack turns resources into pressure",
+            "body": "Summoning, cheap Ki-generating animals, movement and Vengeance recur in praise and criticism. Some opponents describe this list as hard to interact with.",
+            "refs": [
+              "A-16F78799BD3D",
+              "A-18BDF4B1023A",
+              "A-307D9D089E6B",
+              "A-4361DE867746",
+              "A-CD3F4F7BF3F3",
+              "A-E81F01F789A2",
+              "A-F230C18F0960"
+            ]
+          },
+          {
+            "title": "Oni pay for low numbers and large targets",
+            "body": "Own-faction accounts describe shooting as devastating and activation disadvantage as painful, while still praising Ring of Fire games. A Kinshi answer compares the activations bought by an Oni with Jun and two slaves.",
+            "refs": [
+              "A-10F91A037523",
+              "A-78EA9E4F548A",
+              "A-8E8DA45B3C5B"
+            ]
+          },
+          {
+            "title": "Theme support can define model viability",
+            "body": "Ring of Fire is praised for Last Stand and keeping its models alive. One answer argues Onisho and Alphas depend too heavily on themes; Wrath of the Red Sun is criticised for weaker returns and excluding slaves.",
+            "refs": [
+              "A-24D885D64FF6",
+              "A-9B85AB7DE807",
+              "A-C5B0303B67AA",
+              "A-DCDEE3E17200"
+            ]
+          },
+          {
+            "title": "Different lists need different matchup readings",
+            "body": "One answer explicitly contrasts RoF/Kamimono with Hunting Pack/RoF pairings. An own-faction account identifies strong early pressure into slow setups, with Lightning Reflexes, mobility and mass killing as problems.",
+            "refs": [
+              "A-68BE8A7D016B",
+              "A-78EA9E4F548A",
+              "A-F230C18F0960"
+            ]
+          },
+          {
+            "title": "Internal variety and release pressure",
+            "body": "A Savage Wave answer says the best lists rely on newer themes while many older models go unused, and calls for a new edition.",
+            "refs": [
+              "A-8962669201CA"
+            ]
+          }
+        ]
+      },
+      {
+        "faction": "Shadow Wind Clan",
+        "lead": "Camouflage protects ninja models until the opponent has a way around it. Low model count makes failed rolls costly.",
+        "findings": [
+          {
+            "title": "Camouflage defines the matchup",
+            "body": "Own-faction accounts identify easy Sixth Sense, mobile counters and other ways around camouflage as decisive. Ataka, Shiho, Jung and Silvermoon are described as easier opponents when they lack those tools.",
+            "refs": [
+              "A-70A2528B54C7",
+              "A-7F8972752E80",
+              "A-80A4FB23689E",
+              "A-F3B62823D73B"
+            ]
+          },
+          {
+            "title": "Low numbers make failures costly",
+            "body": "Answers describe expensive models, limited rerolls and a downward spiral after a failed early roll. One player says this unforgiving experience led them to switch to Oni.",
+            "refs": [
+              "A-70A2528B54C7",
+              "A-78EA9E4F548A"
+            ]
+          },
+          {
+            "title": "Temple, ice and activation competition",
+            "body": "Ro-Kan’s foxes, masters and traps, Minimoto’s resilience and ice tools, and Ryu/Awoken passes and extra activations are recurring difficulties. Imperial Court’s lack of camouflage counters is described from the opposing side.",
+            "refs": [
+              "A-498DE632B378",
+              "A-6E6F8D81BF33",
+              "A-70A2528B54C7",
+              "A-80A4FB23689E",
+              "A-E76E5AD21D7E"
+            ]
+          },
+          {
+            "title": "Bleeding Moon versus other builds",
+            "body": "Bleeding Moon is praised or criticised for extra activations on hard-to-interact-with models. House North Star is criticised for weak returns and limited pass access. Skirmish Mission is praised for flexible choices.",
+            "refs": [
+              "A-3F15A7676F76",
+              "A-74B7620669DB",
+              "A-8B763DBEE3D3",
+              "A-B47B92E3DFE2",
+              "A-C5B0303B67AA"
+            ]
+          },
+          {
+            "title": "The power assessment is split",
+            "body": "Some opponents call ninjas the strongest or describe automatic wins without counters. A ninja answer credits Bleeding Moon while stressing pilot skill and the risk of overnerfing it; the same answer worries about a Ronin list becoming the preferred second list.",
+            "refs": [
+              "A-3922DE8D9E64",
+              "A-B47B92E3DFE2",
+              "A-CBE6A7E6A336",
+              "A-DF480FEA4773"
+            ]
+          }
+        ]
+      },
+      {
+        "faction": "Shiho Clan",
+        "lead": "Players ask for better native models, more counters and alternatives to Keita or Ronin lists.",
+        "findings": [
+          {
+            "title": "Native tools and pricing",
+            "body": "Own-faction accounts identify insufficient answers to armour, OpKi and Fear, plus reliance on Shiho Keita. A first-person cost comparison, resolved through the main-faction context, contrasts two unarmoured dice with similarly priced armoured three-dice models.",
+            "refs": [
+              "A-0C7F6B355CB2",
+              "A-AF768FD4D9F8",
+              "A-D9C4149742C7",
+              "A-F911757971A8"
+            ]
+          },
+          {
+            "title": "Open Rebellion needs a clearer return",
+            "body": "Limited recruitment, weak benefits and a small model pool recur. One answer praises its melee synergies but explains that crowding enemies competes with scenario play.",
+            "refs": [
+              "A-09C9C71AF347",
+              "A-0C7F6B355CB2",
+              "A-8B763DBEE3D3",
+              "A-8EA701A519FB",
+              "A-CD3F4F7BF3F3"
+            ]
+          },
+          {
+            "title": "Ronin help, but change what is being played",
+            "body": "One own-faction answer simply gives access to Ronin as the strength. Other accounts ask for competitive viability outside Ronin lists, and a ninja answer prefers Black Eagles Coalition’s integration over pure Ronin themes.",
+            "refs": [
+              "A-8790E6634F5B",
+              "A-9694891B35CE",
+              "A-B47B92E3DFE2"
+            ]
+          },
+          {
+            "title": "Overall optimism can coexist with faction dissatisfaction",
+            "body": "An own-faction Meta answer says the wider meta is okay despite the weakness of its main faction. Other answers ask for extra profiles or support.",
+            "refs": [
+              "A-A8043EFF7AA0",
+              "A-D751B050FF5A",
+              "A-DB1BF6071717"
+            ]
+          },
+          {
+            "title": "Opposing accounts identify the same gaps",
+            "body": "Minimoto and Imperial Court accounts describe Shiho struggling to penetrate durable models; ninjas describe favourable play when camouflage remains reliable. The Imperial Court observation explicitly comes from one game.",
+            "refs": [
+              "A-80A4FB23689E",
+              "A-C8DEBA2B3EF8",
+              "A-E40E93EA99DE",
+              "A-F3B62823D73B"
+            ]
+          }
+        ]
+      },
+      {
+        "faction": "Silvermoon Trade Syndicate",
+        "lead": "Silvermoon has varied tricks, events and fighters, but can struggle to damage durable opponents or deal with camouflage.",
+        "findings": [
+          {
+            "title": "Variety is a strength",
+            "body": "Own-faction answers praise diverse fighters, Shatei and animals, events, Hidden Agenda and activation manipulation. Buto specials are valued against expensive fighters.",
+            "refs": [
+              "A-22C2C52BD521",
+              "A-B81281275AEE",
+              "A-CDF687EB092D",
+              "A-E2A209D9BD35"
+            ]
+          },
+          {
+            "title": "Durability, Fear and camouflage create pressure",
+            "body": "Answers identify Minimoto, Cult, high Fear, fast opponents and camouflage as difficult. Limited rerolls and positioning requirements make mistakes costly.",
+            "refs": [
+              "A-22C2C52BD521",
+              "A-3F4D0E6B4DAC",
+              "A-96367AB0F0EA",
+              "A-B81281275AEE",
+              "A-CDF687EB092D",
+              "A-E2A209D9BD35"
+            ]
+          },
+          {
+            "title": "Malosi and access to answers",
+            "body": "A detailed answer treats Malosi as hard to omit and describes the list inheriting his bad matchups. It also discusses the cost of accessing Lookout and the difficulty of fighting ninjas without Fudo.",
+            "refs": [
+              "A-3F4D0E6B4DAC"
+            ]
+          },
+          {
+            "title": "Jade Rose Gumi and roster restrictions",
+            "body": "JRG is described as needing more model and theme support. The VIM/disguised-model interaction receives a concrete change proposal. Another account criticises Silvermoon’s restricted Ronin access, while an opposing Ro-Kan account says the themes overlap too much.",
+            "refs": [
+              "A-22C2C52BD521",
+              "A-24D885D64FF6",
+              "A-3F4D0E6B4DAC",
+              "A-CD3F4F7BF3F3",
+              "A-DC2242893571",
+              "A-E2A209D9BD35",
+              "A-E6F04B1E1638"
+            ]
+          },
+          {
+            "title": "Identity and universal cards",
+            "body": "A Jung respondent with Silvermoon as a second faction argues that universal access to Preordain undermines Silvermoon’s identity. This is a specific identity complaint alongside its wider balance criticism.",
+            "refs": [
+              "A-A0C79BC73A05"
+            ]
+          }
+        ]
+      },
+      {
+        "faction": "Temple of Ro-Kan",
+        "lead": "Ro-Kan’s large model selection covers many matchups. Some players ask whether the faction has become too broad.",
+        "findings": [
+          {
+            "title": "Flexibility across models and matchups",
+            "body": "Answers praise broad recruitment, varied builds and strong themeless options. A detailed own-faction answer contrasts mobile foxes, sturdy Sohei/Kongu and Ki-dominance lists.",
+            "refs": [
+              "A-18BDF4B1023A",
+              "A-3460CAF0845A",
+              "A-7987C3E0E811",
+              "A-BB874918ED98",
+              "A-C6E44A38A01C",
+              "A-E6F04B1E1638"
+            ]
+          },
+          {
+            "title": "Villagers and Bastions draw repeated criticism",
+            "body": "Traps, Kawa, silt kami, Ki supply and Last Stand timing recur as explanations. Some answers locate the power in the models, while others single out Bastions’ bonuses and model selection.",
+            "refs": [
+              "A-0AED704C91B7",
+              "A-16F78799BD3D",
+              "A-307D9D089E6B",
+              "A-37014A649B9C",
+              "A-3D553877300E",
+              "A-4361DE867746",
+              "A-772032771E8B",
+              "A-7C227CF76A44",
+              "A-8B763DBEE3D3"
+            ]
+          },
+          {
+            "title": "Tools that change opposing game plans",
+            "body": "Ninja accounts identify foxes, Sixth Sense, masters and traps as counters. Other answers describe movement and OpKi tools troubling samurai; a short own-faction answer highlights Sixth Sense directly.",
+            "refs": [
+              "A-498DE632B378",
+              "A-74BE69244CA4",
+              "A-80A4FB23689E",
+              "A-8EA29D58AA1A",
+              "A-D8034F48E846",
+              "A-EB6C78EA985B"
+            ]
+          },
+          {
+            "title": "Breadth raises an identity question",
+            "body": "One detailed answer explicitly proposes splitting monks/villagers from Sohei/foxes. Other responses instead welcome the variety or describe Temple as strong without proposing a change.",
+            "refs": [
+              "A-3460CAF0845A",
+              "A-C6E44A38A01C",
+              "A-E6F04B1E1638"
+            ]
+          },
+          {
+            "title": "Own-faction weaknesses also appear",
+            "body": "Own-faction answers mention difficult fights into four-dice, Endurance or Indomitable models, and damage mitigation while contesting zones. These are brief explanations with less detail than the broad-roster account.",
+            "refs": [
+              "A-EB6C78EA985B",
+              "A-EE08A9266F08"
+            ]
+          }
+        ]
+      },
+      {
+        "faction": "The Awoken",
+        "lead": "Players criticise strong individual models while asking for better alternatives, more Ki and a more useful Family theme.",
+        "findings": [
+          {
+            "title": "A narrow set of attractive models",
+            "body": "Own-faction answers contrast Kuna and Aiumi with Hannah, cultists and niche Family members, and ask for less dependence on Fear. Another answer says interesting options were removed without replacements.",
+            "refs": [
+              "A-41C6EBA9ABDC",
+              "A-42FB91104C95",
+              "A-B2A6CC4A4BAB"
+            ]
+          },
+          {
+            "title": "The Family’s Ki and control effects",
+            "body": "Detailed answers describe Ki scarcity, conditional control, awkward poison timing and spending held states to enable control. Joyless Smiles is used as the more generous resource comparison.",
+            "refs": [
+              "A-5712C4ADDED8",
+              "A-5F6988F9EDF5",
+              "A-BD22E33B4067"
+            ]
+          },
+          {
+            "title": "Fear and poison meet binary counters",
+            "body": "The own-faction account identifies Fearless, poison immunity, Soulless and control immunity as shutting down key effects, with the Family unable to fill the gap.",
+            "refs": [
+              "A-42FB91104C95",
+              "A-5F6988F9EDF5"
+            ]
+          },
+          {
+            "title": "Opponents still find strong lists",
+            "body": "Ryu and ninja accounts describe Awoken activation pressure, resilience, small targets and Webbed Ground as difficult. A Ro-Kan answer criticises spider waiting. Other respondents explicitly welcome the earlier Fear fixes.",
+            "refs": [
+              "A-078F00ABAC75",
+              "A-498DE632B378",
+              "A-62AB39AA327F",
+              "A-7932EDD6C647",
+              "A-C62BBD7EDF2D",
+              "A-D8034F48E846",
+              "A-DC2242893571"
+            ]
+          },
+          {
+            "title": "Assessment after changes remains mixed",
+            "body": "Some describe the meta as improved after the nerfs; an Awoken answer says interesting options were removed without replacements. Another respondent thinks the faction remains ahead of the curve.",
+            "refs": [
+              "A-62AB39AA327F",
+              "A-7932EDD6C647",
+              "A-B2A6CC4A4BAB",
+              "A-DB1BF6071717"
+            ]
+          }
+        ]
+      },
+      {
+        "faction": "The Descension",
+        "lead": "Prison and Buzenbo dominate the comments. Other Descension lists are described as fast, hard-hitting and fragile.",
+        "findings": [
+          {
+            "title": "Prison distorts the faction-level assessment",
+            "body": "Own-faction answers explicitly distinguish the Haiatake prison list from the rest of Descension. Opponents repeatedly criticise being unable to take useful actions or interact.",
+            "refs": [
+              "A-0AED704C91B7",
+              "A-0E9F4621CC4D",
+              "A-1EB7243517CB",
+              "A-772032771E8B",
+              "A-819D7E10DBAD",
+              "A-8E8DA45B3C5B",
+              "A-C4C4433FEEB7",
+              "A-E76E5AD21D7E",
+              "A-F46BD9DAECFC"
+            ]
+          },
+          {
+            "title": "Mobility and damage outside prison",
+            "body": "Own-faction accounts praise speed, damage, support and varied play styles, with five-wound unarmoured models vulnerable to mistakes. Resilient opponents or movement denial can break the plan.",
+            "refs": [
+              "A-C4C4433FEEB7",
+              "A-EE29815CB79E",
+              "A-EE3EF468BF02"
+            ]
+          },
+          {
+            "title": "Buzenbo carries a separate pressure point",
+            "body": "Answers name Buzenbo as a safe, deadly shooter or as a model lifting the faction. Several include him among individual models that shape list construction.",
+            "refs": [
+              "A-0E9F4621CC4D",
+              "A-115C3D09C0E5",
+              "A-1EB7243517CB",
+              "A-3F4D0E6B4DAC",
+              "A-4EE049187057",
+              "A-7B69E8DE0A0F",
+              "A-9694891B35CE",
+              "A-CD3F4F7BF3F3"
+            ]
+          },
+          {
+            "title": "Support for alternative builds",
+            "body": "One own-faction answer directly asks for help for tribesmen and Karasu while explicitly judging the faction by its prison and Buzenbo peak.",
+            "refs": [
+              "A-0E9F4621CC4D"
+            ]
+          },
+          {
+            "title": "Opponents recognise the movement game",
+            "body": "Minimoto and Imperial Court accounts describe being outmanoeuvred, displaced or bypassed for scenario play. A Ro-Kan account names terrain independence as a source of strength.",
+            "refs": [
+              "A-C8DEBA2B3EF8",
+              "A-DC2242893571",
+              "A-E76E5AD21D7E"
+            ]
+          }
+        ]
+      },
+      {
+        "faction": "The Imperial Court",
+        "lead": "Imperial Court uses cover, armour and shooting, but has limited movement and few answers to some matchups.",
+        "findings": [
+          {
+            "title": "Armour, cover and bodies",
+            "body": "Own-faction answers describe portable cover, Bodyguard interactions, shooting and seven-to-eight-model lists as assets. One very new player found Shiho struggling against armour three.",
+            "refs": [
+              "A-E40E93EA99DE",
+              "A-E76E5AD21D7E",
+              "A-F044EEA082F1"
+            ]
+          },
+          {
+            "title": "Mobility and camouflage gaps",
+            "body": "The detailed own-faction answer identifies low mobility and no Sixth Sense. Ninjas, Descension movement and Savage Wave activation pressure are described as difficult; Horse Lords and Yurei are described as better matchups.",
+            "refs": [
+              "A-E76E5AD21D7E",
+              "A-F044EEA082F1"
+            ]
+          },
+          {
+            "title": "Eternal Legion’s pieces pull apart",
+            "body": "One detailed theme answer explains how darkness, Fangshi focusing, Warden proximity and expensive support models can separate the Bai Qian from their resources. It describes recruitment limits that prevent a larger Bai Qian list with reliable Ki.",
+            "refs": [
+              "A-3D553877300E"
+            ]
+          },
+          {
+            "title": "Terrain rules and missing tools",
+            "body": "The own-faction answer calls Imperial Court incomplete rather than simply weak. Another answer raises terrain destruction and questions whether newer Fangshi/Warden releases add enough new options.",
+            "refs": [
+              "A-777ACAC30D26",
+              "A-8E8DA45B3C5B",
+              "A-F044EEA082F1"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
