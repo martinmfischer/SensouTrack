@@ -37,7 +37,7 @@ function PublicMeta(){
   }
   return <><HubNavigation/><div className="hub-page"><div className="public-meta app-shell"><a href="#main" className="skip-link">Skip to content</a>
     <header className="public-header"><a className="brand" href="/" aria-label="Sensou home"><span className="brand-symbol" aria-hidden="true"><span className="brand-kanji">戦</span></span><span>sensou<span className="brand-period">.</span><small>BUSHIDO GAME TRACKER</small></span></a><nav aria-label="Main navigation"><a href="#main"><BarChart3 size={16}/>Community meta</a><a href={accountApp+'#games'}>My games<ArrowUpRight size={14}/></a><a className="button primary compact" href={accountApp+'#report'}><Plus size={16}/>Report game</a></nav></header>
-    <nav className="source-switch" aria-label="Meta source"><a href="/" aria-current="page">Game Meta</a><a href="/survey/">Meta Survey</a></nav>
+    <nav className="source-switch" aria-label="Meta source"><a href="/" aria-current="page">Game Stats</a><a href="/survey/">Meta Survey</a></nav>
     <main id="main" tabIndex={-1}>
       <div className="page-heading"><div><span className="eyebrow"><span className="tiny-line"/>BUSHIDO / RISEN SUN</span><h1>The state of the <span>Jwar Isles.</span></h1><span className="battle-seal" aria-hidden="true">戦</span><p>Faction win rates, themes and head-to-head results.</p></div><div className="heading-action"><span className="data-stamp"><span className="status-dot"/>PLAYER REPORTED</span><small>Real community games · updated on page load</small></div></div>
       <div className="filterbar"><div className="filter-label"><Icon icon={Filter} size={15}/><span>Explore</span></div>
