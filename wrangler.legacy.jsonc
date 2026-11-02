@@ -1,0 +1,6 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sensoutrack",
+  "compatibility_date": "2026-10-25",
+  "main": "scripts/legacy-account-redirect.mjs"
+}

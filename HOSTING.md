@@ -1,14 +1,14 @@
 # Kostenlos online: Cloudflare + Supabase
 
-Stand: 26. Oktober 2026. Supabase Free „Sensou“ (EU/Ireland) und Cloudflare Static Assets „sensoutrack“ sind angelegt. Die App ist unter https://sensoutrack.the-zj.workers.dev erreichbar. Das Datenbankschema ist angewendet; die Live-Prüfung der Tabellenrechte ist bestanden. Turnstile ist serverseitig aktiviert; ein Login ohne CAPTCHA-Nachweis wird abgewiesen. Brevo SMTP ist verbunden und Bestätigungsmails sind laut Provider zugestellt; vollständige Hosted-Auth-Tests stehen noch aus. Aktueller Einzelstatus: `hosting-status.json`.
+Stand: 2. November 2026. Game Stats und Survey liegen auf https://sensoutrack.pages.dev/, Konten und Spielmeldung auf https://app.sensoutrack.pages.dev/. Beide Builds liegen im Cloudflare-Pages-Projekt „sensoutrack“: öffentlich auf Production, Account-App als Branch-Alias `app`. Supabase Free „Sensou“ (EU/Ireland), Datenbank und bestehende Accounts bleiben erhalten. Die alte Workers-Adresse leitet mit Pfad und Query-Parametern zur App weiter. Turnstile und die exakten Supabase-Redirects sind für die neue App-Adresse konfiguriert. Brevo SMTP ist verbunden. Der vollständige Login-/Recovery-Durchlauf auf der neuen Adresse steht noch aus.
 
 ## Auswahl
 
-Seit der AdSense-Einrichtung gibt es zusätzlich die öffentliche Meta-Seite unter https://sensoutrack.pages.dev/. Sie wird als eigenes kostenloses Pages-Projekt aus `npm run build:meta` / `dist-meta/` veröffentlicht. Konten, Spielmeldung und private Historie bleiben in der bestehenden Workers-App. Die öffentliche Seite nutzt dieselbe anonymisierte Supabase-Projektion, enthält aber keinen Auth-Client. Supabase-Redirects und Turnstile-Hostlisten müssen für diese reine Leseseite nicht erweitert werden. AdSense akzeptiert die ursprüngliche zusätzliche Workers-Unterdomain nicht als Website; die Pages-Adresse wurde akzeptiert, ihre Inhaberschaft bestätigt und eine Prüfung beantragt. Werbung wird noch nicht ausgeliefert. Details: `ADS-OPTIONS.md`.
+Die öffentliche Website wird aus `npm run build:meta` / `dist-meta/` auf Production veröffentlicht. Die Account-App kommt aus `npm run build:cloud` / `dist-cloud/` auf den Branch `app`. Die öffentliche Seite nutzt die anonymisierte Supabase-Projektion und enthält keinen Auth-Client. Die Account-App enthält keine Werbeskripte. AdSense prüft die öffentliche Pages-Adresse; Werbung wird noch nicht ausgeliefert. Details: `ADS-OPTIONS.md`.
 
 | Teil | Anbieter | Free-Tarif / relevante Grenze |
 |---|---|---|
-| React-Oberfläche + HTTPS | Cloudflare Workers Static Assets | Statische Abrufe kostenlos und unbegrenzt; keine eigenen Worker-Funktionen nötig |
+| React-Oberflächen + HTTPS | Cloudflare Pages | Getrennte öffentliche und Account-Builds; alter Worker dient nur als Weiterleitung |
 | API + dauerhafte PostgreSQL-Datenbank | Supabase Free | 500 MB Datenbank, 5 GB Egress, 50.000 monatlich aktive Auth-Nutzer |
 | Accounts, Login, E-Mail-Bestätigung, Passwort-Reset | Supabase Auth | Im Free-Tarif enthalten; öffentlicher E-Mail-Versand benötigt einen SMTP-Anbieter |
 
@@ -40,12 +40,12 @@ npx wrangler login
 npm run deploy
 ```
 
-`deploy` prüft die öffentliche Supabase-Konfiguration, baut die Oberfläche und lädt `dist-cloud/` anhand von `wrangler.jsonc` hoch. Alternativ im vorhandenen Cloudflare-Projekt „sensoutrack“ → New deployment nur den Inhalt von `dist-cloud/` als ZIP hochladen. Keine Quellcode-, Datenbank- oder Schlüsselordner hochladen. Die vorhandene HTTPS-Adresse ist `sensoutrack.the-zj.workers.dev`; eine eigene Domain ist optional. Das Cloudflare-CLI wird bei Bedarf über npm geladen. Die SQLite-Datei und lokale Accounts werden nicht hochgeladen.
+`deploy` prüft die öffentliche Supabase-Konfiguration, baut die Oberfläche und veröffentlicht `dist-cloud/` mit `wrangler.jsonc` im Pages-Projekt „sensoutrack“, Branch `app`. Alternativ dort unter New deployment → Preview den Namen `app` verwenden und nur den Inhalt von `dist-cloud/` als ZIP hochladen. Für die öffentliche Website ausschließlich `dist-meta/` auf Production veröffentlichen. Keine Quellcode-, Datenbank- oder Schlüsselordner hochladen. Die alte Workers-Weiterleitung wird getrennt mit `npm run deploy:legacy-redirect` und `wrangler.legacy.jsonc` veröffentlicht. Das CLI wird über npm geladen; seine Anmeldung bleibt außerhalb des Repositories.
 
 8. Die tatsächliche HTTPS-Adresse in Supabase unter Authentication → URL Configuration als Site URL und erlaubte Redirect-URL eintragen, zusätzlich die Adresse mit `/?recovery=1` für Passwort-Reset. Diese beiden exakten Produktionsadressen sind bereits konfiguriert; keine Wildcard. Lokale Cloud-Testadressen nur bei Bedarf separat erlauben.
 9. Auf der echten URL einmal Registrierung mit E-Mail-Bestätigung, Logout/Login, Passwort-Reset, Spielmeldung, persönliche Notizen und Spiel-Löschung testen. Mit zwei Accounts prüfen, dass fremde private Notizen unzugänglich bleiben. Danach Installation auf iPhone und Android prüfen.
 
-Alternativ ist Cloudflare Pages mit `npm run build:cloud`, Ausgabeordner `dist-cloud`, denselben Vite-Variablen und der mitgelieferten `_headers`-Datei möglich. Die App nutzt Hash-Navigation und braucht keine Catch-all-Weiterleitung. Eine Regel `/* /index.html 200` wird vom Workers-Upload als mögliche Schleife abgewiesen.
+Die Account-App nutzt Hash-Navigation und die mitgelieferte `_headers`-Datei. Sie braucht keine Catch-all-Weiterleitung. Der alte Worker verwendet eine 302-Antwort ohne Cache und mit vollständigem Pfad und Query; eine Browserprüfung bestätigt auch den Erhalt von `#report`.
 
 ## Mailversand für den kostenlosen Test
 

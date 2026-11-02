@@ -17,7 +17,7 @@ import '@fontsource/manrope/latin-800.css';
 import './styles.css';
 import './public-meta.css';
 
-const accountApp='https://sensoutrack.the-zj.workers.dev/';
+const accountApp='https://app.sensoutrack.pages.dev/';
 function PublicMeta(){
   const advertising=useAdvertising();
   const [games,setGames]=useState([]),[loading,setLoading]=useState(true),[error,setError]=useState(''),[refresh,setRefresh]=useState(0);

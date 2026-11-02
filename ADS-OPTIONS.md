@@ -1,6 +1,8 @@
-# Advertising checkpoint · 27 October 2026
+# Advertising checkpoint · 2 November 2026
 
 **No ads or Google CMP bootstrap are enabled in the final visitor release.** The source implementation is prepared but disabled. The public game-meta site, public survey and account app remain usable without advertising.
+
+Checked2 November: AdSense still shows **Wird vorbereitet**, ads.txt **Autorisiert**. The account app moved to `app.sensoutrack.pages.dev`; its build contains no Google ad or CMP scripts. The prepared manual ad placement remains on the public Stats origin. Enabling advertising still requires site approval and a live consent-flow check.
 
 ## Account configuration
 

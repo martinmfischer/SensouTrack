@@ -2,6 +2,8 @@
 
 Bushido game tracker: React app for browser, Android and iPhone, installable as a PWA.
 
+Live: [Game Stats](https://sensoutrack.pages.dev/), [Meta Survey](https://sensoutrack.pages.dev/survey/) and [Accounts / Report a Game](https://app.sensoutrack.pages.dev/#report). All three share sidebar links, including [SensouCalc](https://sensoucalc.pages.dev/). The former Workers address redirects to the account app. Account deployment: `npm run deploy`; legacy redirect deployment: `npm run deploy:legacy-redirect`.
+
 ## Run locally
 
 Requires Node.js 22.13+ (24 LTS recommended).

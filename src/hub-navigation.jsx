@@ -1,7 +1,16 @@
 import React,{useState,useEffect} from 'react';
-import {ArrowUpRight,BarChart3,Database,Eye,Filter,Layers3,Menu,MessageSquare,Swords,X} from 'lucide-react';
+import {ArrowUpRight,BarChart3,Calculator,Database,Eye,Filter,Layers3,Menu,MessageSquare,Swords,X} from 'lucide-react';
+import {statsOrigin,accountOrigin,calculatorOrigin} from './site-links.mjs';
 import './hub-navigation.css';
 export const surveyViews=[['overview','Overview',BarChart3],['factions','Factions',Layers3],['explore','Explore perceptions',Eye],['cross','Cross-analysis',Filter],['themes','Themes',Layers3],['matchups','Matchups',Swords],['comments','Written responses',MessageSquare],['data','Data & methods',Database]];
+export function MainSiteLinks({current,onReport,onNavigate=()=>{}}){
+  return <nav className="hub-source-nav site-main-nav" aria-label="Main sections">
+    <a href={statsOrigin+'/'} aria-current={current==='stats'?'page':undefined} onClick={onNavigate}><BarChart3 size={17}/>Game Stats</a>
+    <a href={statsOrigin+'/survey/'} aria-current={current==='survey'?'page':undefined} onClick={onNavigate}><Eye size={17}/>Meta Survey</a>
+    <a href={accountOrigin+'/#report'} aria-current={current==='report'?'page':undefined} onClick={e=>{onNavigate();if(onReport){e.preventDefault();onReport();}}}><Swords size={17}/>Report a Game</a>
+    <a href={calculatorOrigin+'/'} onClick={onNavigate}><Calculator size={17}/>SensouCalc</a>
+  </nav>;
+}
 export default function HubNavigation({survey=false,page=''}){
   const [open,setOpen]=useState(false);
   useEffect(()=>{
@@ -16,9 +25,9 @@ export default function HubNavigation({survey=false,page=''}){
   return <><header className="hub-mobile"><a href="/">戦 <b>sensou.</b></a><button aria-label={open?'Close navigation':'Open navigation'} aria-expanded={open} aria-controls="hub-navigation" onClick={()=>setOpen(v=>!v)}>{open?<X size={21}/>:<Menu size={21}/>}</button></header>
   {open&&<button className="hub-shade" aria-label="Close navigation" onClick={()=>setOpen(false)}/>}
   <aside id="hub-navigation" className={'hub-sidebar '+(open?'is-open':'')}><a className="hub-brand" href="/" aria-label="Sensou home"><span>戦</span><b>sensou<i>.</i><small>BUSHIDO / COMMUNITY</small></b></a>
-    <span className="hub-nav-label">EXPLORE THE META</span><nav className="hub-source-nav" aria-label="Main sections"><a href="/" aria-current={!survey?'page':undefined}><BarChart3 size={17}/>Game Stats</a><a href="/survey/" aria-current={survey?'page':undefined}><Eye size={17}/>Meta Survey</a><a href="https://sensoutrack.the-zj.workers.dev/#report" onClick={()=>setOpen(false)}><Swords size={17}/>Report a Game</a></nav>
+    <span className="hub-nav-label">BUSHIDO COMMUNITY</span><MainSiteLinks current={survey?'survey':'stats'} onNavigate={()=>setOpen(false)}/>
     {survey&&<><span className="hub-nav-label">SURVEY DASHBOARD</span><nav className="hub-section-nav" aria-label="Survey views">{surveyViews.map(([id,label,Icon])=><a key={id} href={'#'+id} aria-current={page===id?'page':undefined} onClick={()=>setOpen(false)}><Icon size={16}/>{label}</a>)}</nav></>}
-    <div className="hub-nav-card"><span className="hub-nav-label">COMMUNITY / 2026</span><h3>Bushido,<br/>by the numbers.</h3><p>{survey?'Faction ratings, themes and matchup views.':'Record your games and compare faction win rates.'}</p>{survey?<span className="survey-closed-label">Survey closed</span>:<a href="https://sensoutrack.the-zj.workers.dev/#report">Report a game<ArrowUpRight size={14}/></a>}</div>
-    <nav className="hub-bottom-nav" aria-label="Player and legal links"><a href="https://sensoutrack.the-zj.workers.dev/#games">My games <ArrowUpRight size={13}/></a><div><a href="/impressum.html">Legal notice</a><a href="/privacy.html">Privacy</a></div></nav>
+    <div className="hub-nav-card"><span className="hub-nav-label">COMMUNITY / 2026</span><h3>Bushido,<br/>by the numbers.</h3><p>{survey?'Faction ratings, themes and matchup views.':'Record your games and compare faction win rates.'}</p>{survey?<span className="survey-closed-label">Survey closed</span>:<a href="https://app.sensoutrack.pages.dev/#report">Report a game<ArrowUpRight size={14}/></a>}</div>
+    <nav className="hub-bottom-nav" aria-label="Player and legal links"><a href={accountOrigin+'/#games'}>My games <ArrowUpRight size={13}/></a><div><a href="/impressum.html">Legal notice</a><a href="/privacy.html">Privacy</a></div></nav>
   </aside></>;
 }

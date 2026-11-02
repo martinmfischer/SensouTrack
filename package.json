@@ -13,7 +13,7 @@
     "test": "node --test tests/*.test.js",
     "build:cloud": "node scripts/check-cloud-env.mjs && vite build --mode cloud --outDir dist-cloud",
     "build:meta": "node scripts/check-frozen-survey.mjs && node scripts/check-cloud-env.mjs && node scripts/build-survey-synthesis.mjs --check && vite build --mode meta --outDir dist-meta",
-    "deploy": "npm run build:cloud && npx wrangler deploy",
+    "deploy": "npm run build:cloud && npx wrangler pages deploy dist-cloud --project-name sensoutrack --branch app",
     "survey:dev": "node survey-dashboard/server.mjs --dev",
     "survey:build": "node scripts/check-frozen-survey.mjs && node scripts/build-survey-synthesis.mjs --check && node survey-dashboard/build.mjs",
     "survey:publish-snapshot": "node scripts/export-public-survey.mjs",
@@ -21,7 +21,8 @@
     "survey:test": "node --test survey-dashboard/*.test.mjs",
     "survey:synthesis:build": "node scripts/build-survey-synthesis.mjs",
     "survey:synthesis:check": "node scripts/build-survey-synthesis.mjs --check",
-    "survey:synthesis:prepare": "node scripts/build-survey-synthesis.mjs --prepare"
+    "survey:synthesis:prepare": "node scripts/build-survey-synthesis.mjs --prepare",
+    "deploy:legacy-redirect": "npx wrangler deploy --config wrangler.legacy.jsonc"
   },
   "dependencies": {
     "@fontsource/dm-sans": "^5.3.0",

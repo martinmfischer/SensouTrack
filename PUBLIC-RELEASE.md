@@ -2,9 +2,9 @@
 
 ## Live applications
 
-- Game Meta: https://sensoutrack.pages.dev/
+- Game Stats: https://sensoutrack.pages.dev/
 - Meta Survey: https://sensoutrack.pages.dev/survey/
-- Accounts and reporting: https://sensoutrack.the-zj.workers.dev/
+- Accounts and reporting: https://app.sensoutrack.pages.dev/
 - The former survey.sensoutrack.pages.dev preview redirects to the canonical site, preserving paths and browser fragments.
 - Account login uses a password and confirmed email. Email recovery, CAPTCHA, ownership policies and session controls remain enabled. Player TOTP is disabled as requested.
 
@@ -91,3 +91,11 @@ Validation:51 survey tests pass, public/local builds pass, privacy scan found no
 Supabase cron job1 sensou-survey-hourly was disabled through cron.alter_job and read back active=false. The deployed Edge Function was replaced with a closed-survey response; a real HTTP request returned410 and Survey closed. Data is frozen. The local survey server has no refresh timer and rejects writes while closed; private raw responses, raw Tally data and review ledger are archived in private/frozen-2026-11-02/.
 
 Synthesis, all faction profiles, comparison-chart labels, public home copy and both privacy notices were reviewed. Abstract headings and repeated qualifications were replaced with short explanations using model, theme, Ki, OpKi, Fear, camouflage, Sixth Sense, pass and scenario terms. Public texts and quoted respondent wording were kept intact.
+
+## Shared navigation and account domain · 2 November 2026
+
+The account app is live at https://app.sensoutrack.pages.dev/ (Pages branch alias `app`). Public Stats and Survey stay on Production. Shared sidebar links cover Game Stats, Meta Survey, Report a Game and SensouCalc. Account branding and public links return to the public website. Legal pages use the new app address. Existing Supabase accounts and games were retained.
+
+Supabase Site URL and exact root/recovery redirect URLs use the new app origin. Turnstile accepts its hostname; legacy provider entries remain for existing email links. The old `sensoutrack` Worker now runs `scripts/legacy-account-redirect.mjs`: 302, no-store, no-referrer, preserving path and query. Wrangler version deployed:84b96150-77be-4adb-91ce-6bdd4605486a. Browser navigation verified fragment preservation and public → report → survey return navigation. HTTP checks verified root, recovery query and legal-page redirects. A complete signed-in login/recovery test on the new hostname still requires the account holder.
+
+Validation:24 app/security/navigation tests and52 survey tests pass. Both cloud and public builds pass. Bundle checks confirm that account assets contain no Google advertising code, public assets contain no account auth methods, and visitor JS contains no former Workers hostname. Both Pages builds are live. AdSense remains awaiting review; advertising and CMP bootstrap stay disabled.
